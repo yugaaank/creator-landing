@@ -33,7 +33,7 @@ export default function Hero() {
 										/>
 									</motion.span>
 									<h1 className="heading tracking-[-1.3px] text-[#212121] font-semibold font-FoundersGrotesk uppercase">
-										OCHI DESIGN
+										KATALYST DESIGN
 									</h1>
 								</div>
 							</h1>
@@ -60,7 +60,7 @@ export default function Hero() {
 									</div>
 									<div className="flex flex-col gap-y-[20px]">
 										<p className="paragraph font-NeueMontreal text-secondry">
-											We believe a great presentation evokes
+											We believe a great campaign evokes
 											<br />
 											interest and drives business results far
 											<br /> better than any saying can. Hence, we
@@ -68,7 +68,7 @@ export default function Hero() {
 											founded ochi to help you persuade
 											<br /> colleagues and clients by creating eye-
 											<br />
-											opening presentations.
+											opening campaigns.
 										</p>
 									</div>
 								</div>
@@ -100,7 +100,7 @@ export default function Hero() {
 			<div className="padding-x">
 				<h1 className="sub-heading font-medium font-NeueMontreal text-secondry">
 					We save businesses from ugly and
-					<br className="sm:hidden xm:hidden" /> ineffective presentations.
+					<br className="sm:hidden xm:hidden" /> ineffective campaigns.
 				</h1>
 			</div>
 		</section>

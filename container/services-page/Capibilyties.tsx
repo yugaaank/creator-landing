@@ -14,12 +14,12 @@ export default function Capibilyties() {
 					<span className="xl:link-flash lg:link-flash md:link-flash cursor-pointer">
 						Let’s be honest.
 					</span>
-					&nbsp;There are really no excuses to have a bad presentation anymore.
+					&nbsp;There are really no excuses to have a bad campaign anymore.
 					No one has time for poorly communicated ideas. Focus on what you do
 					best <span className="sm:hidden xm:hidden">—</span>
 					growing your business, while we do our best at
 					<span className="xl:link-flash lg:link-flash md:link-flash cursor-pointer">
-						&nbsp;making your presentations awesome.
+						&nbsp;making your campaigns awesome.
 					</span>
 				</h1>
 			</div>

@@ -9,7 +9,7 @@ export default function About() {
 					<div className="w-full flex justify-between padding-x sm:flex-col xm:flex-col gap-[30px]">
 						<div>
 							<h3 className="paragraph font-medium text-secondry font-NeueMontreal">
-								We are ochi design:
+								We are Katalyst:
 							</h3>
 						</div>
 						<div className="w-[48%] sm:w-full xm:w-full flex justify-between">
@@ -19,7 +19,7 @@ export default function About() {
 										The team of designers, storytellers, and
 										<br /> passionate collaborators, who work
 										<br /> together to create industry-shifting <br />
-										presentations that win people&apos;s hearts
+										campaigns that win people&apos;s hearts
 										<br />
 										and minds.
 									</p>
@@ -28,7 +28,7 @@ export default function About() {
 									<p className="paragraph font-NeueMontreal text-secondry">
 										And we strive to become one of the most
 										<br />
-										recognizable & influential presentation
+										recognizable & influential campaign
 										<br /> agencies of the time who does that.
 									</p>
 								</div>

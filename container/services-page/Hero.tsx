@@ -20,7 +20,7 @@ export default function Hero() {
 							<span className="xl:link-flash lg:link-flash md:link-flash cursor-pointer">
 								eye-opening&nbsp;
 							</span>
-							presentations that educate, inspire and influence action.
+							campaigns that educate, inspire and influence action.
 						</p>
 					</div>
 					<div className="w-full flex border-t border-[#21212155] py-[20px] flex-col">
@@ -40,7 +40,7 @@ export default function Hero() {
 											What do you want to achieve?
 											<br className="sm:hidden xm:hidden" /> Understanding the
 											purpose of your <br className="sm:hidden xm:hidden" />
-											presentation allows us to tailor it to ensure it
+											campaign allows us to tailor it to ensure it
 											<br className="sm:hidden xm:hidden" /> hits the mark and
 											drives results.
 										</p>
@@ -55,7 +55,7 @@ export default function Hero() {
 											them? We need to know
 											<br className="sm:hidden xm:hidden" /> your audience well
 											enough to deliver a <br className="sm:hidden xm:hidden" />
-											personalized presentation that they truly
+											personalized campaign that they truly
 											<br className="sm:hidden xm:hidden" />
 											care about.
 										</p>
@@ -74,7 +74,7 @@ export default function Hero() {
 											email? We knit the context
 											<br className="sm:hidden xm:hidden" /> together to decide
 											the style of the
-											<br className="sm:hidden xm:hidden" /> presentation.
+											<br className="sm:hidden xm:hidden" /> campaign.
 										</p>
 									</div>
 								</div>

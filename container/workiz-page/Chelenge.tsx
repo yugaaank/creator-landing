@@ -29,11 +29,11 @@ export default function Chelenge() {
 							<div className="flex flex-col gap-y-[20px]">
 								<p className="paragraph font-NeueMontreal text-secondry">
 									The goal was to build straightforward, <br /> professional,
-									but emotional presentations
+									but emotional campaigns
 									<br /> that are delivered to colleagues and
 									<br />
-									clients. We’ve tailored the decks for the <br />
-									audiences and amplified the presentation
+									clients. We’ve tailored the funnels for the <br />
+									audiences and amplified the campaign
 									<br />
 									materials to match the brand’s quality and <br />
 									improve the message.

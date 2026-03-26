@@ -48,7 +48,7 @@ export default function Hero() {
 								<div className="w-[50%] sm:w-full xm:w-full flex flex-col gap-y-[40px]">
 									<p className="paragraph font-NeueMontreal text-secondry">
 										Onboarding, internal and sales <br />
-										presentations for software startup.
+										campaigns for software startup.
 									</p>
 								</div>
 								<div className="flex flex-col gap-[10px]">
@@ -60,7 +60,7 @@ export default function Hero() {
 												className="py-[3px]"
 												backgroundColor="#000">
 												<p className="z-10 px-[15px]">
-													onboarding presentations
+													onboarding campaigns
 												</p>
 											</Rounded>
 										</Link>
@@ -73,7 +73,7 @@ export default function Hero() {
 												className="py-[3px]"
 												backgroundColor="#000">
 												<p className="z-10 px-[15px]">
-													policy deck and playbook
+													policy funnel and playbook
 												</p>
 											</Rounded>
 										</Link>
@@ -85,7 +85,7 @@ export default function Hero() {
 											<Rounded
 												className="py-[3px]"
 												backgroundColor="#000">
-												<p className="z-10 px-[15px]">sales deck</p>
+												<p className="z-10 px-[15px]">sales funnel</p>
 											</Rounded>
 										</Link>
 									</div>

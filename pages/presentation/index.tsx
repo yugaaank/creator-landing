@@ -7,7 +7,7 @@ import {
 	Publication,
 } from "@/container";
 
-export default function Presentation() {
+export default function Campaign() {
 	useEffect(() => {
 		(async () => {
 			const LocomotiveScroll = (await import("locomotive-scroll")).default;

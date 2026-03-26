@@ -116,7 +116,7 @@ export const clientsItem = [
       title: "Services:",
       name: "Nina Walloch",
       src: client02,
-      review: "Ihor and his team tackled the projects with great professionalism and creativity. They understood our brand value and turned this into excellent slide designs. The process was seamless and very effective, so we decided to roll this out across all our presentation decks. Furthermore, their understanding, professionalism, and creativity have secured a continued partnership.",
+      review: "Ihor and his team tackled the projects with great professionalism and creativity. They understood our brand value and turned this into excellent landing page designs. The process was seamless and very effective, so we decided to roll this out across all our campaign funnels. Furthermore, their understanding, professionalism, and creativity have secured a continued partnership.",
       links: [
          {
             id: 1,
@@ -125,7 +125,7 @@ export const clientsItem = [
          },
          {
             id: 2,
-            title: "big news deck",
+            title: "big news funnel",
             href: "/services",
          },
          {
@@ -135,17 +135,17 @@ export const clientsItem = [
          },
          {
             id: 4,
-            title: "investor deck",
+            title: "investor funnel",
             href: "/services",
          },
          {
             id: 5,
-            title: "product presentation",
+            title: "product campaign",
             href: "/services",
          },
          {
             id: 6,
-            title: "sales deck",
+            title: "sales funnel",
             href: "/services",
          },
          {
@@ -162,21 +162,21 @@ export const clientsItem = [
       title: "Services:",
       name: "Tormer levy",
       src: client03,
-      review: "OCHI brought a certain level of professionalism into our presentations that we were lacking before. When I showed our management and HR teams the presentations OCHI developed, they were amazed — the final product was exactly what we needed to create a better experience for new employees and our clients.",
+      review: "KATALYST brought a certain level of professionalism into our campaigns that we were lacking before. When I showed our management and HR teams the campaigns KATALYST developed, they were amazed — the final product was exactly what we needed to create a better experience for new employees and our clients.",
       links: [
          {
             id: 1,
-            title: "compony presentation",
+            title: "compony campaign",
             href: "/services",
          },
          {
             id: 2,
-            title: "onboarding presentation",
+            title: "onboarding campaign",
             href: "/services",
          },
          {
             id: 3,
-            title: "policy deck and playbook",
+            title: "policy funnel and playbook",
             href: "/services",
          },
          {
@@ -186,7 +186,7 @@ export const clientsItem = [
          },
          {
             id: 5,
-            title: "sales deck",
+            title: "sales funnel",
             href: "/services",
          },
       ]
@@ -198,7 +198,7 @@ export const clientsItem = [
       title: "Services:",
       name: "Elien Kim",
       src: client04,
-      review: "They are truly changing the landscape of presentations!! Fast, effective, and nice humans that listened to every detail of our needs. Creating a deck with their template brings so much joy and ease. We proudly showcase their design in our calls and presentations.",
+      review: "They are truly changing the landscape of campaigns!! Fast, effective, and nice humans that listened to every detail of our needs. Creating a funnel with their template brings so much joy and ease. We proudly showcase their design in our calls and campaigns.",
       links: [
          {
             id: 1,
@@ -219,11 +219,11 @@ export const clientsItem = [
       title: "Services:",
       name: "Brendon Goss",
       src: client05,
-      review: "The service received from OCHI was absolutely first-class. Their close attention to detail, and deep thought in terms of narrative, flow, and aesthetics, completely exceeded my expectations, which were very high from the outset. Especially loved and appreciated the creation of visuals, animation, and advice around the look and feel that we are after. We will definitely continue working with Ihor and his team. I cannot recommend them highly enough.",
+      review: "The service received from KATALYST was absolutely first-class. Their close attention to detail, and deep thought in terms of narrative, flow, and aesthetics, completely exceeded my expectations, which were very high from the outset. Especially loved and appreciated the creation of visuals, animation, and advice around the look and feel that we are after. We will definitely continue working with Ihor and his team. I cannot recommend them highly enough.",
       links: [
          {
             id: 1,
-            title: "investor deck",
+            title: "investor funnel",
             href: "/services",
          },
          {
@@ -240,11 +240,11 @@ export const clientsItem = [
       title: "Services:",
       name: "Raff Labri",
       src: client06,
-      review: "Ochi has an impressive understanding of what’s needed to do an effective presentation. The stakeholders at work said it’s the best most complete PP template they’ve ever seen. Ochi delivered more than I was expecting and we were really surprised with the quality of his work. Will work with Ochi design again for sure!",
+      review: "Katalyst has an impressive understanding of what’s needed to do an effective campaign. The stakeholders at work said it’s the best most complete PP template they’ve ever seen. Katalyst delivered more than I was expecting and we were really surprised with the quality of his work. Will work with Katalyst design again for sure!",
       links: [
          {
             id: 1,
-            title: "branded template deck",
+            title: "branded template funnel",
             href: "/services",
          },
       ]
@@ -265,12 +265,12 @@ export const clientsItem = [
          },
          {
             id: 2,
-            title: "investor deck",
+            title: "investor funnel",
             href: "/services",
          },
          {
             id: 3,
-            title: "product presentation",
+            title: "product campaign",
             href: "/services",
          },
          {
@@ -280,7 +280,7 @@ export const clientsItem = [
          },
          {
             id: 2,
-            title: "sales deck",
+            title: "sales funnel",
             href: "/services",
          },
       ]
@@ -313,7 +313,7 @@ export const clientsItem = [
       title: "Services:",
       name: "David Buddy",
       src: client09,
-      review: "We were surprised by the accuracy with which Ochi Design nailed the overall design language that perfectly aligned with our personal preferences and the vision that we have for our young company.",
+      review: "We were surprised by the accuracy with which Katalyst Design nailed the overall design language that perfectly aligned with our personal preferences and the vision that we have for our young company.",
       links: [
          {
             id: 1,
@@ -322,7 +322,7 @@ export const clientsItem = [
          },
          {
             id: 2,
-            title: "investor deck",
+            title: "investor funnel",
             href: "/services",
          },
          {
@@ -354,12 +354,12 @@ export const projectItem = [
          },
          {
             id: 3,
-            title: "sales deck",
+            title: "sales funnel",
             href: "/services",
          },
          {
             id: 4,
-            title: "slides design",
+            title: "landing pages design",
             href: "/services",
          },
       ]
@@ -377,7 +377,7 @@ export const projectItem = [
          },
          {
             id: 2,
-            title: "compony presentation",
+            title: "compony campaign",
             href: "/services",
          },
       ]
@@ -400,7 +400,7 @@ export const projectItem = [
          },
          {
             id: 3,
-            title: "investor deck",
+            title: "investor funnel",
             href: "/services",
          },
       ]
@@ -437,7 +437,7 @@ export const serviceProcessItems = [
       phase: "02. Phase",
       name: "Storytelling",
       src: phase2,
-      review: "Based on the answers, previous drafts, and additional research, we will develop a foundation of the deck — the structure of the presentation. We build a tone of voice, flow, and narrative to engage our audience. Here we will win people's minds.",
+      review: "Based on the answers, previous drafts, and additional research, we will develop a foundation of the funnel — the structure of the campaign. We build a tone of voice, flow, and narrative to engage our audience. Here we will win people's minds.",
       button: "read"
    },
    {
@@ -445,7 +445,7 @@ export const serviceProcessItems = [
       phase: "03. Phase",
       name: "Design",
       src: phase3,
-      review: "We use design to guide our audience's attention and keep them engaged. It's not only what you want them to do, but also how you make them feel. We make sure the presentation wins people's hearts and leaves a perfect long-lasting impression.",
+      review: "We use design to guide our audience's attention and keep them engaged. It's not only what you want them to do, but also how you make them feel. We make sure the campaign wins people's hearts and leaves a perfect long-lasting impression.",
       button: "read"
    },
    {
@@ -474,16 +474,16 @@ export const serviceClientsItem = [
       title: "Services:",
       name: "William Barnes",
       src: client01,
-      review: "They were transparent about the time and the stages of the project. The end product is high quality, and I feel confident about how they were handholding the client through the process. I feel like I can introduce them to someone who needs to put a sales deck together from scratch, and they would be able to handhold the client experience from 0 to 100 very effectively from story to design. 5/5",
+      review: "They were transparent about the time and the stages of the project. The end product is high quality, and I feel confident about how they were handholding the client through the process. I feel like I can introduce them to someone who needs to put a sales funnel together from scratch, and they would be able to handhold the client experience from 0 to 100 very effectively from story to design. 5/5",
       links: [
          {
             id: 1,
-            title: "investor deck",
+            title: "investor funnel",
             href: "/services",
          },
          {
             id: 2,
-            title: "sales deck",
+            title: "sales funnel",
             href: "services",
          },
       ]
@@ -495,7 +495,7 @@ export const serviceClientsItem = [
       title: "Services:",
       name: "Nina Walloch",
       src: client02,
-      review: "Ihor and his team tackled the projects with great professionalism and creativity. They understood our brand value and turned this into excellent slide designs. The process was seamless and very effective, so we decided to roll this out across all our presentation decks. Furthermore, their understanding, professionalism, and creativity have secured a continued partnership.",
+      review: "Ihor and his team tackled the projects with great professionalism and creativity. They understood our brand value and turned this into excellent landing page designs. The process was seamless and very effective, so we decided to roll this out across all our campaign funnels. Furthermore, their understanding, professionalism, and creativity have secured a continued partnership.",
       links: [
          {
             id: 1,
@@ -504,7 +504,7 @@ export const serviceClientsItem = [
          },
          {
             id: 2,
-            title: "big news deck",
+            title: "big news funnel",
             href: "services",
          },
          {
@@ -514,17 +514,17 @@ export const serviceClientsItem = [
          },
          {
             id: 4,
-            title: "investor deck",
+            title: "investor funnel",
             href: "services",
          },
          {
             id: 5,
-            title: "product presentation",
+            title: "product campaign",
             href: "services",
          },
          {
             id: 6,
-            title: "sales deck",
+            title: "sales funnel",
             href: "services",
          },
          {
@@ -541,21 +541,21 @@ export const serviceClientsItem = [
       title: "Services:",
       name: "Tormer levy",
       src: client03,
-      review: "OCHI brought a certain level of professionalism into our presentations that we were lacking before. When I showed our management and HR teams the presentations OCHI developed, they were amazed — the final product was exactly what we needed to create a better experience for new employees and our clients.",
+      review: "KATALYST brought a certain level of professionalism into our campaigns that we were lacking before. When I showed our management and HR teams the campaigns KATALYST developed, they were amazed — the final product was exactly what we needed to create a better experience for new employees and our clients.",
       links: [
          {
             id: 1,
-            title: "compony presentation",
+            title: "compony campaign",
             href: "/services",
          },
          {
             id: 2,
-            title: "onboarding presentation",
+            title: "onboarding campaign",
             href: "services",
          },
          {
             id: 3,
-            title: "policy deck and playbook",
+            title: "policy funnel and playbook",
             href: "services",
          },
          {
@@ -565,7 +565,7 @@ export const serviceClientsItem = [
          },
          {
             id: 5,
-            title: "sales deck",
+            title: "sales funnel",
             href: "services",
          },
       ]
@@ -577,7 +577,7 @@ export const serviceClientsItem = [
       title: "Services:",
       name: "Elien Kim",
       src: client04,
-      review: "They are truly changing the landscape of presentations!! Fast, effective, and nice humans that listened to every detail of our needs. Creating a deck with their template brings so much joy and ease. We proudly showcase their design in our calls and presentations.",
+      review: "They are truly changing the landscape of campaigns!! Fast, effective, and nice humans that listened to every detail of our needs. Creating a funnel with their template brings so much joy and ease. We proudly showcase their design in our calls and campaigns.",
       links: [
          {
             id: 1,
@@ -598,11 +598,11 @@ export const serviceClientsItem = [
       title: "Services:",
       name: "Brendon Goss",
       src: client05,
-      review: "The service received from OCHI was absolutely first-class. Their close attention to detail, and deep thought in terms of narrative, flow, and aesthetics, completely exceeded my expectations, which were very high from the outset. Especially loved and appreciated the creation of visuals, animation, and advice around the look and feel that we are after. We will definitely continue working with Ihor and his team. I cannot recommend them highly enough.",
+      review: "The service received from KATALYST was absolutely first-class. Their close attention to detail, and deep thought in terms of narrative, flow, and aesthetics, completely exceeded my expectations, which were very high from the outset. Especially loved and appreciated the creation of visuals, animation, and advice around the look and feel that we are after. We will definitely continue working with Ihor and his team. I cannot recommend them highly enough.",
       links: [
          {
             id: 1,
-            title: "investor deck",
+            title: "investor funnel",
             href: "/services",
          },
          {
@@ -619,11 +619,11 @@ export const serviceClientsItem = [
       title: "Services:",
       name: "Raff Labri",
       src: client06,
-      review: "Ochi has an impressive understanding of what’s needed to do an effective presentation. The stakeholders at work said it’s the best most complete PP template they’ve ever seen. Ochi delivered more than I was expecting and we were really surprised with the quality of his work. Will work with Ochi design again for sure!",
+      review: "Katalyst has an impressive understanding of what’s needed to do an effective campaign. The stakeholders at work said it’s the best most complete PP template they’ve ever seen. Katalyst delivered more than I was expecting and we were really surprised with the quality of his work. Will work with Katalyst design again for sure!",
       links: [
          {
             id: 1,
-            title: "branded template deck",
+            title: "branded template funnel",
             href: "/services",
          },
       ]
@@ -644,12 +644,12 @@ export const serviceClientsItem = [
          },
          {
             id: 2,
-            title: "investor deck",
+            title: "investor funnel",
             href: "services",
          },
          {
             id: 3,
-            title: "product presentation",
+            title: "product campaign",
             href: "services",
          },
          {
@@ -659,7 +659,7 @@ export const serviceClientsItem = [
          },
          {
             id: 2,
-            title: "sales deck",
+            title: "sales funnel",
             href: "services",
          },
       ]
@@ -692,12 +692,12 @@ export const serviceCapaybilitiesItem = [
       id: 1,
       src1: capaybilities1,
       title1: "RAISE FUNDS:",
-      review: "We help manage investor expectations and secure financing for your business with an excellent investor deck.Having a good product or illuminating ideas is not enough anymore.Poor investor presentation may close the door to potential financing right away.In contrast, a properly made investor deck provides investors with clarity, evokes confidence, and leaves them craving for more.",
+      review: "We help manage investor expectations and secure financing for your business with an excellent investor funnel.Having a good product or illuminating ideas is not enough anymore.Poor investor campaign may close the door to potential financing right away.In contrast, a properly made investor funnel provides investors with clarity, evokes confidence, and leaves them craving for more.",
       subTitle: "Projects",
       links1: [
          {
             id: 1,
-            title: "investor deck",
+            title: "investor funnel",
             href: "/"
          },
          {
@@ -716,22 +716,22 @@ export const serviceCapaybilitiesItem = [
          },
          {
             id: 2,
-            title: "company presentation",
+            title: "company campaign",
             href: "/"
          },
          {
             id: 3,
-            title: "product presentation",
+            title: "product campaign",
             href: "/"
          },
          {
             id: 4,
-            title: "sales deck",
+            title: "sales funnel",
             href: "/"
          },
          {
             id: 5,
-            title: "service deck",
+            title: "service funnel",
             href: "/"
          },
       ]
@@ -740,12 +740,12 @@ export const serviceCapaybilitiesItem = [
       id: 2,
       src1: capaybilities3,
       title1: "HIRE & MANAGE PEOPLE:",
-      review: "We help manage investor expectations and secure financing for your business with an excellent investor deck.Having a good product or illuminating ideas is not enough anymore.Poor investor presentation may close the door to potential financing right away.In contrast, a properly made investor deck provides investors with clarity, evokes confidence, and leaves them craving for more.",
+      review: "We help manage investor expectations and secure financing for your business with an excellent investor funnel.Having a good product or illuminating ideas is not enough anymore.Poor investor campaign may close the door to potential financing right away.In contrast, a properly made investor funnel provides investors with clarity, evokes confidence, and leaves them craving for more.",
       subTitle: "Projects",
       links1: [
          {
             id: 1,
-            title: "big news deck",
+            title: "big news funnel",
             href: "/"
          },
          {
@@ -755,12 +755,12 @@ export const serviceCapaybilitiesItem = [
          },
          {
             id: 3,
-            title: "onboarding presentation",
+            title: "onboarding campaign",
             href: "/"
          },
          {
             id: 4,
-            title: "policy deck & playbook",
+            title: "policy funnel & playbook",
             href: "/"
          },
          {
@@ -828,7 +828,7 @@ export const expectationsItems = [
       title1: "05",
       subTitle1: "Constantly Improving",
       btn: "read",
-      para1: "We are passionate about creating industry-shifting presentations. And as the world around us, we constantly evolve and improve. Our growth is fueled by an innovative ecosystem designed for each team member to grow. We provide them with frequent pieces for training both on design craft and personal development. We are constantly looking for new ways to support our creatives and our community as for our clients."
+      para1: "We are passionate about creating industry-shifting campaigns. And as the world around us, we constantly evolve and improve. Our growth is fueled by an innovative ecosystem designed for each team member to grow. We provide them with frequent pieces for training both on design craft and personal development. We are constantly looking for new ways to support our creatives and our community as for our clients."
    },
    {
       id: 5,
@@ -842,7 +842,7 @@ export const expectationsItems = [
       title1: "06",
       subTitle1: "Limited Amount of Client",
       btn: "read",
-      para1: "We believe it is vital to dedicate sole focus and undivided attention to each project. To add as much value as possible, we serve a limited amount of clients per month. We have a rule that we follow to choosing projects: our client understands the value of the presentation as a communication tool. We believe in their products or ideas. Together, we work to create positive change."
+      para1: "We believe it is vital to dedicate sole focus and undivided attention to each project. To add as much value as possible, we serve a limited amount of clients per month. We have a rule that we follow to choosing projects: our client understands the value of the campaign as a communication tool. We believe in their products or ideas. Together, we work to create positive change."
    },
 ];
 
@@ -864,7 +864,7 @@ export const achiveItems = [
 ];
 
 
-// presentation page
+// campaign page
 
 export const presentationProjectItem = [
    {
@@ -885,12 +885,12 @@ export const presentationProjectItem = [
          },
          {
             id: 3,
-            title: "sales deck",
+            title: "sales funnel",
             href: "services",
          },
          {
             id: 4,
-            title: "slides design",
+            title: "landing pages design",
             href: "services",
          },
       ]
@@ -913,7 +913,7 @@ export const presentationProjectItem = [
          },
          {
             id: 3,
-            title: "investor deck",
+            title: "investor funnel",
             href: "services",
          },
       ]
@@ -944,7 +944,7 @@ export const presentationProjectItem = [
          },
          {
             id: 2,
-            title: "big news deck",
+            title: "big news funnel",
             href: "/services",
          },
          {
@@ -954,17 +954,17 @@ export const presentationProjectItem = [
          },
          {
             id: 4,
-            title: "investor deck",
+            title: "investor funnel",
             href: "/services",
          },
          {
             id: 5,
-            title: "policy deck & playbook",
+            title: "policy funnel & playbook",
             href: "/services",
          },
          {
             id: 6,
-            title: "sales deck",
+            title: "sales funnel",
             href: "/services",
          },
       ]
@@ -977,7 +977,7 @@ export const presentationProjectItem = [
       links: [
          {
             id: 1,
-            title: "investor deck",
+            title: "investor funnel",
             href: "/services",
          },
          {
@@ -1005,7 +1005,7 @@ export const presentationProjectItem = [
          },
          {
             id: 2,
-            title: "compony presentation",
+            title: "compony campaign",
             href: "services",
          },
       ]
@@ -1049,17 +1049,17 @@ export const presentationProjectItem = [
       links: [
          {
             id: 1,
-            title: "onboarding presentation",
+            title: "onboarding campaign",
             href: "/services",
          },
          {
             id: 2,
-            title: "policy deck & playbook",
+            title: "policy funnel & playbook",
             href: "/services",
          },
          {
             id: 3,
-            title: "sales deck",
+            title: "sales funnel",
             href: "/services",
          },
       ]
@@ -1075,7 +1075,7 @@ export const publicationItems = [
    },
    {
       id: 2,
-      title: "trawa energy pitch deck",
+      title: "trawa energy pitch funnel",
       src: publication2
    },
    {
@@ -1131,10 +1131,10 @@ export const latestItemss = [
       links: [
          {
             id: 1,
-            title: "presentation template"
+            title: "campaign template"
          },
       ],
-      title: "Developing compony-wide presentation template for premium blend.",
+      title: "Developing compony-wide campaign template for premium blend.",
       subTitle: "By Ihor Hulyahrodskyy",
       date: "07 Dec 2022"
    },
@@ -1168,7 +1168,7 @@ export const workizItem = [
          },
          {
             id: 2,
-            title: "big news deck",
+            title: "big news funnel",
             href: "/services",
          },
          {
@@ -1178,17 +1178,17 @@ export const workizItem = [
          },
          {
             id: 4,
-            title: "investor deck",
+            title: "investor funnel",
             href: "/services",
          },
          {
             id: 5,
-            title: "policy deck & playbook",
+            title: "policy funnel & playbook",
             href: "/services",
          },
          {
             id: 6,
-            title: "sales deck",
+            title: "sales funnel",
             href: "/services",
          },
       ]
@@ -1203,13 +1203,13 @@ export const aboutPartberItems = [
       id: 1,
       src: planetly,
       title: "Planetly",
-      para: "Ihor and his team tackled the projects with great professionalism and creativity. They understood our brand value and turned this into excellent slide designs. The process was seamless and very effective, so we decided to roll this out across all our presentation decks. Furthermore, their understanding, professionalism, and creativity have secured a continued partnership."
+      para: "Ihor and his team tackled the projects with great professionalism and creativity. They understood our brand value and turned this into excellent landing page designs. The process was seamless and very effective, so we decided to roll this out across all our campaign funnels. Furthermore, their understanding, professionalism, and creativity have secured a continued partnership."
    },
    {
       id: 2,
       src: officevibe,
       title: "Officevibe",
-      para: "Ochi has an impressive understanding of what's needed to do an effective presentation. The stakeholders at work said it's the best most complete PP template they've ever seen. Ochi delivered more than I was expecting and we were really surprised with the quality of his work. Will work with Ochi design again for sure!"
+      para: "Katalyst has an impressive understanding of what's needed to do an effective campaign. The stakeholders at work said it's the best most complete PP template they've ever seen. Katalyst delivered more than I was expecting and we were really surprised with the quality of his work. Will work with Katalyst design again for sure!"
    },
    {
       id: 3,
@@ -1227,7 +1227,7 @@ export const aboutPartberItems = [
    //    id: 5,
    //    src: lexus,
    //    title: "Lexus",
-   //    para: "Thanks for your great work! The communication was excellent, the team was able to grasp in detail what we wanted and plastered it on the company presentation and sales deck. Their work is absolutely amazing."
+   //    para: "Thanks for your great work! The communication was excellent, the team was able to grasp in detail what we wanted and plastered it on the company campaign and sales funnel. Their work is absolutely amazing."
    // },
    // {
    //    id: 6,
@@ -1273,14 +1273,14 @@ export const FaqItems = [
    },
    {
       id: 2,
-      question: "Do you animate presentations?",
+      question: "Do you animate campaigns?",
       title: "Description",
-      description: "Movement is what attracts the eye. But not every presentation requires animation, although we do agree that animated presentations give a wow effect. We surely add transitions and animation to your presentation where we think it increases engagement, surprise, or simply delivers the message flawlessly.",
+      description: "Movement is what attracts the eye. But not every campaign requires animation, although we do agree that animated campaigns give a wow effect. We surely add transitions and animation to your campaign where we think it increases engagement, surprise, or simply delivers the message flawlessly.",
       links: [
          {
             id: 1,
             title: 1,
-            description: "By the way, animated presentations can also be used for marketing purposes to promote your ideas via socials."
+            description: "By the way, animated campaigns can also be used for marketing purposes to promote your ideas via socials."
          },
       ],
       button: "read"
@@ -1294,7 +1294,7 @@ export const FaqItems = [
          {
             id: 1,
             title: 1,
-            description: "By the way, animated presentations can also be used for marketing purposes to promote your ideas via socials."
+            description: "By the way, animated campaigns can also be used for marketing purposes to promote your ideas via socials."
          },
       ],
       button: "read"
@@ -1303,7 +1303,7 @@ export const FaqItems = [
       id: 4,
       question: "I want to become a part of the team! Do you hire?",
       title: "Description",
-      description: "Yes! We actively search for talent to join us in completing high-stake presentation design projects at OCHI. As a presentation agency, we always aim to create the best products and services possible. Hence, we are looking for someone who will enjoy helping us fuse design and thinking into something impactful and beautiful.",
+      description: "Yes! We actively search for talent to join us in completing high-stake campaign design projects at KATALYST. As a campaign agency, we always aim to create the best products and services possible. Hence, we are looking for someone who will enjoy helping us fuse design and thinking into something impactful and beautiful.",
       links: [
          {
             id: 1,
@@ -1327,7 +1327,7 @@ export const FaqItems = [
          {
             id: 1,
             title: 1,
-            description: "Through our work, we empower brands to make a difference. But while, the presentations that raise millions help in the long run by providing resources for organizations to evolve, create new workplaces, and make things better. We also offer our corporate clients personal training. We love visiting traditional university students to share insights and expertise through masterclasses and workshops. This is how we make things better by teaching others how to make better things. And this changes the world here and now."
+            description: "Through our work, we empower brands to make a difference. But while, the campaigns that raise millions help in the long run by providing resources for organizations to evolve, create new workplaces, and make things better. We also offer our corporate clients personal training. We love visiting traditional university students to share insights and expertise through masterclasses and workshops. This is how we make things better by teaching others how to make better things. And this changes the world here and now."
          },
          {
             id: 2,
@@ -1346,7 +1346,7 @@ export const FaqItems = [
          {
             id: 1,
             title: 1,
-            description: "By the way, animated presentations can also be used for marketing purposes to promote your ideas via socials."
+            description: "By the way, animated campaigns can also be used for marketing purposes to promote your ideas via socials."
          },
       ],
       button: "read"

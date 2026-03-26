@@ -20,9 +20,9 @@ export default function Principles() {
 						/>
 						<div className="flex flex-col gap-[20px]">
 							<p className="paragraph font-NeueMontreal text-secondry">
-								Whether the presentation needs to convince or <br />
+								Whether the campaign needs to convince or <br />
 								educate it always has to change audience
-								<br /> perception. We seek insights to make decks
+								<br /> perception. We seek insights to make funnels
 								<br /> unexpectedly enlightening for our audience.
 							</p>
 						</div>
@@ -35,7 +35,7 @@ export default function Principles() {
 						/>
 						<div className="flex flex-col gap-[20px]">
 							<p className="paragraph font-NeueMontreal text-secondry">
-								The presentation helps to see what&apos;s hidden,
+								The campaign helps to see what&apos;s hidden,
 								<br /> unseen, or simply never known before. We use <br />
 								design to drive their attention, focus them to <br />
 								clearly see, and help them feel the message.

@@ -12,7 +12,7 @@ export default function Hero() {
 		},
 		{
 			id: 2,
-			title: "presentation template",
+			title: "campaign template",
 			href: "/",
 		},
 		{

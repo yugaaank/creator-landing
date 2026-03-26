@@ -18,14 +18,14 @@ export default function Result() {
 									Feedback
 								</p>
 								<p className="paragraph font-NeueMontreal text-secondry">
-									“OCHI brought certain level of
+									“KATALYST brought certain level of
 									<br className="sm:hidden xm:hidden" /> professionalism into
-									our presentations that
+									our campaigns that
 									<br className="sm:hidden xm:hidden" /> we were lacking before.
 									When I showed <br className="sm:hidden xm:hidden" />
 									our management and HR teams the
 									<br className="sm:hidden xm:hidden" />
-									presentation OCHI developed, they were
+									campaign KATALYST developed, they were
 									<br className="sm:hidden xm:hidden" />
 									amazed <p className="inline-block sm:hidden xm:hidden">
 										—
@@ -43,7 +43,7 @@ export default function Result() {
 									The Result
 								</p>
 								<p className="paragraph font-NeueMontreal text-secondry">
-									We’ve created 10 presentations for Workiz
+									We’ve created 10 campaigns for Workiz
 									<br className="sm:hidden xm:hidden" /> company which improved
 									the on-boarding <br className="sm:hidden xm:hidden" />
 									process, empowered sales team, and just made
