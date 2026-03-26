@@ -5,7 +5,7 @@ export default function Projects() {
 	return (
 		<section className="w-full rounded-t-[20px]">
 			<Heading
-				title="Featured projects"
+				title="Client Results"
 				className="padding-x padding-y pb-[50px] border-b border-[#21212155]"
 			/>
 			<div className="w-full flex justify-between gap-y-[50px] padding-x padding-y flex-wrap">
@@ -40,7 +40,7 @@ export default function Projects() {
 				<div className="flex items-center justify-between bg-secondry cursor-pointer rounded-full group">
 					<RoundButton
 						href="/presentation"
-						title="view all case studies"
+						title="view all results"
 						bgcolor="#000"
 						className="bg-white text-black"
 						style={{ color: "#fff" }}

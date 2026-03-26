@@ -1,0 +1,1401 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Katalyst — Automate that Grows</title>
+  <meta name="description" content="Automation and Marketing with the help of AI that Grows" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@400;500;600;700;800&family=Barlow:wght@300;400;500;600&display=swap" rel="stylesheet" />
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    :root {
+      --green: #4a7c59;
+      --green-light: #5d9e72;
+      --green-pill: #4a7c59;
+      --black: #0a0a0a;
+      --white: #ffffff;
+      --off-white: #f5f5f3;
+      --gray: #888;
+      --border: #e0e0e0;
+    }
+
+    html { scroll-behavior: smooth; }
+
+    body {
+      font-family: 'Barlow', sans-serif;
+      background: var(--white);
+      color: var(--black);
+      overflow-x: hidden;
+    }
+
+    /* ===== NAVBAR ===== */
+    nav {
+      position: fixed;
+      top: 0; left: 0; right: 0;
+      z-index: 1000;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 18px 48px;
+      background: rgba(0,0,0,0.95);
+      backdrop-filter: blur(12px);
+      border-bottom: 1px solid rgba(0,0,0,0.06);
+    }
+
+    .logo {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      font-family: 'Barlow Condensed', sans-serif;
+      font-weight: 700;
+      font-size: 1.3rem;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      color: var(--black);
+      text-decoration: none;
+    }
+
+    .logo-icon {
+      width: 32px;
+      height: 32px;
+    }
+
+    .nav-right {
+      display: flex;
+      align-items: center;
+      gap: 28px;
+    }
+
+    .nav-faq {
+      font-size: 0.9rem;
+      font-weight: 500;
+      color: whitesmoke;
+      text-decoration: none;
+      letter-spacing: 0.02em;
+    }
+
+    .nav-faq:hover { opacity: 0.6; }
+
+    .btn-outline {
+      padding: 10px 22px;
+      border: 1.5px solid var(--black);
+      border-radius: 50px;
+      background: transparent;
+      font-family: 'Barlow', sans-serif;
+      font-size: 0.875rem;
+      font-weight: 500;
+      cursor: pointer;
+      text-decoration: none;
+      color: var(--off-white);
+      transition: background 0.2s, color 0.2s;
+      transition: 0.3s;
+    }
+
+    .btn-outline:hover {
+      transition: 0.3s;
+       background: var(--black); 
+       color: var(--white); 
+      }
+
+    /* ===== STICKY BOOK BUTTON ===== */
+    .sticky-book {
+      position: fixed;
+      bottom: 28px;
+      right: 28px;
+      z-index: 999;
+      padding: 14px 24px;
+      background: var(--black);
+      color: var(--white);
+      border-radius: 50px;
+      font-family: 'Barlow', sans-serif;
+      font-weight: 600;
+      font-size: 0.875rem;
+      cursor: pointer;
+      text-decoration: none;
+      letter-spacing: 0.02em;
+      box-shadow: 0 4px 24px rgba(0,0,0,0.25);
+      transition: transform 0.2s, box-shadow 0.2s;
+    }
+
+    .sticky-book:hover { transform: translateY(-2px); box-shadow: 0 8px 32px rgba(0,0,0,0.32); }
+
+    /* ===== HERO ===== */
+    .hero {
+      position: relative;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      overflow: hidden;
+      background: var(--black);
+      padding: 120px 24px 80px;
+    }
+
+    .hero-bg {
+      position: absolute;
+      inset: 0;
+      background:
+        radial-gradient(ellipse 55% 60% at 15% 50%, rgba(60,90,70,0.55) 0%, transparent 65%),
+        radial-gradient(ellipse 45% 55% at 85% 40%, rgba(120,110,40,0.45) 0%, transparent 65%),
+        radial-gradient(ellipse 30% 40% at 70% 80%, rgba(80,100,60,0.3) 0%, transparent 60%);
+      z-index: 0;
+    }
+
+    .hero-content { position: relative; z-index: 1; max-width: 900px; }
+
+    .pill {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      background: var(--green);
+      color: white;
+      padding: 8px 20px;
+      border-radius: 50px;
+      font-size: 0.875rem;
+      font-weight: 500;
+      margin-bottom: 36px;
+      letter-spacing: 0.02em;
+    }
+
+    .hero h1 {
+      font-family: 'Barlow Condensed', sans-serif;
+      font-weight: 800;
+      font-size: clamp(2.8rem, 7vw, 6rem);
+      line-height: 1.0;
+      letter-spacing: 0.04em;
+      text-transform: uppercase;
+      color: rgba(255,255,255,0.92);
+      margin-bottom: 28px;
+    }
+
+    .hero-sub {
+      font-size: 0.8rem;
+      letter-spacing: 0.2em;
+      text-transform: uppercase;
+      color: rgba(255,255,255,0.5);
+      margin-bottom: 44px;
+    }
+
+    .btn-green {
+      display: inline-block;
+      padding: 14px 36px;
+      background: var(--green);
+      color: white;
+      border-radius: 50px;
+      font-family: 'Barlow', sans-serif;
+      font-weight: 600;
+      font-size: 0.95rem;
+      text-decoration: none;
+      border: 2px solid var(--green-light);
+      transition: background 0.2s, transform 0.2s;
+      letter-spacing: 0.02em;
+    }
+
+    .btn-green:hover { background: var(--green-light); transform: translateY(-1px); }
+
+    /* ===== STATS ===== */
+    .stats {
+      background: var(--white);
+      padding: 80px 48px;
+      display: flex;
+      justify-content: center;
+      gap: 0;
+    }
+
+    .stat {
+      text-align: center;
+      flex: 1;
+      max-width: 300px;
+    }
+
+    .stat-num {
+      font-family: 'Barlow Condensed', sans-serif;
+      font-weight: 700;
+      font-size: clamp(2.5rem, 5vw, 4rem);
+      letter-spacing: -0.01em;
+      line-height: 1;
+    }
+
+    .stat-label {
+      font-size: 0.875rem;
+      color: var(--gray);
+      margin-top: 8px;
+      letter-spacing: 0.02em;
+    }
+
+    /* ===== SECTION HEADER ===== */
+    .section-header {
+      text-align: center;
+      margin-bottom: 64px;
+    }
+
+    .section-header h2 {
+      font-family: 'Barlow Condensed', sans-serif;
+      font-weight: 800;
+      font-size: clamp(1.8rem, 4vw, 2.8rem);
+      letter-spacing: 0.06em;
+      text-transform: uppercase;
+    }
+
+    .section-header p {
+      font-size: 0.75rem;
+      letter-spacing: 0.18em;
+      text-transform: uppercase;
+      color: var(--gray);
+      margin-top: 12px;
+    }
+
+    /* ===== SYSTEM ARCHITECTURE ===== */
+    .architecture {
+      padding: 100px 48px;
+      background: var(--off-white);
+    }
+
+    .arch-cards {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 20px;
+      max-width: 1200px;
+      margin: 0 auto;
+    }
+
+    .arch-card {
+      background: white;
+      border: 1px solid var(--border);
+      border-radius: 16px;
+      padding: 36px 32px;
+    }
+
+    .arch-tag {
+      font-size: 0.65rem;
+      letter-spacing: 0.18em;
+      text-transform: uppercase;
+      color: var(--gray);
+      margin-bottom: 20px;
+    }
+
+    .arch-title {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      font-family: 'Barlow Condensed', sans-serif;
+      font-weight: 700;
+      font-size: 1.6rem;
+      letter-spacing: 0.06em;
+      text-transform: uppercase;
+      margin-bottom: 20px;
+    }
+
+    .arch-icon {
+      width: 20px;
+      height: 20px;
+      border: 2px solid var(--black);
+      flex-shrink: 0;
+    }
+
+    .arch-icon.filled { background: var(--black); }
+    .arch-icon.half {
+      background: linear-gradient(to bottom, white 50%, var(--black) 50%);
+    }
+
+    .arch-text {
+      font-size: 0.95rem;
+      line-height: 1.6;
+      color: #444;
+    }
+
+    /* ===== HANDCRAFTED SECTION ===== */
+    .handcrafted {
+      position: relative;
+      overflow: hidden;
+      border-radius: 24px;
+      margin: 0 32px;
+    }
+
+    .handcrafted-bg {
+      width: 100%;
+      min-height: 480px;
+      background:
+        radial-gradient(ellipse 60% 80% at 20% 50%, rgba(120,170,200,0.7), transparent),
+        radial-gradient(ellipse 50% 60% at 75% 30%, rgba(100,140,80,0.5), transparent),
+        radial-gradient(ellipse 40% 50% at 60% 80%, rgba(140,120,60,0.5), transparent);
+      background-color: #8aafb8;
+      display: flex;
+      align-items: center;
+      padding: 60px 64px;
+      gap: 60px;
+    }
+
+    .handcrafted-left { flex: 1; }
+
+    .handcrafted-left h2 {
+      font-family: 'Barlow', sans-serif;
+      font-weight: 300;
+      font-size: clamp(1.8rem, 3.5vw, 3rem);
+      line-height: 1.2;
+      color: var(--black);
+    }
+
+    .handcrafted-left h2 strong {
+      font-weight: 700;
+    }
+
+    .handcrafted-right {
+      flex: 1;
+      display: flex;
+      justify-content: flex-end;
+    }
+
+    .email-card {
+      background: white;
+      border-radius: 16px;
+      padding: 28px;
+      max-width: 380px;
+      width: 100%;
+      box-shadow: 0 8px 40px rgba(0,0,0,0.15);
+      position: relative;
+      font-size: 0.9rem;
+      line-height: 1.65;
+      color: #222;
+    }
+
+    .email-card p { margin-bottom: 8px; }
+
+    .tag-highlight {
+      display: inline;
+      background: rgba(0,0,0,0.07);
+      border: 1px solid rgba(0,0,0,0.12);
+      border-radius: 4px;
+      padding: 1px 5px;
+      font-size: 0.82rem;
+    }
+
+    .badge {
+      position: absolute;
+      border-radius: 50px;
+      padding: 6px 14px;
+      font-size: 0.72rem;
+      font-weight: 600;
+      white-space: nowrap;
+    }
+
+    .badge-green { background: #4CAF79; color: white; top: -14px; right: 30px; }
+    .badge-purple { background: #9B8FD4; color: white; right: -20px; top: 45%; }
+    .badge-blue { background: #7DB5C4; color: white; left: -20px; bottom: 30%; }
+    .badge-orange { background: #E8A84C; color: white; bottom: -14px; right: 50px; }
+
+    /* ===== CLIENT RESULTS ===== */
+    .results {
+      padding: 100px 48px;
+      background: var(--white);
+    }
+
+    .results-grid {
+      display: grid;
+      grid-template-columns: 1fr 340px;
+      gap: 32px;
+      max-width: 1200px;
+      margin: 0 auto;
+    }
+
+    .result-card {
+      border: 1px solid var(--border);
+      border-radius: 20px;
+      padding: 36px 40px;
+    }
+
+    .result-tag {
+      font-size: 0.65rem;
+      letter-spacing: 0.18em;
+      text-transform: uppercase;
+      color: var(--gray);
+      margin-bottom: 20px;
+    }
+
+    .result-title-row {
+      display: flex;
+      align-items: flex-start;
+      gap: 14px;
+      margin-bottom: 8px;
+    }
+
+    .result-title {
+      font-family: 'Barlow Condensed', sans-serif;
+      font-weight: 800;
+      font-size: 1.5rem;
+      letter-spacing: 0.04em;
+      text-transform: uppercase;
+      line-height: 1.1;
+    }
+
+    .result-location {
+      font-size: 0.7rem;
+      letter-spacing: 0.15em;
+      text-transform: uppercase;
+      color: var(--gray);
+      margin-bottom: 24px;
+    }
+
+    .result-meta {
+      font-size: 0.82rem;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+      color: #555;
+      margin-bottom: 20px;
+      font-weight: 500;
+    }
+
+    .result-list {
+      list-style: disc;
+      padding-left: 18px;
+      margin-bottom: 24px;
+    }
+
+    .result-list li {
+      font-size: 0.9rem;
+      line-height: 1.6;
+      color: #333;
+      margin-bottom: 8px;
+    }
+
+    .result-list li strong { font-weight: 600; }
+
+    .result-cta-box {
+      border: 1px solid var(--border);
+      border-radius: 10px;
+      padding: 14px 18px;
+      font-size: 0.88rem;
+      color: #333;
+      margin-bottom: 24px;
+    }
+
+    .result-stats {
+      border: 2px solid transparent;
+      border-radius: 14px;
+      background: linear-gradient(white, white) padding-box,
+        linear-gradient(135deg, #e05c5c, #c45ec4, #5c7fe0) border-box;
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      padding: 24px;
+      text-align: center;
+      gap: 16px;
+    }
+
+    .rs-num {
+      font-family: 'Barlow Condensed', sans-serif;
+      font-weight: 700;
+      font-size: 1.6rem;
+    }
+
+    .rs-label {
+      font-size: 0.65rem;
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+      color: var(--gray);
+      margin-top: 4px;
+    }
+
+    .target-card {
+      border: 1px solid var(--border);
+      border-radius: 20px;
+      padding: 36px 32px;
+    }
+
+    .target-tag {
+      font-size: 0.65rem;
+      letter-spacing: 0.18em;
+      text-transform: uppercase;
+      color: var(--gray);
+      margin-bottom: 28px;
+    }
+
+    .target-title {
+      font-family: 'Barlow Condensed', sans-serif;
+      font-weight: 800;
+      font-size: 1.6rem;
+      letter-spacing: 0.06em;
+      text-transform: uppercase;
+      margin-bottom: 28px;
+    }
+
+    .target-section { margin-bottom: 28px; }
+
+    .target-section-label {
+      font-size: 0.65rem;
+      letter-spacing: 0.18em;
+      text-transform: uppercase;
+      color: var(--gray);
+      margin-bottom: 8px;
+      padding-bottom: 8px;
+      border-bottom: 1px solid var(--border);
+    }
+
+    .target-section-value {
+      font-size: 0.82rem;
+      font-weight: 600;
+      letter-spacing: 0.06em;
+      text-transform: uppercase;
+      margin-top: 10px;
+    }
+
+    .results-nav {
+      display: flex;
+      gap: 12px;
+      justify-content: center;
+      margin-top: 36px;
+    }
+
+    .results-nav button {
+      width: 36px; height: 36px;
+      border-radius: 50%;
+      border: 1.5px solid var(--border);
+      background: white;
+      cursor: pointer;
+      font-size: 1rem;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      transition: background 0.2s, border-color 0.2s;
+    }
+
+    .results-nav button:hover { background: var(--black); color: white; border-color: var(--black); }
+
+    /* ===== LOGOS MARQUEE ===== */
+    .logos-section {
+      padding: 100px 0;
+      background: var(--white);
+      text-align: center;
+      overflow: hidden;
+    }
+
+    .logos-heading {
+      font-family: 'Barlow Condensed', sans-serif;
+      font-size: clamp(1.8rem, 4vw, 2.5rem);
+      font-weight: 700;
+      letter-spacing: 0.04em;
+      margin-bottom: 4px;
+    }
+
+    .logos-heading-line {
+      width: 300px;
+      height: 1.5px;
+      background: var(--black);
+      margin: 0 auto 6px;
+    }
+
+    .logos-heading-bold {
+      font-family: 'Barlow Condensed', sans-serif;
+      font-size: clamp(1.8rem, 4vw, 2.5rem);
+      font-weight: 800;
+      letter-spacing: 0.04em;
+      text-transform: uppercase;
+      margin-bottom: 48px;
+    }
+
+    .marquee-wrapper {
+      overflow: hidden;
+      width: 100%;
+    }
+
+    .marquee-track {
+      display: flex;
+      gap: 80px;
+      animation: marquee 22s linear infinite;
+      width: max-content;
+    }
+
+    .marquee-track:hover { animation-play-state: paused; }
+
+    @keyframes marquee {
+      0% { transform: translateX(0); }
+      100% { transform: translateX(-50%); }
+    }
+
+    .logo-item {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      font-family: 'Barlow Condensed', sans-serif;
+      font-weight: 700;
+      font-size: 1.1rem;
+      letter-spacing: 0.04em;
+      white-space: nowrap;
+      color: #222;
+      opacity: 0.7;
+      transition: opacity 0.2s;
+    }
+
+    .logo-item:hover { opacity: 1; }
+
+    .logo-dot {
+      width: 10px; height: 10px;
+      border-radius: 50%;
+      flex-shrink: 0;
+    }
+
+    /* ===== TRILYNT TOOL ===== */
+    .trilynt {
+      margin: 0 32px;
+      border-radius: 24px;
+      overflow: hidden;
+      background: linear-gradient(135deg, #c5d8f0 0%, #d4c8ee 30%, #f5b8c0 70%, #f0a0a0 100%);
+      min-height: 420px;
+      display: flex;
+      align-items: center;
+      padding: 60px 64px;
+      gap: 60px;
+    }
+
+    .trilynt-left { flex: 1; }
+
+    .trilynt-badge {
+      display: inline-block;
+      border: 1.5px solid rgba(0,0,0,0.2);
+      border-radius: 50px;
+      padding: 7px 18px;
+      font-size: 0.78rem;
+      font-weight: 500;
+      margin-bottom: 28px;
+      background: rgba(255,255,255,0.5);
+    }
+
+    .trilynt-logo {
+      margin-bottom: 8px;
+    }
+
+    .trilynt-dots {
+      display: flex;
+      gap: 4px;
+      margin-bottom: 4px;
+    }
+
+    .trilynt-dot {
+      width: 8px; height: 8px;
+      background: var(--black);
+      border-radius: 1px;
+    }
+
+    .trilynt-name {
+      font-family: 'Barlow', sans-serif;
+      font-size: 1.1rem;
+      font-weight: 400;
+      letter-spacing: 0.02em;
+      margin-bottom: 24px;
+    }
+
+    .trilynt-title {
+      font-family: 'Barlow Condensed', sans-serif;
+      font-weight: 800;
+      font-size: clamp(1.4rem, 3vw, 2rem);
+      letter-spacing: 0.04em;
+      text-transform: uppercase;
+      margin-bottom: 20px;
+      line-height: 1.1;
+    }
+
+    .trilynt-text {
+      font-size: 0.9rem;
+      line-height: 1.65;
+      color: #333;
+    }
+
+    .trilynt-right {
+      flex: 1;
+      display: flex;
+      justify-content: flex-end;
+    }
+
+    .tool-mockup {
+      background: white;
+      border-radius: 16px;
+      overflow: hidden;
+      width: 100%;
+      max-width: 420px;
+      box-shadow: 0 12px 48px rgba(0,0,0,0.18);
+    }
+
+    .tool-header {
+      background: #f7f7f7;
+      padding: 10px 16px;
+      border-bottom: 1px solid #eee;
+      font-size: 0.72rem;
+      color: var(--gray);
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+
+    .tool-dots-row { display: flex; gap: 5px; }
+    .tool-dot-btn { width: 10px; height: 10px; border-radius: 50%; }
+    .td-red { background: #ff5f57; }
+    .td-yellow { background: #ffbd2e; }
+    .td-green { background: #28c840; }
+
+    .tool-body { padding: 20px; }
+
+    .tool-live-badge {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      margin-bottom: 16px;
+    }
+
+    .tool-live-label {
+      font-size: 0.7rem;
+      font-weight: 600;
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+      color: #333;
+      display: flex;
+      align-items: center;
+      gap: 6px;
+    }
+
+    .live-dot { width: 7px; height: 7px; border-radius: 50%; background: #22c55e; animation: pulse 1.5s infinite; }
+
+    @keyframes pulse {
+      0%, 100% { opacity: 1; }
+      50% { opacity: 0.4; }
+    }
+
+    .live-text { color: #22c55e; font-size: 0.7rem; font-weight: 600; }
+
+    .tool-section-label {
+      font-size: 0.65rem;
+      letter-spacing: 0.15em;
+      text-transform: uppercase;
+      color: var(--gray);
+      margin-bottom: 10px;
+      display: flex;
+      align-items: center;
+      gap: 6px;
+    }
+
+    .tool-row {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 10px 14px;
+      border: 1px solid #eee;
+      border-radius: 8px;
+      margin-bottom: 8px;
+      font-size: 0.82rem;
+      font-family: monospace;
+    }
+
+    .tool-rate {
+      font-weight: 700;
+      font-size: 0.88rem;
+    }
+
+    .tool-stats-row {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 10px;
+      margin-top: 16px;
+      padding-top: 16px;
+      border-top: 1px solid #eee;
+      text-align: center;
+    }
+
+    .ts-num {
+      font-family: 'Barlow Condensed', sans-serif;
+      font-weight: 700;
+      font-size: 1.2rem;
+    }
+
+    .ts-label {
+      font-size: 0.6rem;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+      color: var(--gray);
+      margin-top: 2px;
+    }
+
+    /* ===== WHY COLD EMAIL FAILS ===== */
+    .why-fails {
+      padding: 100px 48px;
+      background: var(--white);
+    }
+
+    .why-grid { display: flex; flex-direction: column; gap: 20px; max-width: 1100px; margin: 0 auto; }
+
+    .why-card {
+      border: 1px solid var(--border);
+      border-radius: 20px;
+      padding: 40px;
+    }
+
+    .why-card.dark { background: var(--black); color: white; border-color: var(--black); }
+
+    .why-badge {
+      font-size: 0.65rem;
+      letter-spacing: 0.18em;
+      text-transform: uppercase;
+      color: var(--gray);
+      margin-bottom: 24px;
+    }
+
+    .why-card.dark .why-badge { color: rgba(255,255,255,0.4); }
+
+    .why-main-title {
+      font-family: 'Barlow Condensed', sans-serif;
+      font-weight: 800;
+      font-size: 1.8rem;
+      letter-spacing: 0.06em;
+      text-transform: uppercase;
+      margin-bottom: 12px;
+    }
+
+    .why-desc {
+      font-size: 0.9rem;
+      line-height: 1.6;
+      color: #555;
+      max-width: 280px;
+    }
+
+    .why-card.dark .why-desc { color: rgba(255,255,255,0.6); }
+
+    .why-inner {
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+      gap: 32px;
+      align-items: start;
+    }
+
+    .why-left { }
+
+    .why-features {
+      grid-column: span 2;
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 24px;
+    }
+
+    .why-feature { }
+
+    .wf-label {
+      font-size: 0.65rem;
+      letter-spacing: 0.15em;
+      text-transform: uppercase;
+      color: var(--gray);
+      margin-bottom: 6px;
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+
+    .why-card.dark .wf-label { color: rgba(255,255,255,0.4); }
+
+    .wf-check {
+      width: 14px; height: 14px;
+      border: 1.5px solid var(--gray);
+      display: inline-block;
+      flex-shrink: 0;
+    }
+
+    .why-card.dark .wf-check { border-color: rgba(255,255,255,0.3); }
+    .why-card.dark .wf-check.filled { background: white; border-color: white; }
+
+    .wf-text {
+      font-size: 0.9rem;
+      line-height: 1.5;
+      color: #333;
+    }
+
+    .why-card.dark .wf-text { color: rgba(255,255,255,0.85); }
+
+    /* ===== CTA BANNER ===== */
+    .cta-banner {
+      margin: 0 32px 80px;
+      border-radius: 24px;
+      overflow: hidden;
+      position: relative;
+      min-height: 340px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      background:
+        radial-gradient(ellipse 60% 70% at 30% 40%, rgba(60,90,70,0.6), transparent),
+        radial-gradient(ellipse 50% 60% at 75% 60%, rgba(120,110,40,0.5), transparent),
+        #1a1a1a;
+    }
+
+    .cta-banner-content { position: relative; z-index: 1; }
+
+    .cta-banner h2 {
+      font-family: 'Barlow Condensed', sans-serif;
+      font-weight: 800;
+      font-size: clamp(2rem, 5vw, 4rem);
+      letter-spacing: 0.04em;
+      text-transform: uppercase;
+      color: rgba(255,255,255,0.88);
+      margin-bottom: 36px;
+      max-width: 700px;
+      line-height: 1.05;
+    }
+
+    /* ===== FOOTER ===== */
+    footer {
+      background: var(--white);
+      padding: 40px 48px;
+      border-top: 1px solid var(--border);
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+
+    footer .logo { font-size: 1rem; }
+
+    .footer-copy {
+      font-size: 0.8rem;
+      color: var(--gray);
+    }
+
+
+      .katalyst_image {
+  width: 100%;
+  max-width: 700px;
+  height: auto;
+  display: block;
+  margin: auto;
+    }
+
+    /* ===== RESPONSIVE ===== */
+    @media (max-width: 900px) {
+      nav { padding: 16px 24px; }
+      .arch-cards { grid-template-columns: 1fr; }
+      .results-grid { grid-template-columns: 1fr; }
+      .handcrafted-bg { flex-direction: column; padding: 40px 24px; gap: 40px; min-height: auto; }
+      .trilynt { flex-direction: column; padding: 40px 24px; margin: 0 16px; }
+      .handcrafted { margin: 0 16px; }
+      .why-inner { grid-template-columns: 1fr; }
+      .why-features { grid-column: 1; }
+      .result-stats { grid-template-columns: repeat(2, 1fr); }
+      .stats { flex-direction: column; align-items: center; gap: 40px; }
+      .cta-banner { margin: 0 16px 60px; }
+      footer { flex-direction: column; gap: 16px; text-align: center; }
+      .architecture { padding: 80px 24px; }
+      .results { padding: 80px 24px; }
+      .why-fails { padding: 80px 24px; }
+    }
+
+    /* ===== ANIMATIONS ===== */
+    @keyframes fadeUp {
+      from { opacity: 0; transform: translateY(28px); }
+      to   { opacity: 1; transform: translateY(0); }
+    }
+    @keyframes slideDown {
+      from { opacity: 0; transform: translateY(-18px); }
+      to   { opacity: 1; transform: translateY(0); }
+    }
+    nav          { animation: slideDown 0.6s cubic-bezier(0.22,1,0.36,1) both; }
+    .pill        { animation: fadeUp 0.7s 0.2s cubic-bezier(0.22,1,0.36,1) both; }
+    .hero h1     { animation: fadeUp 0.9s 0.4s cubic-bezier(0.22,1,0.36,1) both; }
+    .hero-sub    { animation: fadeUp 0.7s 0.7s cubic-bezier(0.22,1,0.36,1) both; }
+    .hero .btn-green { animation: fadeUp 0.7s 0.95s cubic-bezier(0.22,1,0.36,1) both; }
+
+    .reveal {
+      opacity: 0; transform: translateY(36px);
+      transition: opacity 0.7s cubic-bezier(0.22,1,0.36,1), transform 0.7s cubic-bezier(0.22,1,0.36,1);
+    }
+    .reveal.visible { opacity: 1; transform: translateY(0); }
+
+    .reveal-stagger > * {
+      opacity: 0; transform: translateY(28px);
+      transition: opacity 0.6s cubic-bezier(0.22,1,0.36,1), transform 0.6s cubic-bezier(0.22,1,0.36,1);
+    }
+    .reveal-stagger.visible > *:nth-child(1) { opacity:1; transform:translateY(0); transition-delay:0s; }
+    .reveal-stagger.visible > *:nth-child(2) { opacity:1; transform:translateY(0); transition-delay:0.12s; }
+    .reveal-stagger.visible > *:nth-child(3) { opacity:1; transform:translateY(0); transition-delay:0.24s; }
+    .reveal-stagger.visible > *:nth-child(4) { opacity:1; transform:translateY(0); transition-delay:0.36s; }
+  </style>
+</head>
+<body>
+  
+  
+
+  <!-- NAVBAR -->
+  <nav>
+    <a href="#" class="logo">
+      <img src="data:image/png;base64,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" alt="Katalyst" style="height:36px;width:auto;object-fit:contain;display:block;">
+    </a>
+    <div class="nav-right">
+      <a href="#faq" class="nav-faq">FAQ</a>
+      <a href="https://calendly.com/kompanykatalyst/discovery-call" target="_blank" class="btn-outline">Let's Talk</a>
+    </div>
+  </nav>
+
+  <!-- STICKY BOOK BUTTON -->
+  <a href="https://calendly.com/kompanykatalyst/discovery-call" target="_blank" class="sticky-book">Book a Strategy Call</a>
+
+  <!-- HERO -->
+  <section class="hero">
+    <div class="hero-bg"></div>
+    <div class="hero-content">
+      <div class="pill">Hi, We're Katalyst 👋</div>
+      <h1>AI Automation and Marketing Infrastructure for Scalable Businesses</h1>
+      <p class="hero-sub">From AI chatbots and workflow automation to high-performance ad campaigns, we build systems that produce measurable growth.</p>
+      <a href="https://calendly.com/kompanykatalyst/discovery-call" target="_blank" class="btn-green">Let's Talk</a>
+    </div>
+  </section>
+
+  <!-- STATS -->
+  <section class="stats reveal-stagger">
+    <div class="stat">
+      <div class="stat-num" data-count="100" data-suffix="+">0</div>
+      <div class="stat-label">Automtions made</div>
+    </div>
+    <div class="stat">
+      <div class="stat-num" data-count="1500" data-suffix="+">0</div>
+      <div class="stat-label">Hours saved</div>
+    </div>
+    <div class="stat">
+      <div class="stat-num" data-count="10" data-suffix="M+">0</div>
+      <div class="stat-label">Views generated</div>
+    </div>
+  </section>
+
+  <!-- SYSTEM ARCHITECTURE -->
+  <section class="architecture">
+    <div class="section-header reveal">
+      <h2>System Architecture</h2>
+      <p>A private infrastructure designed to automate most of your concerns</p>
+    </div>
+    <div class="arch-cards reveal-stagger">
+      <div class="arch-card">
+        <div class="arch-tag">01 / Audit</div>
+        <div class="arch-title">
+          <div class="arch-icon"></div>
+          Find
+        </div>
+        <p class="arch-text">Analyze the client’s workflows, bottlenecks, and manual processes to identify automation opportunities.</p>
+      </div>
+      <div class="arch-card">
+        <div class="arch-tag">02 / Automate</div>
+        <div class="arch-title">
+          <div class="arch-icon half"></div>
+          Workflow
+        </div>
+        <p class="arch-text">Build and integrate AI-driven systems that replace repetitive tasks and streamline operations.</p>
+      </div>
+      <div class="arch-card">
+        <div class="arch-tag">03 / Personalization</div>
+        <div class="arch-title">
+          <div class="arch-icon filled"></div>
+          Reach
+        </div>
+        <p class="arch-text">Monitor performance, refine automations, and continuously improve efficiency and results.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- HANDCRAFTED -->
+  <section style="padding: 0 0 80px;">
+    <div class="handcrafted">
+      <div class="handcrafted-bg">
+        <div class="handcrafted-left reveal">
+          <h2>Every Automation Feels <br> Handcrafted.<br><br><strong>Because it is.</strong></h2>
+        </div>
+        <img src="transparent-Photoroom (2).png" alt="katalyst Image" class="katalyst_image" width=100% height=auto>
+      </div>
+    </div>
+  </section>
+
+  <!-- CLIENT RESULTS -->
+  <section class="results">
+    <div class="section-header reveal">
+      <h2>Client Results</h2>
+      <p>From cold outreach to closed revenue</p>
+    </div>
+
+    <div id="results-container">
+      <!-- Case 1: Hagai Avisar -->
+      <div class="results-grid" id="result-1">
+        <div class="result-card reveal">
+          <div class="result-tag">01 / Veterinary Practice &amp; Healthcare</div>
+          <div class="result-title-row">
+            <div class="arch-icon" style="margin-top:4px;flex-shrink:0;"></div>
+            <div class="result-title">80% Increase in Monthly Clients for a Veterinary Practice via AI Call Bot</div>
+          </div>
+          <div class="result-location">Location / Africa</div>
+          <div class="result-meta">Client / Hagai Avisar &nbsp;|&nbsp; Independent Veterinarian &nbsp;|&nbsp; AI Call Automation</div>
+          <ul class="result-list">
+            <li><strong>Problem:</strong> The clinic relied on manual call handling — missed calls during consultations and surgeries, delayed responses, no automated lead capture, and an inefficient booking process resulting in lost clients.</li>
+            <li><strong>Solution:</strong> An AI-powered call bot was deployed to automatically answer every call, collect client information (name, contact, pet concern), handle appointment inquiries, capture leads, and remain available 24/7 including off-hours.</li>
+            <li><strong>Implementation:</strong> Workflow analysis → custom veterinary conversation scripts → system integration → testing &amp; optimization → deployment and ongoing monitoring.</li>
+          </ul>
+          <div class="result-cta-box">"The bot handles inquiries, captures leads, and ensures that potential clients are not lost due to missed calls or delays in response." — Hagai Avisar, Veterinarian</div>
+          <div class="result-stats">
+            <div><div class="rs-num" data-count="80" data-suffix="%">0</div><div class="rs-label">Increase in Monthly Clients</div></div>
+            <div><div class="rs-num" data-count="0" data-suffix="">0</div><div class="rs-label">Missed Calls</div></div>
+            <div><div class="rs-num" data-count="24" data-suffix="/7">0</div><div class="rs-label">Call Availability</div></div>
+            <div><div class="rs-num" data-count="100" data-suffix="%">0</div><div class="rs-label">Lead Capture Rate</div></div>
+          </div>
+        </div>
+        <div class="target-card reveal">
+          <div class="target-tag">01 / Case Breakdown</div>
+          <div class="target-title">Client Profile</div>
+          <div class="target-section">
+            <div class="target-section-label">Client</div>
+            <div class="target-section-value">Hagai Avisar — Independent Veterinarian</div>
+          </div>
+          <div class="target-section">
+            <div class="target-section-label">Industry</div>
+            <div class="target-section-value">Veterinary Practice / Healthcare</div>
+          </div>
+          <div class="target-section">
+            <div class="target-section-label">Location</div>
+            <div class="target-section-value">Africa</div>
+          </div>
+          <div class="target-section">
+            <div class="target-section-label">Core Impact</div>
+            <div class="target-section-value">Automated client intake, eliminated missed calls, 80% growth in monthly bookings</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- LOGOS -->
+  <section class="logos-section">
+    <div class="logos-heading reveal">YOUR NEXT WORKFLOW,</div>
+    <div class="logos-heading-line"></div>
+    <div class="logos-heading-bold">RUNS WITHOUT YOU</div>
+    <div class="marquee-wrapper">
+      <div class="marquee-track" id="marquee">
+        <div class="logo-item"><div class="logo-dot" style="background:#4a7c59;"></div> Zapier</div>
+        <div class="logo-item"><div class="logo-dot" style="background:#e05c5c;"></div> Make.com </div>
+        <div class="logo-item"><div class="logo-dot" style="background:#c45ec4;"></div> n8n</div>
+        <div class="logo-item"><div class="logo-dot" style="background:#5c7fe0;"></div> OPENAI API</div>
+        <div class="logo-item"><div class="logo-dot" style="background:#222;"></div> LangChain</div>
+        <div class="logo-item"><div class="logo-dot" style="background:#e8a84c;"></div> Airtable</div>
+        <div class="logo-item"><div class="logo-dot" style="background:#4a7c59;"></div> Google Sheets</div>
+        <div class="logo-item"><div class="logo-dot" style="background:#e05c5c;"></div> Progression</div>
+        <div class="logo-item"><div class="logo-dot" style="background:#c45ec4;"></div> Apify </div>
+        <div class="logo-item"><div class="logo-dot" style="background:#5c7fe0;"></div> PineCone</div>
+        <div class="logo-item"><div class="logo-dot" style="background:#222;"></div> Retell AI</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- TRILYNT TOOL -->
+  <section style="padding: 0 0 80px;">
+    <div class="trilynt">
+      <div class="trilynt-left reveal">
+        <div class="trilynt-badge">Proprietary Internal Tool</div>
+        <div class="trilynt-logo">
+          <div class="trilynt-dots">
+            <div class="trilynt-dot"></div>
+            <div class="trilynt-dot"></div>
+            <div class="trilynt-dot"></div>
+          </div>
+          <div class="trilynt-name">trilynt</div>
+        </div>
+        <div class="trilynt-title">AUTOMATE YOUR BUSINESS WORKFLOWS,<br>STEP BY STEP</div>
+        <p class="trilynt-text">Internal automation systems built for scale.
+        Identify repetitive tasks, deploy AI agents,<br> and run operations automatically without increasing headcount.</p>
+        <br>
+        <p class="trilynt-text">Know exactly which processes waste time, where automation fits, and which <br> workflows generate the highest ROI.</p>
+      </div>
+
+      <img src="transparent-Photoroom (3).png" alt="katalyst image" class="katalyst_image" width="200" height="200">
+      <!-- <div class="trilynt-right reveal">
+        <div class="tool-mockup">
+          <div class="tool-header">
+            <div class="tool-dots-row">
+              <div class="tool-dot-btn td-red"></div>
+              <div class="tool-dot-btn td-yellow"></div>
+              <div class="tool-dot-btn td-green"></div> -->
+            <!-- </div>
+            trilynt.calibrate.email
+          </div>
+          <div class="tool-body">
+            <div class="tool-live-badge">
+              <span class="tool-live-label"><div class="live-dot"></div> LINE-LEVEL ATTRIBUTION</span>
+              <span class="live-text">LIVE</span>
+            </div>
+            <div class="tool-section-label">✉ SUBJECT LINES</div>
+            <div class="tool-row"><span>"{{firstName}}, quick question"</span><span class="tool-rate">4.2%</span></div>
+            <div class="tool-row"><span>"Saw your post on {{topic}}"</span><span class="tool-rate">2.8%</span></div>
+            <div class="tool-section-label" style="margin-top:12px;">⚡ CALL TO ACTIONS</div>
+            <div class="tool-row"><span>"Open to a quick call?"</span><span class="tool-rate">3.1%</span></div>
+            <div class="tool-row"><span>"Worth exploring?"</span><span class="tool-rate">4.7%</span></div>
+            <div class="tool-stats-row">
+              <div><div class="ts-num" data-count="26" data-suffix="">0</div><div class="ts-label">Variants</div></div>
+              <div><div class="ts-num" data-count="1.2" data-suffix="k" data-decimals="1">0</div><div class="ts-label">Sent</div></div>
+              <div><div class="ts-num" data-count="3.4" data-suffix="%" data-decimals="1">0</div><div class="ts-label">Reply Rate</div></div>
+            </div> -->
+          <!-- </div>
+        </div>
+      </div> -->
+    </div>
+  </section>
+
+  <!-- WHY COLD EMAIL FAILS -->
+  <section class="why-fails" id="faq">
+    <div class="section-header reveal">
+      <h2>WHY MOST BUSINESSES STRUGGLE WITH AUTOMATION</h2>
+      <p>90% of companies try automation but end up with disconnected tools and broken workflows.</p>
+    </div>
+    <div class="why-grid">
+      <div class="why-card reveal">
+        <div class="why-inner">
+          <div class="why-left">
+            <div class="why-badge">The Problem</div>
+            <div class="why-main-title">TOOL STACK CHAOS</div>
+            <p class="why-desc">Most teams add software instead of fixing processes:
+            more dashboards, more subscriptions, more manual work between systems.</p>
+          </div>
+          <div class="why-features">
+            <div class="why-feature">
+              <div class="wf-label"><div class="wf-check"></div> NO PROCESS STRUCTURE</div>
+              <div class="wf-text">Tasks exist in peoples heads instead of defined workflows.</div>
+            </div>
+            <div class="why-feature">
+              <div class="wf-label"><div class="wf-check"></div>FRAGMENTED SYSTEMS</div>
+              <div class="wf-text">CRM, email, spreadsheets, Slack, forms — nothing communicates.</div>
+            </div>
+            <!-- <div class="why-feature">
+              <div class="wf-label"><div class="wf-check"></div> RESULT</div>
+              <div class="wf-text">Manual operations, slow response time, lost leads, operational bottlenecks.</div>
+            </div> -->
+            <div class="why-feature">
+              <div class="wf-label"><div class="wf-check"></div> RESULT</div>
+              <div class="wf-text">Manual operations, slow response time, lost leads, operational bottlenecks.</div>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+
+      <div class="why-card dark reveal">
+        <div class="why-inner">
+          <div class="why-left">
+            <div class="why-badge">Our Approach</div>
+            <div class="why-main-title">PROCESS MAPPING + AI AUTOMATION</div>
+            <p class="why-desc">Every automation starts with operational analysis.
+            AI handles execution, humans define the strategy.</p>
+          </div>
+          <div class="why-features">
+            <div class="why-feature">
+              <div class="wf-label"><div class="wf-check filled"></div> WORKFLOW AUDIT</div>
+              <div class="wf-text">Identify repetitive tasks, delays, and operational friction.</div>
+            </div>
+            <div class="why-feature">
+              <div class="wf-label"><div class="wf-check filled"></div> AI AGENTS + AUTOMATION</div>
+              <div class="wf-text">Automate lead capture, follow-ups, onboarding, and internal workflows.</div>
+            </div>
+            <div class="why-feature">
+              <div class="wf-label"><div class="wf-check filled"></div> SYSTEM INTEGRATION</div>
+              <div class="wf-text">CRM, email, payment systems, and internal tools connected.</div>
+            </div>
+            <div class="why-feature">
+              <div class="wf-label"><div class="wf-check filled"></div> AUTOMATED OPERATIONS</div>
+              <div class="wf-text">Lead handling, client communication, reporting, and scheduling run automatically.</div>
+            </div>
+            <div class="why-feature">
+              <div class="wf-label"><div class="wf-check filled"></div> RESULT</div>
+              <div class="wf-text">Faster operations, reduced manual workload, scalable systems.</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA BANNER YA JO BHI H BC-->
+  <div class="cta-banner">
+    <div class="cta-banner-content reveal">
+      <h2>Automate the work that slows your Growth</h2>
+      <a href="https://calendly.com/kompanykatalyst/discovery-call" target="_blank" class="btn-green">Let's Talk</a>
+    </div>
+  </div>
+
+  <!-- FOOTER -->
+  <footer>
+    <div class="footer-copy">© 2026 Katalyst All rights reserved.</div>
+  </footer>
+
+  <script>
+    let currentResult = 1;
+
+    function showResult(n) {
+      document.getElementById('result-1').style.display = n === 1 ? 'grid' : 'none';
+      document.getElementById('result-2').style.display = n === 2 ? 'grid' : 'none';
+      currentResult = n;
+      setTimeout(() => {
+        document.querySelectorAll('#result-' + n + ' .reveal').forEach(el => {
+          el.classList.add('visible');
+        });
+        document.querySelectorAll('#result-' + n + ' [data-count]').forEach(el => {
+          animateCounter(el);
+        });
+      }, 80);
+    }
+
+    // Duplicate marquee for seamless loop
+    const track = document.getElementById('marquee');
+    track.innerHTML = track.innerHTML + track.innerHTML;
+
+    // ── Counter animation ──
+    function animateCounter(el) {
+      const target   = parseFloat(el.dataset.count);
+      const suffix   = el.dataset.suffix || '';
+      const decimals = parseInt(el.dataset.decimals || '0');
+      const duration = 1800;
+      const startTime = performance.now();
+
+      function easeOutExpo(t) {
+        return t === 1 ? 1 : 1 - Math.pow(2, -10 * t);
+      }
+
+      function formatNum(val) {
+        if (decimals === 0 && val >= 1000) {
+          return Math.round(val).toLocaleString('en-US');
+        }
+        return parseFloat(val.toFixed(decimals)).toString();
+      }
+
+      function tick(now) {
+        const elapsed  = now - startTime;
+        const progress = Math.min(elapsed / duration, 1);
+        const eased    = easeOutExpo(progress);
+        const current  = eased * target;
+        el.textContent = formatNum(current) + suffix;
+        if (progress < 1) requestAnimationFrame(tick);
+        else el.textContent = formatNum(target) + suffix;
+      }
+
+      requestAnimationFrame(tick);
+    }
+
+    // ── Scroll-reveal + counter trigger
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          entry.target.classList.add('visible');
+
+          // Fire counters inside stagger containers
+          entry.target.querySelectorAll('[data-count]').forEach(el => animateCounter(el));
+
+          // If the element itself is a counter
+          if (entry.target.hasAttribute('data-count')) animateCounter(entry.target);
+
+          observer.unobserve(entry.target);
+        }
+      });
+    }, { threshold: 0.18 });
+
+    document.querySelectorAll('.reveal, .reveal-stagger, [data-count]').forEach(el => {
+      observer.observe(el);
+    });
+  </script>
+</body>
+</html>

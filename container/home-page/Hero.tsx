@@ -17,7 +17,7 @@ export default function Hero() {
 					<div className="w-full flex justify-between gap-[20px] pl-[50px] md:pl-[30px] sm:pl-[20px] xm:pl-[20px]">
 						<div>
 							<h1 className="heading tracking-[-1.3px] text-[#212121] font-semibold font-FoundersGrotesk uppercase">
-								we create <br />
+								AI Automation <br />
 								<div className="flex items-center gap-[5px]">
 									<motion.span
 										initial={{ width: 0 }}
@@ -37,10 +37,10 @@ export default function Hero() {
 										/>
 									</motion.span>
 									<h1 className="heading tracking-[-1.3px] text-[#212121] font-semibold font-FoundersGrotesk uppercase">
-										eye-opening
+										& Marketing
 									</h1>
 								</div>
-								presentation
+								Infrastructure
 							</h1>
 						</div>
 						<div>
@@ -57,21 +57,21 @@ export default function Hero() {
 						<div className="flex justify-between items-center padding-x gap-[20px] sm:flex-col sm:items-start xm:flex-col xm:items-start">
 							<div className="w-[50%] xm:w-full sm:w-full">
 								<p className="paragraph font-NeueMontreal text-secondry">
-									For public and private companies
+									For Scalable Businesses
 								</p>
 							</div>
 							<div className="w-[50%] xm:w-full sm:w-full flex justify-between xm:flex-col xm:items-start sm:flex-col sm:items-start gap-[20px]">
 								<div>
 									<p className="paragraph font-NeueMontreal text-secondry">
-										From the first picth to IPO
+										From AI chatbots and workflow automation
 									</p>
 								</div>
 								<div className="flex items-center gap-[5px] group">
 									<div className="rounded-[50px] border border-[#21212199] group-hover:bg-secondry  py-[3px] px-[12px] cursor-pointer">
 										<Link
 											className="paragraph font-NeueMontreal text-secondry uppercase group-hover:text-background transition-all  transform duration-[0.3s] ease-[.215,.61,.355,1]"
-											href="/contact">
-											start the project
+											href="https://calendly.com/kompanykatalyst/discovery-call">
+											Let's Talk
 										</Link>
 									</div>
 									<div className="w-[33px] flex items-center justify-center h-[33px] border border-[#21212199] rounded-full p-[1px] sm:p-[30px] xm:pb-[30px]  group-hover:bg-secondry transition-all transform duration-[0.3s] ease-[.215,.61,.355,1] cursor-pointer xm:hidden sm:hidden">

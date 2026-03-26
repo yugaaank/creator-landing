@@ -4,28 +4,28 @@ import { capaybilities1, capaybilities2, capaybilities3, capaybilities4, client0
 export const navbarItems = [
    {
       id: 1,
-      title: "Services",
-      href: "/services",
+      title: "FAQ",
+      href: "#faq",
    },
    {
       id: 2,
-      title: "Our work",
-      href: "/presentation",
+      title: "Audit",
+      href: "#",
    },
    {
       id: 3,
-      title: "About us",
-      href: "/ochi-team",
+      title: "Automate",
+      href: "#",
    },
    {
       id: 4,
-      title: "Insights",
-      href: "/insights",
+      title: "Reach",
+      href: "#",
    },
    {
       id: 5,
-      title: "Contact us",
-      href: "/contact",
+      title: "Let's Talk",
+      href: "https://calendly.com/kompanykatalyst/discovery-call",
    },
 ];
 
@@ -62,50 +62,50 @@ export const footernavbarItems = [
    },
    {
       id: 2,
-      title: "Services",
-      href: "services",
+      title: "FAQ",
+      href: "#faq",
    },
    {
       id: 3,
-      title: "Our work",
-      href: "presentation",
+      title: "Audit",
+      href: "#",
    },
    {
       id: 4,
-      title: "About us",
-      href: "ochi-team",
+      title: "Automate",
+      href: "#",
    },
    {
       id: 5,
-      title: "Insights",
-      href: "insights",
+      title: "Reach",
+      href: "#",
    },
    {
       id: 6,
-      title: "Contact us",
-      href: "contact",
+      title: "Let's Talk",
+      href: "https://calendly.com/kompanykatalyst/discovery-call",
    },
 ];
 
 export const clientsItem = [
    {
       id: 1,
-      website: "Karman Ventures",
-      href: "https://www.ochi.design",
+      website: "Veterinary Practice",
+      href: "#",
       title: "Services:",
-      name: "William Barnes",
+      name: "Hagai Avisar",
       src: client01,
-      review: "They were transparent about the time and the stages of the project. The end product is high quality, and I feel confident about how they were handholding the client through the process. I feel like I can introduce them to someone who needs to put a sales deck together from scratch, and they would be able to handhold the client experience from 0 to 100 very effectively from story to design. 5/5",
+      review: "The bot handles inquiries, captures leads, and ensures that potential clients are not lost due to missed calls or delays in response. 80% Increase in Monthly Clients via AI Call Bot.",
       links: [
          {
             id: 1,
-            title: "investor deck",
-            href: "/services",
+            title: "AI Call Bot",
+            href: "#",
          },
          {
             id: 2,
-            title: "sales deck",
-            href: "/services",
+            title: "Automated Lead Capture",
+            href: "#",
          },
       ]
    },
