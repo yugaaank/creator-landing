@@ -17,7 +17,7 @@ export default function Hero() {
 					<div className="w-full flex justify-between gap-[20px] pl-[50px] md:pl-[30px] sm:pl-[20px] xm:pl-[20px]">
 						<div>
 							<h1 className="heading tracking-[-1.3px] text-[#212121] font-semibold font-FoundersGrotesk uppercase">
-								AI Automation <br />
+								Digital Marketing <br />
 								<div className="flex items-center gap-[5px]">
 									<motion.span
 										initial={{ width: 0 }}
@@ -37,7 +37,7 @@ export default function Hero() {
 										/>
 									</motion.span>
 									<h1 className="heading tracking-[-1.3px] text-[#212121] font-semibold font-FoundersGrotesk uppercase">
-										& Marketing
+										& Growth
 									</h1>
 								</div>
 								Infrastructure
@@ -63,7 +63,7 @@ export default function Hero() {
 							<div className="w-[50%] xm:w-full sm:w-full flex justify-between xm:flex-col xm:items-start sm:flex-col sm:items-start gap-[20px]">
 								<div>
 									<p className="paragraph font-NeueMontreal text-secondry">
-										From AI chatbots and workflow automation
+										From SEO to high-performance ad campaigns
 									</p>
 								</div>
 								<div className="flex items-center gap-[5px] group">

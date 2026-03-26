@@ -8,7 +8,7 @@ import { useScroll, useTransform, motion } from "framer-motion";
 
 export default function Ready() {
 	const container = useRef(null);
-	const phrase = ["Automate", "the work that", "slows Growth"];
+	const phrase = ["Accelerate", "the marketing that", "drives Growth"];
 
 	const { scrollYProgress } = useScroll({
 		target: container,

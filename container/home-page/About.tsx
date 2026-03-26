@@ -13,18 +13,18 @@ export default function About() {
 		<section className="w-full bg-about padding-y rounded-t-[20px] z-20 relative mt-[-15px]">
 			<div className="pl-[50px] sm:px-[20px] xm:px-[20px]">
 				<h2 className="sub-heading font-medium font-NeueMontreal text-secondry">
-					Katalyst is a private infrastructure designed
-					<br className="sm:hidden xm:hidden" /> to automate&nbsp;
+					Katalyst is a strategic marketing partner
+					<br className="sm:hidden xm:hidden" /> designed to scale&nbsp;
 					<span className="sub-heading font-medium font-NeueMontreal link-flash cursor-pointer">
-						most of your concerns,
+						your business,
 					</span>
 					&nbsp;handling <br className="sm:hidden xm:hidden" />
 					<span className="sub-heading font-medium font-NeueMontreal link-flash cursor-pointer">
-						complex ideas,
+						brand growth,
 					</span>
 					&nbsp;and&nbsp;
 					<span className="sub-heading font-medium font-NeueMontreal link-flash cursor-pointer">
-						manual workflows.
+						complex campaigns.
 					</span>
 				</h2>
 			</div>
@@ -39,11 +39,11 @@ export default function About() {
 						<div className="w-full flex gap-[30px] h-full items-end sm:items-start sm:flex-col xm:items-start xm:flex-col">
 							<div className="w-[40%] sm:w-[60%] xm:w-[60%]">
 								<p className="sub-paragraph font-medium font-NeueMontreal text-secondry tracking-wide">
-									Every Automation Feels Handcrafted. Because it is.
-									We analyze your workflows, bottlenecks, and manual processes to identify automation opportunities.
+									Every Campaign Feels Handcrafted. Because it is.
+									We analyze your audience, market bottlenecks, and digital presence to identify growth opportunities.
 								</p>
 								<p className="sub-paragraph font-medium font-NeueMontreal text-secondry pt-[30px] tracking-wide">
-									We build and integrate AI-driven systems that replace repetitive tasks, streamline operations, and continuously improve efficiency and results.
+									We build and integrate marketing strategies that capture leads, maximize conversions, and continuously improve ROI.
 								</p>
 							</div>
 							<div className="w-[60%] flex justify-end flex-col  sm:w-full xm:w-full">

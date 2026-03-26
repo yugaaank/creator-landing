@@ -5,7 +5,7 @@ import { LinkHover, TextMask } from "@/animation";
 import { footerItems, footernavbarItems } from "@/constants";
 
 export default function Footer() {
-	const phrase = ["Auto-", "mate"];
+	const phrase = ["Market-", "ing"];
 	const phrase1 = ["THAT GROWS"];
 	return (
 		<footer className="w-full min-h-screen padding-x z-30 relative pt-[40px] bg-background flex flex-col justify-between rounded-t-[20px] mt-[-20px]">

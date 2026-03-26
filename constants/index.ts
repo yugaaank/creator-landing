@@ -14,7 +14,7 @@ export const navbarItems = [
    },
    {
       id: 3,
-      title: "Automate",
+      title: "Optimize",
       href: "#",
    },
    {
@@ -72,7 +72,7 @@ export const footernavbarItems = [
    },
    {
       id: 4,
-      title: "Automate",
+      title: "Optimize",
       href: "#",
    },
    {
@@ -95,16 +95,16 @@ export const clientsItem = [
       title: "Services:",
       name: "Hagai Avisar",
       src: client01,
-      review: "The bot handles inquiries, captures leads, and ensures that potential clients are not lost due to missed calls or delays in response. 80% Increase in Monthly Clients via AI Call Bot.",
+      review: "Our campaigns capture leads and ensure that potential clients are consistently engaged with tailored messaging. 80% Increase in Monthly Clients via Targeted Ad Campaigns.",
       links: [
          {
             id: 1,
-            title: "AI Call Bot",
+            title: "Targeted Ads",
             href: "#",
          },
          {
             id: 2,
-            title: "Automated Lead Capture",
+            title: "Lead Generation",
             href: "#",
          },
       ]
