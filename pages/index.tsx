@@ -45,6 +45,9 @@ export default function Home() {
 		})();
 	}, []);
 
+	// Set to true to show projects, false to hide
+	const showProjects = false;
+
 	return (
 		<>
 			<Curve backgroundColor={"#FFF8F0"}>
@@ -57,46 +60,51 @@ export default function Home() {
 						/>
 					</div>
 					<About />
-					<VideoHome />
-					<Projects />
-					<Clients />
+					{showProjects && <Projects />}
+					{showProjects && <Clients />}
 				</div>
 
-				<div id="services">
-					<Heroservices />
-					<Process />
-					<Capibilyties />
-					<Clientsservices />
-					<Archive />
-					<Expectations />
-				</div>
+				{showProjects && (
+					<div id="services">
+						<Heroservices />
+						<Process />
+						<Capibilyties />
+						<Clientsservices />
+						<Archive />
+						<Expectations />
+					</div>
+				)}
 
-				<div id="work">
-					<Heropresentation />
-					<Projectspresentation />
-					<Publication />
-					<Heroworkiz />
-					<Aboutworkiz />
-					<Chelenge />
-					<VideoWorkiz />
-					<Result />
-					<Credit />
-					<Works />
-				</div>
+				{showProjects && (
+					<div id="work">
+						<Heropresentation />
+						<Projectspresentation />
+						<Publication />
+						<Heroworkiz />
+						<Aboutworkiz />
+						<Chelenge />
+						<VideoWorkiz />
+						<Result />
+						<Credit />
+						<Works />
+					</div>
+				)}
 
 				<div id="about">
-					<Heroabout />
-					<Aboutabout />
+					{showProjects && <Heroabout />}
+					{showProjects && <Aboutabout />}
 					<Team />
 					<Principles />
-					<Partners />
-					<Insights />
+					{showProjects && <Partners />}
+					{showProjects && <Insights />}
 				</div>
 
-				<div id="insights">
-					<Heroinsights />
-					<Publicationinsights />
-				</div>
+				{showProjects && (
+					<div id="insights">
+						<Heroinsights />
+						<Publicationinsights />
+					</div>
+				)}
 
 				<div id="contact">
 					<Herocontact />

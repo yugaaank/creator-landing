@@ -1,10 +1,8 @@
 "use client";
-import Image from "next/image";
 import { useState } from "react";
-import { aboutImg } from "@/public";
 import { LinkHover } from "@/animation";
 import { footerItems } from "@/constants";
-import { Heading, RoundButton } from "@/components";
+import { ApproachSVG, Heading, RoundButton } from "@/components";
 
 export default function About() {
 	const [hovered, setHovered] = useState(false);
@@ -56,7 +54,7 @@ export default function About() {
 											key={item.id}
 											className="w-fit sub-paragraph font-medium capitalize before:h-[1px] after:h-[1px] before:bottom-[1px] after:bottom-[1px]"
 											title={item.title}
-											href={"/"}
+											href={"#"}
 										/>
 									))}
 								</div>
@@ -66,32 +64,55 @@ export default function About() {
 				</div>
 			</div>
 			<div className="w-full flex justify-between padding-x sm:flex-col xm:flex-col gap-[30px]">
-				<div className="flex flex-col gap-[30px]">
-					<Heading title="Our approach:" />
-					<div
-						className="w-fit flex items-center justify-between bg-[#0C0C0C] cursor-pointer rounded-full group"
-						onMouseEnter={() => setHovered(true)}
-						onMouseLeave={() => setHovered(false)}>
-						<RoundButton
-							href="#about"
-							title="read more"
-							bgcolor="#000"
-							className="bg-white text-black"
-							style={{ color: "#fff" }}
-						/>
+				<div className="flex flex-col gap-[30px] w-[50%] sm:w-full xm:w-full">
+					<div className="flex flex-col gap-[10px]">
+						<p className="sub-paragraph font-medium font-NeueMontreal text-[#0C0C0C] opacity-50 uppercase tracking-wider">
+							Our approach
+						</p>
+						<h3 className="sub-heading font-bold font-FoundersGrotesk text-[#0C0C0C] uppercase leading-none">
+							Strategic Scaling + <br /> Market Growth
+						</h3>
+					</div>
+					<div className="flex flex-col gap-[25px] mt-[10px]">
+						<div className="flex flex-col gap-[5px]">
+							<h4 className="paragraph font-bold font-NeueMontreal text-[#0C0C0C] uppercase tracking-tight">
+								01. Operational Audit
+							</h4>
+							<p className="sub-paragraph font-medium font-NeueMontreal text-[#0C0C0C] opacity-80 max-w-[400px]">
+								Analyze your current workflows, market bottlenecks, and digital presence to identify hidden opportunities.
+							</p>
+						</div>
+						<div className="flex flex-col gap-[5px]">
+							<h4 className="paragraph font-bold font-NeueMontreal text-[#0C0C0C] uppercase tracking-tight">
+								02. Growth Infrastructure
+							</h4>
+							<p className="sub-paragraph font-medium font-NeueMontreal text-[#0C0C0C] opacity-80 max-w-[400px]">
+								Build the foundational systems required to capture high-quality leads and maximize customer engagement.
+							</p>
+						</div>
+						<div className="flex flex-col gap-[5px]">
+							<h4 className="paragraph font-bold font-NeueMontreal text-[#0C0C0C] uppercase tracking-tight">
+								03. Ecosystem Integration
+							</h4>
+							<p className="sub-paragraph font-medium font-NeueMontreal text-[#0C0C0C] opacity-80 max-w-[400px]">
+								Seamlessly connect your CRM, outreach channels, and performance tracking into a unified ecosystem.
+							</p>
+						</div>
+						<div className="flex flex-col gap-[5px]">
+							<h4 className="paragraph font-bold font-NeueMontreal text-[#0C0C0C] uppercase tracking-tight">
+								04. Scalable Impact
+							</h4>
+							<p className="sub-paragraph font-medium font-NeueMontreal text-[#0C0C0C] opacity-80 max-w-[400px]">
+								Deliver sustainable growth through data-driven marketing strategies that evolve with your business.
+							</p>
+						</div>
 					</div>
 				</div>
 				<div
-					className={`w-[50%] sm:w-full xm:w-full transition transform duration-[1.5s] ease-[.215,.61,.355,1] rounded-[15px] overflow-hidden ${
-						hovered && "scale-[0.96]"
-					}`}>
-					<Image
-						src={aboutImg}
-						alt="about-img"
-						className={`w-full h-full transition transform duration-[2s] ease-[.215,.61,.355,1] ${
-							hovered && "scale-[1.09]"
-						}`}
-					/>
+					className="w-[50%] sm:w-full xm:w-full min-h-[500px]"
+					onMouseEnter={() => setHovered(true)}
+					onMouseLeave={() => setHovered(false)}>
+					<ApproachSVG />
 				</div>
 			</div>
 		</section>

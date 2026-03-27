@@ -2,26 +2,26 @@ import { capaybilities1, capaybilities2, capaybilities3, capaybilities4, client0
 
 // Navbar
 export const navbarItems = [
-   {
-      id: 1,
-      title: "Services",
-      href: "#services",
-   },
-   {
-      id: 2,
-      title: "Our Work",
-      href: "#work",
-   },
+   // {
+   //    id: 1,
+   //    title: "Services",
+   //    href: "#services",
+   // },
+   // {
+   //    id: 2,
+   //    title: "Our Work",
+   //    href: "#work",
+   // },
    {
       id: 3,
       title: "About Us",
       href: "#about",
    },
-   {
-      id: 4,
-      title: "Insights",
-      href: "#insights",
-   },
+   // {
+   //    id: 4,
+   //    title: "Insights",
+   //    href: "#insights",
+   // },
    {
       id: 5,
       title: "Contact Us",
@@ -60,26 +60,26 @@ export const footernavbarItems = [
       title: "Home",
       href: "#home",
    },
-   {
-      id: 2,
-      title: "Services",
-      href: "#services",
-   },
-   {
-      id: 3,
-      title: "Our Work",
-      href: "#work",
-   },
+   // {
+   //    id: 2,
+   //    title: "Services",
+   //    href: "#services",
+   // },
+   // {
+   //    id: 3,
+   //    title: "Our Work",
+   //    href: "#work",
+   // },
    {
       id: 4,
       title: "About Us",
       href: "#about",
    },
-   {
-      id: 5,
-      title: "Insights",
-      href: "#insights",
-   },
+   // {
+   //    id: 5,
+   //    title: "Insights",
+   //    href: "#insights",
+   // },
    {
       id: 6,
       title: "Contact Us",
