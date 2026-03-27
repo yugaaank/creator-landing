@@ -3,14 +3,14 @@ import { principles1, principles2 } from "@/public";
 
 export default function Principles() {
 	return (
-		<section className="w-full padding-y rounded-t-[20px] bg-background">
+		<section className="w-full padding-y rounded-t-[20px] bg-[#FFF8F0]">
 			<div>
-				<h1 className="sub-heading padding-x font-medium font-NeueMontreal text-secondry mb-[50px]">
+				<h1 className="sub-heading padding-x font-medium font-NeueMontreal text-[#0C0C0C] mb-[50px]">
 					Two principles we stand behind in
 					<br className="sm:hidden xm:hidden" /> every part of our work:
 				</h1>
 			</div>
-			<div className="w-full border-t border-[#21212155]">
+			<div className="w-full border-t border-[#4B2E2B55]">
 				<div className="w-full padding-x mt-[50px] flex justify-between gap-[30px] items-center sm:flex-col xm:flex-col">
 					<div className="w-[50%] sm:w-full xm:w-full flex flex-col gap-[20px]">
 						<Image
@@ -19,7 +19,7 @@ export default function Principles() {
 							className="w-full rounded-[15px]"
 						/>
 						<div className="flex flex-col gap-[20px]">
-							<p className="paragraph font-NeueMontreal text-secondry">
+							<p className="paragraph font-NeueMontreal text-[#0C0C0C]">
 								Whether the campaign needs to convince or <br />
 								educate it always has to change audience
 								<br /> perception. We seek insights to make funnels
@@ -34,7 +34,7 @@ export default function Principles() {
 							className="w-full rounded-[15px]"
 						/>
 						<div className="flex flex-col gap-[20px]">
-							<p className="paragraph font-NeueMontreal text-secondry">
+							<p className="paragraph font-NeueMontreal text-[#0C0C0C]">
 								The campaign helps to see what&apos;s hidden,
 								<br /> unseen, or simply never known before. We use <br />
 								design to drive their attention, focus them to <br />

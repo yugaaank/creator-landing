@@ -15,19 +15,19 @@ export default function Chelenge() {
 	return (
 		<section className="w-full pb-[100px] lg:pb-[80px] md:pb-[60px] sm:pb-[40px] xm:pb-[40px]">
 			<div className="w-full flex flex-col">
-				<h2 className="sub-heading padding-x font-medium font-NeueMontreal text-secondry border-b pb-[50px] border-[#21212155]">
+				<h2 className="sub-heading padding-x font-medium font-NeueMontreal text-[#0C0C0C] border-b pb-[50px] border-[#4B2E2B55]">
 					Challenge & Solution
 				</h2>
-				<div className="w-full border-t border-[#21212155] pt-[20px]">
+				<div className="w-full border-t border-[#4B2E2B55] pt-[20px]">
 					<div className="w-full flex sm:flex-col xm:flex-col justify-between gap-y-[15px] padding-x">
 						<div className="w-1/2 sm:w-full xm:w-full">
-							<h3 className="paragraph font-medium text-secondry font-NeueMontreal">
+							<h3 className="paragraph font-medium text-[#0C0C0C] font-NeueMontreal">
 								Services we provided:
 							</h3>
 						</div>
 						<div className="w-1/2 sm:w-full xm:w-full">
 							<div className="flex flex-col gap-y-[20px]">
-								<p className="paragraph font-NeueMontreal text-secondry">
+								<p className="paragraph font-NeueMontreal text-[#0C0C0C]">
 									The goal was to build straightforward, <br /> professional,
 									but emotional campaigns
 									<br /> that are delivered to colleagues and

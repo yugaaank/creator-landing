@@ -8,9 +8,9 @@ export default function Capibilyties() {
 	const [hovered, setHovered] = useState(false);
 	const [hovered1, setHovered1] = useState(false);
 	return (
-		<div className="w-full bg-about padding-y rounded-t-[20px]">
+		<div className="w-full bg-[#F2613F] padding-y rounded-t-[20px]">
 			<div className="w-[82%] sm:w-full xm:w-full padding-x mb-[70px]">
-				<h1 className="sub-heading font-medium font-NeueMontreal text-secondry">
+				<h1 className="sub-heading font-medium font-NeueMontreal text-[#0C0C0C]">
 					<span className="xl:link-flash lg:link-flash md:link-flash cursor-pointer">
 						Let’s be honest.
 					</span>
@@ -23,9 +23,9 @@ export default function Capibilyties() {
 					</span>
 				</h1>
 			</div>
-			<div className="w-full flex sm:flex-col xm:flex-col justify-between py-[20px] padding-x border-t border-[#21212155] sm:gap-[15px] xm:gap-[15px]">
+			<div className="w-full flex sm:flex-col xm:flex-col justify-between py-[20px] padding-x border-t border-[#4B2E2B55] sm:gap-[15px] xm:gap-[15px]">
 				<div className="w-[10%] sm:w-full xm:w-full">
-					<h3 className="paragraph font-medium text-secondry font-NeueMontreal">
+					<h3 className="paragraph font-medium text-[#0C0C0C] font-NeueMontreal">
 						Our Capabilities:
 					</h3>
 				</div>
@@ -59,8 +59,8 @@ export default function Capibilyties() {
 							<div className="w-[25%] sm:w-full xm:w-full">
 								<div className="flex gap-x-[10px] flex-col">
 									<div className="flex items-center gap-x-[10px] pb-[20px]">
-										<span className="w-[12px] h-[12px] rounded-full bg-secondry" />
-										<h1 className="paragraph uppercase font-medium font-NeueMontreal text-secondry">
+										<span className="w-[12px] h-[12px] rounded-full bg-[#0C0C0C]" />
+										<h1 className="paragraph uppercase font-medium font-NeueMontreal text-[#0C0C0C]">
 											{item.title1}
 										</h1>
 									</div>
@@ -81,8 +81,8 @@ export default function Capibilyties() {
 							<div className="w-[25%] sm:w-full xm:w-full">
 								<div className="flex gap-x-[10px] flex-col">
 									<div className="flex items-center gap-x-[10px] pb-[20px]">
-										<span className="w-[12px] h-[12px] rounded-full bg-secondry" />
-										<h1 className="paragraph uppercase font-medium font-NeueMontreal text-secondry">
+										<span className="w-[12px] h-[12px] rounded-full bg-[#0C0C0C]" />
+										<h1 className="paragraph uppercase font-medium font-NeueMontreal text-[#0C0C0C]">
 											{item.title2}
 										</h1>
 									</div>

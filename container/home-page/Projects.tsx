@@ -6,7 +6,7 @@ export default function Projects() {
 		<section className="w-full rounded-t-[20px]">
 			<Heading
 				title="Client Results"
-				className="padding-x padding-y pb-[50px] border-b border-[#21212155]"
+				className="padding-x padding-y pb-[50px] border-b border-[#4B2E2B55]"
 			/>
 			<div className="w-full flex justify-between gap-y-[50px] padding-x padding-y flex-wrap">
 				{projectItem.map((item) => (
@@ -14,8 +14,8 @@ export default function Projects() {
 						className="w-[49%] sm:w-full xm:w-full"
 						key={item.id}>
 						<div className="flex gap-[10px] items-center pb-[10px]">
-							<span className="w-[10px] h-[10px] rounded-full bg-secondry" />
-							<h1 className="small-text uppercase font-medium font-NeueMontreal text-secondry">
+							<span className="w-[10px] h-[10px] rounded-full bg-[#0C0C0C]" />
+							<h1 className="small-text uppercase font-medium font-NeueMontreal text-[#0C0C0C]">
 								{item.title}
 							</h1>
 						</div>
@@ -27,7 +27,7 @@ export default function Projects() {
 							{item.links.map((link) => (
 								<Tags
 									className="hover:text-white"
-									bgcolor="#212121"
+									bgcolor="#0C0C0C"
 									item={link}
 									key={link.id}
 								/>
@@ -37,7 +37,7 @@ export default function Projects() {
 				))}
 			</div>
 			<div className="w-full flex justify-center">
-				<div className="flex items-center justify-between bg-secondry cursor-pointer rounded-full group">
+				<div className="flex items-center justify-between bg-[#0C0C0C] cursor-pointer rounded-full group">
 					<RoundButton
 						href="/presentation"
 						title="view all results"

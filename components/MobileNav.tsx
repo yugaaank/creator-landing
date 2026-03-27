@@ -33,8 +33,8 @@ export default function MobileNav() {
 						animate={{ y: 0 }}
 						exit={{ y: "-100%" }}
 						transition={{ duration: 1, ease: [0.3, 0.86, 0.36, 0.95] }}
-						className="fixed top-0 bottom-0 right-0 z-50 w-full min-h-screen flex justify-end items-end flex-col bg-secondry">
-						<div className="w-full flex justify-between items-center h-[8vh] border-b border-[#f1f1f155] padding-x">
+						className="fixed top-0 bottom-0 right-0 z-50 w-full min-h-screen flex justify-end items-end flex-col bg-[#0C0C0C]">
+						<div className="w-full flex justify-between items-center h-[8vh] border-b border-[#FFF8F055] padding-x">
 							<Link href={"/"}>
 								<Image
 									src={mobileLogo}
@@ -45,7 +45,7 @@ export default function MobileNav() {
 							</Link>
 							<IoMdClose
 								onClick={() => setToggle(false)}
-								className="text-3xl cursor-pointer text-background"
+								className="text-3xl cursor-pointer text-[#FFF8F0]"
 							/>
 						</div>
 						<ul className="h-full w-full flex justify-center text-left flex-col gap-[10px] padding-x">
@@ -54,7 +54,7 @@ export default function MobileNav() {
 									href={item.href}
 									key={item.id}
 									onClick={(toggle) => setToggle(!toggle)}
-									className="text-[80px] leading-[67px] font-FoundersGrotesk uppercase font-bold tracking-[-.9] text-background">
+									className="text-[80px] leading-[67px] font-FoundersGrotesk uppercase font-bold tracking-[-.9] text-[#FFF8F0]">
 									{item.title}
 								</Link>
 							))}

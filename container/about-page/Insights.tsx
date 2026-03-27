@@ -4,18 +4,18 @@ import { latestItemss } from "@/constants";
 
 export default function Insights() {
 	return (
-		<section className="w-full pb-[100px] lg:pb-[80px] md:pb-[60px] sm:pb-[40px] xm:pb-[40px] bg-background">
+		<section className="w-full pb-[100px] lg:pb-[80px] md:pb-[60px] sm:pb-[40px] xm:pb-[40px] bg-[#FFF8F0]">
 			<div className="w-full flex flex-col justify-between">
 				<div className="w-full flex flex-col">
 					<div className="padding-x pb-[30px]">
-						<h2 className="sub-heading font-normal tracking-[-1.3px] text-[#212121] font-NeueMontreal">
+						<h2 className="sub-heading font-normal tracking-[-1.3px] text-[#0C0C0C] font-NeueMontreal">
 							Insights
 						</h2>
 					</div>
-					<div className="w-full border-t border-[#21212155] pt-[20px]">
+					<div className="w-full border-t border-[#4B2E2B55] pt-[20px]">
 						<div className="w-full flex sm:flex-col xm:flex-col sm:gap-[20px] xm:gap-[20px] padding-x">
 							<div className="w-[50%] sm:w-full xm:w-full sm:flex-col xm:flex-col">
-								<h3 className="text-[20px] leading-[30px] font-medium text-secondry font-NeueMontreal">
+								<h3 className="text-[20px] leading-[30px] font-medium text-[#0C0C0C] font-NeueMontreal">
 									Latest publication:
 								</h3>
 							</div>
@@ -41,9 +41,9 @@ export default function Insights() {
 													<div
 														className="transform translate-y-[-200%] group-hover:translate-y-0 transition-all duration-300 ease-in-out"
 														key={link.id}>
-														<div className="rounded-[50px] border border-about  py-[2px] px-[15px] cursor-pointer">
+														<div className="rounded-[50px] border border-[#F2613F]  py-[2px] px-[15px] cursor-pointer">
 															<Link
-																className="text-[18px] leading-[22px] font-NeueMontreal text-about uppercase"
+																className="text-[18px] leading-[22px] font-NeueMontreal text-[#F2613F] uppercase"
 																href={"/"}>
 																{link.title}
 															</Link>
@@ -52,7 +52,7 @@ export default function Insights() {
 												))}
 											</div>
 											<div className="flex flex-col gap-[7px]">
-												<h3 className="text-[20px] leading-[30px] font-NeueMontreal font-normal text-secondry">
+												<h3 className="text-[20px] leading-[30px] font-NeueMontreal font-normal text-[#0C0C0C]">
 													Presenting to an International Audience: <br /> Tips
 													and Lessons Learned.
 												</h3>

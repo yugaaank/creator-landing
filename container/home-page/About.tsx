@@ -10,9 +10,9 @@ export default function About() {
 	const [hovered, setHovered] = useState(false);
 
 	return (
-		<section className="w-full bg-about padding-y rounded-t-[20px] z-20 relative mt-[-15px]">
+		<section className="w-full bg-[#F2613F] padding-y rounded-t-[20px] z-20 relative mt-[-15px]">
 			<div className="pl-[50px] sm:px-[20px] xm:px-[20px]">
-				<h2 className="sub-heading font-medium font-NeueMontreal text-secondry">
+				<h2 className="sub-heading font-medium font-NeueMontreal text-[#0C0C0C]">
 					Katalyst is a strategic marketing partner
 					<br className="sm:hidden xm:hidden" /> designed to scale&nbsp;
 					<span className="sub-heading font-medium font-NeueMontreal link-flash cursor-pointer">
@@ -28,26 +28,26 @@ export default function About() {
 					</span>
 				</h2>
 			</div>
-			<div className="w-full border-y border-[#21212155] my-[50px] py-[20px]">
+			<div className="w-full border-y border-[#4B2E2B55] my-[50px] py-[20px]">
 				<div className="padding-x pb-[50px] w-full flex sm:flex-col xm:flex-col gap-[30px] justify-between">
 					<div className="w-[50%] sm:w-full xm:w-full">
-						<h3 className="sub-paragraph font-medium text-secondry font-NeueMontreal">
+						<h3 className="sub-paragraph font-medium text-[#0C0C0C] font-NeueMontreal">
 							What you can expect?
 						</h3>
 					</div>
 					<div className="w-[50%] sm:w-full xm:w-full">
 						<div className="w-full flex gap-[30px] h-full items-end sm:items-start sm:flex-col xm:items-start xm:flex-col">
 							<div className="w-[40%] sm:w-[60%] xm:w-[60%]">
-								<p className="sub-paragraph font-medium font-NeueMontreal text-secondry tracking-wide">
+								<p className="sub-paragraph font-medium font-NeueMontreal text-[#0C0C0C] tracking-wide">
 									Every Campaign Feels Handcrafted. Because it is.
 									We analyze your audience, market bottlenecks, and digital presence to identify growth opportunities.
 								</p>
-								<p className="sub-paragraph font-medium font-NeueMontreal text-secondry pt-[30px] tracking-wide">
+								<p className="sub-paragraph font-medium font-NeueMontreal text-[#0C0C0C] pt-[30px] tracking-wide">
 									We build and integrate marketing strategies that capture leads, maximize conversions, and continuously improve ROI.
 								</p>
 							</div>
 							<div className="w-[60%] flex justify-end flex-col  sm:w-full xm:w-full">
-								<h1 className="sub-paragraph font-medium font-NeueMontreal text-secondry pb-[20px]">
+								<h1 className="sub-paragraph font-medium font-NeueMontreal text-[#0C0C0C] pb-[20px]">
 									S:
 								</h1>
 								<div className="flex flex-col">
@@ -69,7 +69,7 @@ export default function About() {
 				<div className="flex flex-col gap-[30px]">
 					<Heading title="Our approach:" />
 					<div
-						className="w-fit flex items-center justify-between bg-secondry cursor-pointer rounded-full group"
+						className="w-fit flex items-center justify-between bg-[#0C0C0C] cursor-pointer rounded-full group"
 						onMouseEnter={() => setHovered(true)}
 						onMouseLeave={() => setHovered(false)}>
 						<RoundButton

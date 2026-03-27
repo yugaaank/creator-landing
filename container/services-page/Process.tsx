@@ -14,7 +14,7 @@ export default function Process() {
 	return (
 		<section className="w-full padding-y">
 			<div className="w-full padding-x mb-[40px]">
-				<h1 className="sub-heading font-medium font-NeueMontreal text-secondry">
+				<h1 className="sub-heading font-medium font-NeueMontreal text-[#0C0C0C]">
 					Holistic process
 				</h1>
 			</div>
@@ -23,17 +23,17 @@ export default function Process() {
 					key={item.id}
 					className={`w-full flex py-[10px] flex-col ${
 						item.id == 1
-							? "border-y border-[#21212155]"
-							: "border-b border-[#21212155]"
+							? "border-y border-[#4B2E2B55]"
+							: "border-b border-[#4B2E2B55]"
 					}`}>
 					<div className="w-full flex items-center justify-between py-[10px] padding-x">
 						<div className="w-[50%] sm:w-full xm:w-full">
-							<h3 className="paragraph font-normal font-NeueMontreal text-secondry">
+							<h3 className="paragraph font-normal font-NeueMontreal text-[#0C0C0C]">
 								{item.phase}
 							</h3>
 						</div>
 						<div className="w-[40%] sm:w-full xm:w-full">
-							<h3 className="paragraph font-normal font-NeueMontreal text-secondry">
+							<h3 className="paragraph font-normal font-NeueMontreal text-[#0C0C0C]">
 								{item.name}
 							</h3>
 						</div>
@@ -42,7 +42,7 @@ export default function Process() {
 								className={`paragraph font-normal font-NeueMontreal uppercase transition-all duration-200 ease-in-out ${
 									activeAccordion === item.id
 										? "text-gray-300"
-										: "text-secondry link-flash"
+										: "text-[#0C0C0C] link-flash"
 								}`}
 								onClick={() => toggleAccordion(item.id)}>
 								{item.button}
@@ -72,7 +72,7 @@ export default function Process() {
 												/>
 											</div>
 											<div>
-												<p className="paragraph tracking-wider font-normal font-NeueMontreal text-secondry">
+												<p className="paragraph tracking-wider font-normal font-NeueMontreal text-[#0C0C0C]">
 													{item.review}
 												</p>
 											</div>

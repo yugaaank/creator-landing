@@ -16,7 +16,7 @@ export default function Campaign() {
 	}, []);
 	return (
 		<>
-			<Curve backgroundColor={"#f1f1f1"}>
+			<Curve backgroundColor={"#FFF8F0"}>
 				<Heropresentation />
 				<Projectspresentation />
 				<Publication />

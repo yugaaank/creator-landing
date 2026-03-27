@@ -7,16 +7,16 @@ export default function Ratings() {
 	return (
 		<div className="w-full flex justify-between sm:flex-col xm:flex-col gap-[20px]">
 			<div className="w-[49.5%] sm:w-full xm:w-full justify-between h-[60vh] sm:h-[50vh] xm:h-[50vh] gap-[10px]">
-				<div className="w-full h-full flex items-center justify-center rounded-[10px] bg-marquee relative">
+				<div className="w-full h-full flex items-center justify-center rounded-[10px] bg-[#481E14] relative">
 					<Image
 						src={brand01}
 						alt="brandImg"
 						width={150}
 						height={150}
 					/>
-					<div className="absolute bottom-[35px] left-[25px] flex items-center justify-center border border-about px-[12px] py-[8px] cursor-pointer rounded-full">
+					<div className="absolute bottom-[35px] left-[25px] flex items-center justify-center border border-[#F2613F] px-[12px] py-[8px] cursor-pointer rounded-full">
 						<Link
-							className="xl:text-[18px] xl:leading-[18px] text-[14px] leading-[14px] text-about uppercase font-normal font-NeueMontreal tracking-wider"
+							className="xl:text-[18px] xl:leading-[18px] text-[14px] leading-[14px] text-[#F2613F] uppercase font-normal font-NeueMontreal tracking-wider"
 							href={"/"}>
 							&copy;2019 - 2024
 						</Link>
@@ -24,7 +24,7 @@ export default function Ratings() {
 				</div>
 			</div>
 			<div className="w-[50%] sm:w-full xm:w-full sm:flex-col xm:flex-col flex gap-[15px]">
-				<div className="w-full flex items-center justify-center rounded-[10px] bg-secondry relative h-[60vh] sm:h-[50vh] xm:h-[50vh]">
+				<div className="w-full flex items-center justify-center rounded-[10px] bg-[#0C0C0C] relative h-[60vh] sm:h-[50vh] xm:h-[50vh]">
 					<Image
 						src={brand02}
 						alt="brandImg"
@@ -45,7 +45,7 @@ export default function Ratings() {
 						</Link>
 					</div>
 				</div>
-				<div className="w-full flex items-center justify-center rounded-[10px] bg-secondry relative h-[60vh] sm:h-[50vh] xm:h-[50vh]">
+				<div className="w-full flex items-center justify-center rounded-[10px] bg-[#0C0C0C] relative h-[60vh] sm:h-[50vh] xm:h-[50vh]">
 					<Image
 						src={brand03}
 						alt="brandImg"

@@ -32,15 +32,15 @@ export default function Hero() {
 				<div className="w-full flex flex-col">
 					<div className="w-full margin padding-x">
 						<div>
-							<h1 className="heading tracking-[-1.3px] text-[#212121] font-semibold font-FoundersGrotesk uppercase">
+							<h1 className="heading tracking-[-1.3px] text-[#0C0C0C] font-semibold font-FoundersGrotesk uppercase">
 								INSIGHTS
 							</h1>
 						</div>
 					</div>
-					<div className="w-full border-t border-[#21212155] pt-[20px]">
+					<div className="w-full border-t border-[#4B2E2B55] pt-[20px]">
 						<div className="w-full flex justify-between padding-x sm:flex-col xm:flex-col gap-[20px]">
 							<div className="w-[50%] sm:w-full xm:w-full">
-								<h3 className="paragraph font-medium text-secondry font-NeueMontreal">
+								<h3 className="paragraph font-medium text-[#0C0C0C] font-NeueMontreal">
 									Latest insights:
 								</h3>
 							</div>
@@ -49,7 +49,7 @@ export default function Hero() {
 									<div key={i}>
 										{item.id === 1 ? (
 											<div
-												className="w-fit rounded-[50px] border border-[#21212199] cursor-pointer bg-black"
+												className="w-fit rounded-[50px] border border-[#8C5A3C99] cursor-pointer bg-black"
 												key={item.id}>
 												<Link
 													className="small-text font-NeueMontreal uppercase text-white"
@@ -61,7 +61,7 @@ export default function Hero() {
 											</div>
 										) : (
 											<Tags
-												bgcolor="#212121"
+												bgcolor="#0C0C0C"
 												item={item}
 												className="hover:text-white"
 											/>
@@ -90,9 +90,9 @@ export default function Hero() {
 												<div
 													className="transform translate-y-[-200%] group-hover:translate-y-0 transition-all duration-300 ease-in-out"
 													key={link.id}>
-													<div className="rounded-[50px] border border-secondry py-[3px] px-[15px] cursor-pointer">
+													<div className="rounded-[50px] border border-[#0C0C0C] py-[3px] px-[15px] cursor-pointer">
 														<Link
-															className="small-text font-NeueMontreal text-secondry uppercase"
+															className="small-text font-NeueMontreal text-[#0C0C0C] uppercase"
 															href={"/"}>
 															{link.title}
 														</Link>
@@ -101,7 +101,7 @@ export default function Hero() {
 											))}
 										</div>
 										<div className="flex flex-col gap-[7px] mt-[10px]">
-											<h3 className="paragraph font-NeueMontreal font-normal text-secondry">
+											<h3 className="paragraph font-NeueMontreal font-normal text-[#0C0C0C]">
 												Presenting to an International Audience: <br /> Tips and
 												Lessons Learned.
 											</h3>

@@ -9,7 +9,7 @@ export default function Projects() {
 		<div
 			className="w-full"
 			ref={container}>
-			<div className="w-full flex flex-col items-center justify-center bg-about">
+			<div className="w-full flex flex-col items-center justify-center bg-[#F2613F]">
 				<div
 					data-scroll
 					data-scroll-speed="-.2"
@@ -21,9 +21,9 @@ export default function Projects() {
 					data-scroll-speed="-.1"
 				/>
 			</div>
-			<section className="w-full relative z-30 padding-y rounded-t-[20px] bg-background">
+			<section className="w-full relative z-30 padding-y rounded-t-[20px] bg-[#FFF8F0]">
 				<div>
-					<h2 className="sub-heading font-normal padding-x font-NeueMontreal text-secondry">
+					<h2 className="sub-heading font-normal padding-x font-NeueMontreal text-[#0C0C0C]">
 						Purpose driven, strategy-led campaigns
 						<br className="sm:hidden xm:hidden" />
 						that people care about.
@@ -35,8 +35,8 @@ export default function Projects() {
 							className="w-[49%] sm:w-full xm:w-full"
 							key={item.id}>
 							<div className="flex gap-x-[10px] items-center pb-[10px]">
-								<span className="w-[10px] h-[10px] rounded-full bg-secondry" />
-								<h1 className="small-text uppercase font-medium font-NeueMontreal text-secondry">
+								<span className="w-[10px] h-[10px] rounded-full bg-[#0C0C0C]" />
+								<h1 className="small-text uppercase font-medium font-NeueMontreal text-[#0C0C0C]">
 									{item.title}
 								</h1>
 							</div>
@@ -47,7 +47,7 @@ export default function Projects() {
 							<div className="flex flex-wrap items-center gap-[10px] mt-[20px]">
 								{item.links.map((link) => (
 									<Tags
-										bgcolor="#212121"
+										bgcolor="#0C0C0C"
 										item={link}
 										key={link.id}
 										className="hover:text-white"

@@ -2,7 +2,7 @@ import Image, { StaticImageData } from "next/image";
 
 export default function BackgroundImg({ src }: { src: StaticImageData }) {
 	return (
-		<div className="w-full relative overflow-hidden rounded-[20px] bg-background">
+		<div className="w-full relative overflow-hidden rounded-[20px] bg-[#FFF8F0]">
 			<div
 				className="w-full"
 				data-scroll

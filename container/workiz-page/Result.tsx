@@ -2,22 +2,22 @@ export default function Result() {
 	return (
 		<section className="w-full padding-y">
 			<div className="w-full flex flex-col">
-				<h1 className="sub-heading padding-x font-medium font-NeueMontreal text-secondry pb-[50px]">
+				<h1 className="sub-heading padding-x font-medium font-NeueMontreal text-[#0C0C0C] pb-[50px]">
 					The Result
 				</h1>
-				<div className="w-full border-t border-[#21212155] pt-[20px]">
+				<div className="w-full border-t border-[#4B2E2B55] pt-[20px]">
 					<div className="w-full flex sm:flex-col xm:flex-col justify-between gap-y-[20px] padding-x">
 						<div className="w-1/2 sm:w-full xm:w-full">
-							<h3 className="paragraph font-medium text-secondry font-NeueMontreal">
+							<h3 className="paragraph font-medium text-[#0C0C0C] font-NeueMontreal">
 								Project Outcomes:
 							</h3>
 						</div>
 						<div className="w-1/2 sm:w-full xm:w-full flex sm:flex-col xm:flex-col gap-[20px]">
 							<div className="flex flex-col gap-y-[10px] sm:w-full xm:w-full">
-								<p className="paragraph font-NeueMontreal text-secondry underline">
+								<p className="paragraph font-NeueMontreal text-[#0C0C0C] underline">
 									Feedback
 								</p>
-								<p className="paragraph font-NeueMontreal text-secondry">
+								<p className="paragraph font-NeueMontreal text-[#0C0C0C]">
 									“KATALYST brought certain level of
 									<br className="sm:hidden xm:hidden" /> professionalism into
 									our campaigns that
@@ -39,10 +39,10 @@ export default function Result() {
 								</p>
 							</div>
 							<div className="flex flex-col gap-y-[10px] sm:w-full xm:w-full">
-								<p className="paragraph font-NeueMontreal text-secondry underline">
+								<p className="paragraph font-NeueMontreal text-[#0C0C0C] underline">
 									The Result
 								</p>
-								<p className="paragraph font-NeueMontreal text-secondry">
+								<p className="paragraph font-NeueMontreal text-[#0C0C0C]">
 									We’ve created 10 campaigns for Workiz
 									<br className="sm:hidden xm:hidden" /> company which improved
 									the on-boarding <br className="sm:hidden xm:hidden" />

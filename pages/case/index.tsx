@@ -20,7 +20,7 @@ export default function Work() {
 	}, []);
 	return (
 		<>
-			<Curve backgroundColor="#f1f1f1">
+			<Curve backgroundColor="#FFF8F0">
 				<Heroworkiz />
 				<Aboutworkiz />
 				<Chelenge />

@@ -19,7 +19,7 @@ export default function About() {
 	}, []);
 	return (
 		<>
-			<Curve backgroundColor={"#f1f1f1"}>
+			<Curve backgroundColor={"#FFF8F0"}>
 				<Heroabout />
 				<Aboutabout />
 				<Team />

@@ -7,26 +7,26 @@ import { katalystSide } from "@/public";
 
 export default function Hero() {
 	const stickers = [
-		{ id: 1, Icon: TrendingUp, top: "18%", right: "15%", color: "#212121", bg: "#CDEA68", rotate: 12, delay: 0.1 },
-		{ id: 2, Icon: Target, top: "45%", right: "8%", color: "#f1f1f1", bg: "#212121", rotate: -15, delay: 0.2 },
-		{ id: 3, Icon: Rocket, bottom: "30%", left: "5%", color: "#212121", bg: "#CDEA68", rotate: 25, delay: 0.3 },
-		{ id: 4, Icon: Megaphone, bottom: "25%", right: "25%", color: "#f1f1f1", bg: "#212121", rotate: -10, delay: 0.4 },
-		{ id: 5, Icon: Zap, top: "12%", left: "10%", color: "#212121", bg: "#CDEA68", rotate: -20, delay: 0.5 },
-		{ id: 6, Icon: Sparkles, top: "8%", left: "45%", color: "#f1f1f1", bg: "#212121", rotate: 15, delay: 0.6 },
-		{ id: 7, Icon: BarChart, top: "12%", right: "35%", color: "#212121", bg: "#CDEA68", rotate: -5, delay: 0.7 },
-		{ id: 8, Icon: Lightbulb, bottom: "15%", left: "20%", color: "#f1f1f1", bg: "#212121", rotate: 30, delay: 0.8 },
-		{ id: 9, Icon: Award, bottom: "45%", right: "22%", color: "#212121", bg: "#CDEA68", rotate: -25, delay: 0.9 },
-		{ id: 10, Icon: Activity, bottom: "18%", right: "8%", color: "#f1f1f1", bg: "#212121", rotate: 10, delay: 1.0 },
-		{ id: 11, Icon: CheckCircle, top: "5%", left: "3%", color: "#212121", bg: "#CDEA68", rotate: -5, delay: 1.1 },
-		{ id: 12, Icon: ThumbsUp, top: "5%", right: "5%", color: "#f1f1f1", bg: "#212121", rotate: 20, delay: 1.2 },
-		{ id: 13, Icon: Star, top: "6%", left: "30%", color: "#212121", bg: "#CDEA68", rotate: -15, delay: 1.3 },
-		{ id: 14, Icon: Heart, top: "30%", right: "40%", color: "#f1f1f1", bg: "#212121", rotate: 10, delay: 1.4 },
-		{ id: 15, Icon: Smile, top: "50%", left: "2%", color: "#212121", bg: "#CDEA68", rotate: 5, delay: 1.5 },
-		{ id: 16, Icon: Compass, top: "65%", right: "2%", color: "#f1f1f1", bg: "#212121", rotate: -25, delay: 1.6 },
-		{ id: 17, Icon: Coffee, bottom: "5%", left: "10%", color: "#212121", bg: "#CDEA68", rotate: 18, delay: 1.7 },
-		{ id: 18, Icon: CloudLightning, bottom: "10%", right: "45%", color: "#f1f1f1", bg: "#212121", rotate: -12, delay: 1.8 },
-		{ id: 19, Icon: Globe, top: "70%", left: "50%", color: "#212121", bg: "#CDEA68", rotate: 22, delay: 1.9 },
-		{ id: 20, Icon: Sun, bottom: "35%", right: "35%", color: "#f1f1f1", bg: "#212121", rotate: -8, delay: 2.0 },
+		{ id: 1, Icon: TrendingUp, top: "18%", right: "15%", color: "#0C0C0C", bg: "#F2613F", rotate: 12, delay: 0.1 },
+		{ id: 2, Icon: Target, top: "45%", right: "8%", color: "#FFF8F0", bg: "#0C0C0C", rotate: -15, delay: 0.2 },
+		{ id: 3, Icon: Rocket, bottom: "30%", left: "5%", color: "#0C0C0C", bg: "#F2613F", rotate: 25, delay: 0.3 },
+		{ id: 4, Icon: Megaphone, bottom: "25%", right: "25%", color: "#FFF8F0", bg: "#0C0C0C", rotate: -10, delay: 0.4 },
+		{ id: 5, Icon: Zap, top: "12%", left: "10%", color: "#0C0C0C", bg: "#F2613F", rotate: -20, delay: 0.5 },
+		{ id: 6, Icon: Sparkles, top: "8%", left: "45%", color: "#FFF8F0", bg: "#0C0C0C", rotate: 15, delay: 0.6 },
+		{ id: 7, Icon: BarChart, top: "12%", right: "35%", color: "#0C0C0C", bg: "#F2613F", rotate: -5, delay: 0.7 },
+		{ id: 8, Icon: Lightbulb, bottom: "15%", left: "20%", color: "#FFF8F0", bg: "#0C0C0C", rotate: 30, delay: 0.8 },
+		{ id: 9, Icon: Award, bottom: "45%", right: "22%", color: "#0C0C0C", bg: "#F2613F", rotate: -25, delay: 0.9 },
+		{ id: 10, Icon: Activity, bottom: "18%", right: "8%", color: "#FFF8F0", bg: "#0C0C0C", rotate: 10, delay: 1.0 },
+		{ id: 11, Icon: CheckCircle, top: "5%", left: "3%", color: "#0C0C0C", bg: "#F2613F", rotate: -5, delay: 1.1 },
+		{ id: 12, Icon: ThumbsUp, top: "5%", right: "5%", color: "#FFF8F0", bg: "#0C0C0C", rotate: 20, delay: 1.2 },
+		{ id: 13, Icon: Star, top: "6%", left: "30%", color: "#0C0C0C", bg: "#F2613F", rotate: -15, delay: 1.3 },
+		{ id: 14, Icon: Heart, top: "30%", right: "40%", color: "#FFF8F0", bg: "#0C0C0C", rotate: 10, delay: 1.4 },
+		{ id: 15, Icon: Smile, top: "50%", left: "2%", color: "#0C0C0C", bg: "#F2613F", rotate: 5, delay: 1.5 },
+		{ id: 16, Icon: Compass, top: "65%", right: "2%", color: "#FFF8F0", bg: "#0C0C0C", rotate: -25, delay: 1.6 },
+		{ id: 17, Icon: Coffee, bottom: "5%", left: "10%", color: "#0C0C0C", bg: "#F2613F", rotate: 18, delay: 1.7 },
+		{ id: 18, Icon: CloudLightning, bottom: "10%", right: "45%", color: "#FFF8F0", bg: "#0C0C0C", rotate: -12, delay: 1.8 },
+		{ id: 19, Icon: Globe, top: "70%", left: "50%", color: "#0C0C0C", bg: "#F2613F", rotate: 22, delay: 1.9 },
+		{ id: 20, Icon: Sun, bottom: "35%", right: "35%", color: "#FFF8F0", bg: "#0C0C0C", rotate: -8, delay: 2.0 },
 	];
 
 	return (
@@ -63,7 +63,7 @@ export default function Hero() {
 				<div className="w-full flex flex-col justify-between h-[75vh] sm:h-[85vh] xm:h-[85vh]">
 					<div className="w-full flex justify-between gap-[20px] pl-[50px] md:pl-[30px] sm:pl-[20px] xm:pl-[20px]">
 						<div>
-							<h1 className="heading tracking-[-1.3px] text-[#212121] font-semibold font-FoundersGrotesk uppercase">
+							<h1 className="heading tracking-[-1.3px] text-[#0C0C0C] font-semibold font-FoundersGrotesk uppercase">
 								Digital Marketing <br />
 								<div className="flex items-center gap-[5px]">
 									<motion.span
@@ -83,7 +83,7 @@ export default function Hero() {
 											className="w-auto h-[95px] lg:w-auto lg:h-auto md:w-[100px] md:h-[63px] sm:w-[74px] sm:h-[45px] xm:w-[64px] xm:h-[40px] object-cover xl:mt-[15px] mt-[10px] rounded-[10px]"
 										/>
 									</motion.span>
-									<h1 className="heading tracking-[-1.3px] text-[#212121] font-semibold font-FoundersGrotesk uppercase">
+									<h1 className="heading tracking-[-1.3px] text-[#0C0C0C] font-semibold font-FoundersGrotesk uppercase">
 										& Growth
 									</h1>
 								</div>
@@ -92,29 +92,29 @@ export default function Hero() {
 						</div>
 
 					</div>
-					<div className="w-full flex flex-col h-[22vh] border-t border-[#21212155] py-[20px] sm:mb-[80px] xm:mb-[80px] gap-[30px]">
+					<div className="w-full flex flex-col h-[22vh] border-t border-[#4B2E2B55] py-[20px] sm:mb-[80px] xm:mb-[80px] gap-[30px]">
 						<div className="flex justify-between items-center padding-x gap-[20px] sm:flex-col sm:items-start xm:flex-col xm:items-start">
 							<div className="w-[50%] xm:w-full sm:w-full">
-								<p className="paragraph font-NeueMontreal text-secondry">
+								<p className="paragraph font-NeueMontreal text-[#0C0C0C]">
 									For Scalable Businesses
 								</p>
 							</div>
 							<div className="w-[50%] xm:w-full sm:w-full flex justify-between xm:flex-col xm:items-start sm:flex-col sm:items-start gap-[20px]">
 								<div>
-									<p className="paragraph font-NeueMontreal text-secondry">
+									<p className="paragraph font-NeueMontreal text-[#0C0C0C]">
 										From SEO to high-performance ad campaigns
 									</p>
 								</div>
 								<div className="flex items-center gap-[5px] group">
-									<div className="rounded-[50px] border border-[#21212199] group-hover:bg-secondry  py-[3px] px-[12px] cursor-pointer">
+									<div className="rounded-[50px] border border-[#8C5A3C99] group-hover:bg-[#0C0C0C]  py-[3px] px-[12px] cursor-pointer">
 										<Link
-											className="paragraph font-NeueMontreal text-secondry uppercase group-hover:text-background transition-all  transform duration-[0.3s] ease-[.215,.61,.355,1]"
+											className="paragraph font-NeueMontreal text-[#0C0C0C] uppercase group-hover:text-[#FFF8F0] transition-all  transform duration-[0.3s] ease-[.215,.61,.355,1]"
 											href="https://calendly.com/kompanykatalyst/discovery-call">
 											Let's Talk
 										</Link>
 									</div>
-									<div className="w-[33px] flex items-center justify-center h-[33px] border border-[#21212199] rounded-full p-[1px] sm:p-[30px] xm:pb-[30px]  group-hover:bg-secondry transition-all transform duration-[0.3s] ease-[.215,.61,.355,1] cursor-pointer xm:hidden sm:hidden">
-										<p className="font-normal text-secondry group-hover:text-background">
+									<div className="w-[33px] flex items-center justify-center h-[33px] border border-[#8C5A3C99] rounded-full p-[1px] sm:p-[30px] xm:pb-[30px]  group-hover:bg-[#0C0C0C] transition-all transform duration-[0.3s] ease-[.215,.61,.355,1] cursor-pointer xm:hidden sm:hidden">
+										<p className="font-normal text-[#0C0C0C] group-hover:text-[#FFF8F0]">
 											<ArrowUpRight
 												size={24}
 												strokeWidth={1.25}
@@ -133,7 +133,7 @@ export default function Hero() {
 									repeat: Infinity,
 									ease: [0.3, 0.86, 0.36, 0.95],
 								}}
-								className="paragraph opacity-50 font-NeueMontreal text-secondry">
+								className="paragraph opacity-50 font-NeueMontreal text-[#0C0C0C]">
 								scroll down
 							</motion.p>
 						</div>

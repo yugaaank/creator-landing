@@ -4,18 +4,18 @@ import { BackgroundImg } from "@/components";
 export default function About() {
 	return (
 		<section className="w-full padding-y">
-			<div className="w-full flex flex-col bg-background">
-				<div className="w-full border-t border-[#21212155] pt-[20px]">
+			<div className="w-full flex flex-col bg-[#FFF8F0]">
+				<div className="w-full border-t border-[#4B2E2B55] pt-[20px]">
 					<div className="w-full flex justify-between padding-x sm:flex-col xm:flex-col gap-[30px]">
 						<div>
-							<h3 className="paragraph font-medium text-secondry font-NeueMontreal">
+							<h3 className="paragraph font-medium text-[#0C0C0C] font-NeueMontreal">
 								We are Katalyst:
 							</h3>
 						</div>
 						<div className="w-[48%] sm:w-full xm:w-full flex justify-between">
 							<div className="w-[50%] sm:w-full xm:w-full flex flex-col gap-y-[40px]">
 								<div className="flex flex-col gap-y-[20px]">
-									<p className="paragraph font-NeueMontreal text-secondry">
+									<p className="paragraph font-NeueMontreal text-[#0C0C0C]">
 										The team of designers, storytellers, and
 										<br /> passionate collaborators, who work
 										<br /> together to create industry-shifting <br />
@@ -25,7 +25,7 @@ export default function About() {
 									</p>
 								</div>
 								<div className="flex flex-col gap-y-[20px]">
-									<p className="paragraph font-NeueMontreal text-secondry">
+									<p className="paragraph font-NeueMontreal text-[#0C0C0C]">
 										And we strive to become one of the most
 										<br />
 										recognizable & influential campaign

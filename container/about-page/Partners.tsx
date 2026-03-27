@@ -4,16 +4,16 @@ import { aboutPartberItems } from "@/constants";
 
 export default function Principles() {
 	return (
-		<section className="w-full bg-background">
+		<section className="w-full bg-[#FFF8F0]">
 			<div>
-				<h1 className="sub-heading padding-x font-medium font-NeueMontreal text-secondry">
+				<h1 className="sub-heading padding-x font-medium font-NeueMontreal text-[#0C0C0C]">
 					We’ve built long-lasting partnerships
 					<br className="sm:hidden xm:hidden" /> with the most ambitious brands
 					<br className="sm:hidden xm:hidden" />
 					across the globe:
 				</h1>
 			</div>
-			<div className="w-full border-t border-[#21212155] mt-[50px]">
+			<div className="w-full border-t border-[#4B2E2B55] mt-[50px]">
 				<div className="flex justify-between gap-[20px] sm:flex-col xm:flex-col pt-[50px]">
 					{aboutPartberItems.map((item) => (
 						<div
@@ -30,10 +30,10 @@ export default function Principles() {
 									/>
 								</div>
 								<div className="flex flex-col gap-[20px]">
-									<p className="paragraph text-secondry font-NeueMontreal font-normal underline">
+									<p className="paragraph text-[#0C0C0C] font-NeueMontreal font-normal underline">
 										{item.title}
 									</p>
-									<p className="paragraph text-secondry font-NeueMontreal font-normal">
+									<p className="paragraph text-[#0C0C0C] font-NeueMontreal font-normal">
 										{item.para}
 									</p>
 								</div>

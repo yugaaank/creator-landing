@@ -7,7 +7,7 @@ export default function Heading({
 }) {
 	return (
 		<h1
-			className={`sub-heading font-medium font-NeueMontreal text-secondry ${className}`}>
+			className={`sub-heading font-medium font-NeueMontreal text-[#0C0C0C] ${className}`}>
 			{title}
 		</h1>
 	);

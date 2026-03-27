@@ -18,16 +18,16 @@ export default function Ready() {
 
 	return (
 		<section
-			className="w-full relative z-30 min-h-screen sm:h-screen xm:h-screen bg-about padding-y rounded-t-[20px] mt-[-20px]"
+			className="w-full relative z-30 min-h-screen sm:h-screen xm:h-screen bg-[#F2613F] padding-y rounded-t-[20px] mt-[-20px]"
 			ref={container}>
 			<div className="w-full h-full flex justify-center gap-[50px] items-center flex-col">
 				<div className="flex flex-col gap-[10px]">
-					<h1 className="text-[290px] leading-[230px] lg:text-[220px] lg:leading-[170px] md:text-[180px] md:leading-[140px] sm:text-[120px] sm:leading-[90px] xm:text-[80px] xm:leading-[60px] tracking-[-2.5px] text-center font-bold font-FoundersGrotesk text-secondry uppercase pointer-events-none">
+					<h1 className="text-[290px] leading-[230px] lg:text-[220px] lg:leading-[170px] md:text-[180px] md:leading-[140px] sm:text-[120px] sm:leading-[90px] xm:text-[80px] xm:leading-[60px] tracking-[-2.5px] text-center font-bold font-FoundersGrotesk text-[#0C0C0C] uppercase pointer-events-none">
 						<TextMask>{phrase}</TextMask>
 					</h1>
 				</div>
 				<div className="flex flex-col  items-center gap-[10px]">
-					<div className="flex items-center justify-between bg-secondry cursor-pointer rounded-full group">
+					<div className="flex items-center justify-between bg-[#0C0C0C] cursor-pointer rounded-full group">
 						<RoundButton
 							href="https://calendly.com/kompanykatalyst/discovery-call"
 							title="Let's Talk"
@@ -36,14 +36,14 @@ export default function Ready() {
 							style={{ color: "#fff" }}
 						/>
 					</div>
-					<p className="text-[20px] font-NeueMontreal text-secondry">OR</p>
-					<div className="flex items-center justify-between bg-transparent cursor-pointer rounded-full group border border-[#212121]">
+					<p className="text-[20px] font-NeueMontreal text-[#0C0C0C]">OR</p>
+					<div className="flex items-center justify-between bg-transparent cursor-pointer rounded-full group border border-[#0C0C0C]">
 						<Link
 							className="xl:text-[18px] xl:leading-[28px] text-[14px] leading-[24px] uppercase font-normal font-NeueMontreal"
 							href="https://calendly.com/kompanykatalyst/discovery-call">
 							<Rounded
 								className="py-[6px]"
-								backgroundColor="#212121">
+								backgroundColor="#0C0C0C">
 								<p className="z-10 px-[10px] ml-[15px] py-[6px] group-hover:text-white text-black">
 									hello@katalyst.com
 								</p>
