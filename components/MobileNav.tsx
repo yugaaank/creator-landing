@@ -12,7 +12,7 @@ export default function MobileNav() {
 	const [toggle, setToggle] = useState(false);
 	return (
 		<>
-			<div className="w-full hidden justify-between items-center h-[8vh] padding-x sm:flex xm:flex md:flex bg-black/40 backdrop-blur-[7px]">
+			<div className="w-full hidden justify-between items-center h-[8vh] padding-x sm:flex xm:flex md:flex">
 				<Link href={"/"}>
 					<Image
 						src={logo}
