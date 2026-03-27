@@ -1,0 +1,17 @@
+<svg width="240" height="120" viewBox="0 0 240 120" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Dark card simulating tech/growth foundation -->
+  <g transform="translate(15, 25) rotate(-10)">
+    <rect width="110" height="75" rx="10" fill="#212121" />
+    <text x="12" y="30" fill="#CDEA68" font-family="FoundersGrotesk, -apple-system, sans-serif" font-size="14" font-weight="600" letter-spacing="1">GROWTH</text>
+    <path d="M12 50 L30 50 M12 60 L50 60" stroke="#f1f1f1" stroke-width="2" stroke-linecap="round"/>
+  </g>
+  
+  <!-- Green card simulating Katalyst brand -->
+  <g transform="translate(65, 15) rotate(5)">
+    <rect width="145" height="85" rx="12" fill="#CDEA68" />
+    <!-- Abstract growth arrow/chart -->
+    <path d="M20 55 L45 30 L65 45 L110 15" stroke="#212121" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+    <!-- Brand Name -->
+    <text x="50" y="75" fill="#212121" font-family="FoundersGrotesk, Integral CF, -apple-system, sans-serif" font-size="22" font-weight="900" letter-spacing="-0.5">KATALYST</text>
+  </g>
+</svg>

@@ -1,7 +1,7 @@
 export { default as eyes } from './eyes.svg';
 export { default as logo } from './logo.svg';
 export { default as mobileLogo } from './mobile-logo.png';
-export { default as awwwards } from './awwwards.svg';
+
 export { default as aboutImg } from './aboutImg.webp';
 export { default as videoImg } from './videoImg.jpeg';
 export { default as project1 } from './project1.webp';
@@ -28,7 +28,7 @@ export { default as brand03 } from './brand03.png';
 export { default as publication1 } from './publication1.jpeg';
 export { default as publication2 } from './publication2.png';
 export { default as publication3 } from './publication3.png';
-export { default as ochiside } from './ochi-side.jpg';
+export { default as katalystSide } from './katalyst-side.svg';
 export { default as eyeplay } from './eyeplay.svg';
 export { default as contactHero } from './contacthhero.jpg';
 
