@@ -13,7 +13,7 @@ export default function MobileNav() {
 	return (
 		<>
 			<div className="w-full hidden justify-between items-center h-[8vh] padding-x sm:flex xm:flex md:flex">
-				<Link href={"/"}>
+				<Link href={"#home"}>
 					<Image
 						src={logo}
 						alt="ochi logo"
@@ -35,7 +35,7 @@ export default function MobileNav() {
 						transition={{ duration: 1, ease: [0.3, 0.86, 0.36, 0.95] }}
 						className="fixed top-0 bottom-0 right-0 z-50 w-full min-h-screen flex justify-end items-end flex-col bg-[#0C0C0C]">
 						<div className="w-full flex justify-between items-center h-[8vh] border-b border-[#FFF8F055] padding-x">
-							<Link href={"/"}>
+							<Link href={"#home"}>
 								<Image
 									src={mobileLogo}
 									alt="ochi logo"

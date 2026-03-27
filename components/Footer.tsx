@@ -42,22 +42,22 @@ export default function Footer() {
 									<LinkHover
 										className="before:h-[1px] after:h-[1px] w-fit paragraph font-medium  capitalize flex flex-col before:bottom-[1px] after:bottom-[1px]"
 										title={`202-1965 W 4th Awe`}
-										href="/"
+										href="#"
 									/>
 									<LinkHover
 										className="before:h-[1px] after:h-[1px] w-fit paragraph font-medium  capitalize flex flex-col before:bottom-[1px] after:bottom-[1px]"
 										title={`Vancouver, Canada`}
-										href="/"
+										href="#"
 									/>
 									<LinkHover
 										className="before:h-[1px] after:h-[1px] w-fit paragraph font-medium  capitalize flex flex-col before:bottom-[1px] after:bottom-[1px]"
 										title="30 Chukarina"
-										href="/"
+										href="#"
 									/>
 									<LinkHover
 										className="before:h-[1px] after:h-[1px] w-fit paragraph font-medium  capitalize flex flex-col before:bottom-[1px] after:bottom-[1px]"
 										title="St Lviv, Ukraine"
-										href="/"
+										href="#"
 									/>
 								</div>
 							</div>
@@ -81,7 +81,7 @@ export default function Footer() {
 							</h1>
 							<LinkHover
 								title="kompanykatalyst@gmail.com"
-								href="/"
+								href="#"
 								className="before:h-[1px] after:h-[1px] paragraph font-medium before:bottom-[-3px] after:bottom-[-3px]"
 							/>
 						</div>
@@ -90,7 +90,7 @@ export default function Footer() {
 			</div>
 			<div className="w-full pt-[40px] pb-[30px] flex justify-between sm:flex-col xm:flex-col sm:gap-[20px] xm:gap-[20px]">
 				<div className="w-1/2 sm:w-full xm:w-full">
-					<Link href={"/"}>
+					<Link href={"#home"}>
 						<Image
 							src={logo}
 							alt="ochi logo"
@@ -106,14 +106,14 @@ export default function Footer() {
 						</h1>
 						<LinkHover
 							title="Legal Terms"
-							href="/"
+							href="#"
 							className="before:h-[1px] after:h-[1px] paragraph font-medium text-[#0C0C0C] opacity-40 before:bottom-[-3px] after:bottom-[-3px]"
 						/>
 					</div>
 					<div>
 						<LinkHover
 							title="Website by Katalyst"
-							href="/"
+							href="#"
 							className="before:h-[1px] after:h-[1px] paragraph font-medium text-[#0C0C0C] opacity-40 before:bottom-[-3px] after:bottom-[-3px]"
 						/>
 					</div>

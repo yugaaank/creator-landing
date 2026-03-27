@@ -39,7 +39,7 @@ export default function Projects() {
 			<div className="w-full flex justify-center">
 				<div className="flex items-center justify-between bg-[#0C0C0C] cursor-pointer rounded-full group">
 					<RoundButton
-						href="/presentation"
+						href="#work"
 						title="view all results"
 						bgcolor="#000"
 						className="bg-white text-black"

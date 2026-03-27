@@ -4,28 +4,28 @@ import { capaybilities1, capaybilities2, capaybilities3, capaybilities4, client0
 export const navbarItems = [
    {
       id: 1,
-      title: "FAQ",
-      href: "#faq",
+      title: "Services",
+      href: "#services",
    },
    {
       id: 2,
-      title: "Audit",
-      href: "#",
+      title: "Our Work",
+      href: "#work",
    },
    {
       id: 3,
-      title: "Optimize",
-      href: "#",
+      title: "About Us",
+      href: "#about",
    },
    {
       id: 4,
-      title: "Reach",
-      href: "#",
+      title: "Insights",
+      href: "#insights",
    },
    {
       id: 5,
-      title: "Let's Talk",
-      href: "https://calendly.com/kompanykatalyst/discovery-call",
+      title: "Contact Us",
+      href: "#contact",
    },
 ];
 
@@ -58,32 +58,32 @@ export const footernavbarItems = [
    {
       id: 1,
       title: "Home",
-      href: "/",
+      href: "#home",
    },
    {
       id: 2,
-      title: "FAQ",
-      href: "#faq",
+      title: "Services",
+      href: "#services",
    },
    {
       id: 3,
-      title: "Audit",
-      href: "#",
+      title: "Our Work",
+      href: "#work",
    },
    {
       id: 4,
-      title: "Optimize",
-      href: "#",
+      title: "About Us",
+      href: "#about",
    },
    {
       id: 5,
-      title: "Reach",
-      href: "#",
+      title: "Insights",
+      href: "#insights",
    },
    {
       id: 6,
-      title: "Let's Talk",
-      href: "https://calendly.com/kompanykatalyst/discovery-call",
+      title: "Contact Us",
+      href: "#contact",
    },
 ];
 
@@ -121,37 +121,37 @@ export const clientsItem = [
          {
             id: 1,
             title: "agency",
-            href: "/services",
+            href: "#services",
          },
          {
             id: 2,
             title: "big news funnel",
-            href: "/services",
+            href: "#services",
          },
          {
             id: 3,
             title: "branded template",
-            href: "/services",
+            href: "#services",
          },
          {
             id: 4,
             title: "investor funnel",
-            href: "/services",
+            href: "#services",
          },
          {
             id: 5,
             title: "product campaign",
-            href: "/services",
+            href: "#services",
          },
          {
             id: 6,
             title: "sales funnel",
-            href: "/services",
+            href: "#services",
          },
          {
             id: 7,
             title: "startup pitch",
-            href: "/services",
+            href: "#services",
          },
       ]
    },
@@ -167,27 +167,27 @@ export const clientsItem = [
          {
             id: 1,
             title: "compony campaign",
-            href: "/services",
+            href: "#services",
          },
          {
             id: 2,
             title: "onboarding campaign",
-            href: "/services",
+            href: "#services",
          },
          {
             id: 3,
             title: "policy funnel and playbook",
-            href: "/services",
+            href: "#services",
          },
          {
             id: 4,
             title: "redesign",
-            href: "/services",
+            href: "#services",
          },
          {
             id: 5,
             title: "sales funnel",
-            href: "/services",
+            href: "#services",
          },
       ]
    },
@@ -203,12 +203,12 @@ export const clientsItem = [
          {
             id: 1,
             title: "branded template",
-            href: "/services",
+            href: "#services",
          },
          {
             id: 2,
             title: "illustration",
-            href: "/services",
+            href: "#services",
          },
       ]
    },
@@ -224,12 +224,12 @@ export const clientsItem = [
          {
             id: 1,
             title: "investor funnel",
-            href: "/services",
+            href: "#services",
          },
          {
             id: 2,
             title: "startup pitch",
-            href: "/services",
+            href: "#services",
          },
       ]
    },
@@ -245,7 +245,7 @@ export const clientsItem = [
          {
             id: 1,
             title: "branded template funnel",
-            href: "/services",
+            href: "#services",
          },
       ]
    },
@@ -261,27 +261,27 @@ export const clientsItem = [
          {
             id: 1,
             title: "agency",
-            href: "/services",
+            href: "#services",
          },
          {
             id: 2,
             title: "investor funnel",
-            href: "/services",
+            href: "#services",
          },
          {
             id: 3,
             title: "product campaign",
-            href: "/services",
+            href: "#services",
          },
          {
             id: 4,
             title: "review",
-            href: "/services",
+            href: "#services",
          },
          {
             id: 2,
             title: "sales funnel",
-            href: "/services",
+            href: "#services",
          },
       ]
    },
@@ -297,12 +297,12 @@ export const clientsItem = [
          {
             id: 1,
             title: "review",
-            href: "/services",
+            href: "#services",
          },
          {
             id: 2,
             title: "startup pitch",
-            href: "/services",
+            href: "#services",
          },
       ]
    },
@@ -318,17 +318,17 @@ export const clientsItem = [
          {
             id: 1,
             title: "branding",
-            href: "/services",
+            href: "#services",
          },
          {
             id: 2,
             title: "investor funnel",
-            href: "/services",
+            href: "#services",
          },
          {
             id: 3,
             title: "startup pitch",
-            href: "/services",
+            href: "#services",
          },
       ]
    },
@@ -339,82 +339,82 @@ export const projectItem = [
    {
       id: 1,
       title: "fyde",
-      href: "/case/",
+      href: "#work",
       src: project1,
       links: [
          {
             id: 1,
             title: "audit",
-            href: "/services",
+            href: "#services",
          },
          {
             id: 2,
             title: "copywriting",
-            href: "/services",
+            href: "#services",
          },
          {
             id: 3,
             title: "sales funnel",
-            href: "/services",
+            href: "#services",
          },
          {
             id: 4,
             title: "landing pages design",
-            href: "/services",
+            href: "#services",
          },
       ]
    },
    {
       id: 2,
       title: "vise",
-      href: "/case/",
+      href: "#work",
       src: project2,
       links: [
          {
             id: 1,
             title: "agency",
-            href: "/services",
+            href: "#services",
          },
          {
             id: 2,
             title: "compony campaign",
-            href: "/services",
+            href: "#services",
          },
       ]
    },
    {
       id: 3,
       title: "trawa",
-      href: "/case/",
+      href: "#work",
       src: project3,
       links: [
          {
             id: 1,
             title: "brand identity",
-            href: "/services",
+            href: "#services",
          },
          {
             id: 2,
             title: "design research",
-            href: "/services",
+            href: "#services",
          },
          {
             id: 3,
             title: "investor funnel",
-            href: "/services",
+            href: "#services",
          },
       ]
    },
    {
       id: 4,
       title: "premiumblend",
-      href: "/case/",
+      href: "#work",
       src: project4,
       links: [
          {
             id: 1,
             title: "brand template",
-            href: "/services",
+            href: "#services",
          },
       ]
    },
@@ -479,12 +479,12 @@ export const serviceClientsItem = [
          {
             id: 1,
             title: "investor funnel",
-            href: "/services",
+            href: "#services",
          },
          {
             id: 2,
             title: "sales funnel",
-            href: "services",
+            href: "#services",
          },
       ]
    },
@@ -500,37 +500,37 @@ export const serviceClientsItem = [
          {
             id: 1,
             title: "agency",
-            href: "/services",
+            href: "#services",
          },
          {
             id: 2,
             title: "big news funnel",
-            href: "services",
+            href: "#services",
          },
          {
             id: 3,
             title: "branded template",
-            href: "services",
+            href: "#services",
          },
          {
             id: 4,
             title: "investor funnel",
-            href: "services",
+            href: "#services",
          },
          {
             id: 5,
             title: "product campaign",
-            href: "services",
+            href: "#services",
          },
          {
             id: 6,
             title: "sales funnel",
-            href: "services",
+            href: "#services",
          },
          {
             id: 7,
             title: "startup pitch",
-            href: "services",
+            href: "#services",
          },
       ]
    },
@@ -546,27 +546,27 @@ export const serviceClientsItem = [
          {
             id: 1,
             title: "compony campaign",
-            href: "/services",
+            href: "#services",
          },
          {
             id: 2,
             title: "onboarding campaign",
-            href: "services",
+            href: "#services",
          },
          {
             id: 3,
             title: "policy funnel and playbook",
-            href: "services",
+            href: "#services",
          },
          {
             id: 4,
             title: "redesign",
-            href: "services",
+            href: "#services",
          },
          {
             id: 5,
             title: "sales funnel",
-            href: "services",
+            href: "#services",
          },
       ]
    },
@@ -582,12 +582,12 @@ export const serviceClientsItem = [
          {
             id: 1,
             title: "branded template",
-            href: "/services",
+            href: "#services",
          },
          {
             id: 2,
             title: "illustration",
-            href: "services",
+            href: "#services",
          },
       ]
    },
@@ -603,12 +603,12 @@ export const serviceClientsItem = [
          {
             id: 1,
             title: "investor funnel",
-            href: "/services",
+            href: "#services",
          },
          {
             id: 2,
             title: "startup pitch",
-            href: "services",
+            href: "#services",
          },
       ]
    },
@@ -624,7 +624,7 @@ export const serviceClientsItem = [
          {
             id: 1,
             title: "branded template funnel",
-            href: "/services",
+            href: "#services",
          },
       ]
    },
@@ -640,27 +640,27 @@ export const serviceClientsItem = [
          {
             id: 1,
             title: "agency",
-            href: "/services",
+            href: "#services",
          },
          {
             id: 2,
             title: "investor funnel",
-            href: "services",
+            href: "#services",
          },
          {
             id: 3,
             title: "product campaign",
-            href: "services",
+            href: "#services",
          },
          {
             id: 4,
             title: "review",
-            href: "services",
+            href: "#services",
          },
          {
             id: 2,
             title: "sales funnel",
-            href: "services",
+            href: "#services",
          },
       ]
    },
@@ -676,12 +676,12 @@ export const serviceClientsItem = [
          {
             id: 1,
             title: "review",
-            href: "/services",
+            href: "#services",
          },
          {
             id: 2,
             title: "startup pitch",
-            href: "services",
+            href: "#services",
          },
       ]
    },
@@ -871,27 +871,27 @@ export const presentationProjectItem = [
       id: 1,
       title: "fyde",
       src: project1,
-      href: "/case/",
+      href: "#work",
       links: [
          {
             id: 1,
             title: "audit",
-            href: "/services",
+            href: "#services",
          },
          {
             id: 2,
             title: "copywriting",
-            href: "services",
+            href: "#services",
          },
          {
             id: 3,
             title: "sales funnel",
-            href: "services",
+            href: "#services",
          },
          {
             id: 4,
             title: "landing pages design",
-            href: "services",
+            href: "#services",
          },
       ]
    },
@@ -899,22 +899,22 @@ export const presentationProjectItem = [
       id: 2,
       title: "trawa",
       src: project3,
-      href: "/case/",
+      href: "#work",
       links: [
          {
             id: 1,
             title: "brand identity",
-            href: "/services",
+            href: "#services",
          },
          {
             id: 2,
             title: "design research",
-            href: "services",
+            href: "#services",
          },
          {
             id: 3,
             title: "investor funnel",
-            href: "services",
+            href: "#services",
          },
       ]
    },
@@ -922,12 +922,12 @@ export const presentationProjectItem = [
       id: 3,
       title: "premium blend",
       src: project4,
-      href: "/case/",
+      href: "#work",
       links: [
          {
             id: 1,
             title: "brand template",
-            href: "/services",
+            href: "#services",
          },
       ]
    },
@@ -935,37 +935,37 @@ export const presentationProjectItem = [
       id: 4,
       title: "planetly",
       src: project5,
-      href: "/case/",
+      href: "#work",
       links: [
          {
             id: 1,
             title: "brand template",
-            href: "/services",
+            href: "#services",
          },
          {
             id: 2,
             title: "big news funnel",
-            href: "/services",
+            href: "#services",
          },
          {
             id: 3,
             title: "branded template",
-            href: "/services",
+            href: "#services",
          },
          {
             id: 4,
             title: "investor funnel",
-            href: "/services",
+            href: "#services",
          },
          {
             id: 5,
             title: "policy funnel & playbook",
-            href: "/services",
+            href: "#services",
          },
          {
             id: 6,
             title: "sales funnel",
-            href: "/services",
+            href: "#services",
          },
       ]
    },
@@ -973,22 +973,22 @@ export const presentationProjectItem = [
       id: 5,
       title: "black box",
       src: project8,
-      href: "/case/",
+      href: "#work",
       links: [
          {
             id: 1,
             title: "investor funnel",
-            href: "/services",
+            href: "#services",
          },
          {
             id: 2,
             title: "redesign",
-            href: "/services",
+            href: "#services",
          },
          {
             id: 3,
             title: "review",
-            href: "/services",
+            href: "#services",
          },
       ]
    },
@@ -996,17 +996,17 @@ export const presentationProjectItem = [
       id: 6,
       title: "vise",
       src: project2,
-      href: "/case/",
+      href: "#work",
       links: [
          {
             id: 1,
             title: "agency",
-            href: "/services",
+            href: "#services",
          },
          {
             id: 2,
             title: "compony campaign",
-            href: "services",
+            href: "#services",
          },
       ]
    },
@@ -1014,17 +1014,17 @@ export const presentationProjectItem = [
       id: 7,
       title: "soft start",
       src: project9,
-      href: "/case/",
+      href: "#work",
       links: [
          {
             id: 1,
             title: "brand template",
-            href: "/services",
+            href: "#services",
          },
          {
             id: 2,
             title: "sales desc",
-            href: "/services",
+            href: "#services",
          },
       ]
    },
@@ -1032,12 +1032,12 @@ export const presentationProjectItem = [
       id: 8,
       title: "officevibe",
       src: project7,
-      href: "/case/",
+      href: "#work",
       links: [
          {
             id: 1,
             title: "brand template",
-            href: "/services",
+            href: "#services",
          },
       ]
    },
@@ -1045,22 +1045,22 @@ export const presentationProjectItem = [
       id: 9,
       title: "workiz easy",
       src: project6,
-      href: "/case/",
+      href: "#work",
       links: [
          {
             id: 1,
             title: "onboarding campaign",
-            href: "/services",
+            href: "#services",
          },
          {
             id: 2,
             title: "policy funnel & playbook",
-            href: "/services",
+            href: "#services",
          },
          {
             id: 3,
             title: "sales funnel",
-            href: "/services",
+            href: "#services",
          },
       ]
    },
@@ -1146,12 +1146,12 @@ export const workizItem = [
       id: 1,
       title: "office vibe",
       src: project7,
-      href: "/case/",
+      href: "#work",
       links: [
          {
             id: 1,
             title: "brand template",
-            href: "/services",
+            href: "#services",
          },
       ]
    },
@@ -1159,37 +1159,37 @@ export const workizItem = [
       id: 2,
       title: "planetly",
       src: project5,
-      href: "/case/",
+      href: "#work",
       links: [
          {
             id: 1,
             title: "brand template",
-            href: "/services",
+            href: "#services",
          },
          {
             id: 2,
             title: "big news funnel",
-            href: "/services",
+            href: "#services",
          },
          {
             id: 3,
             title: "branded template",
-            href: "/services",
+            href: "#services",
          },
          {
             id: 4,
             title: "investor funnel",
-            href: "/services",
+            href: "#services",
          },
          {
             id: 5,
             title: "policy funnel & playbook",
-            href: "/services",
+            href: "#services",
          },
          {
             id: 6,
             title: "sales funnel",
-            href: "/services",
+            href: "#services",
          },
       ]
    },

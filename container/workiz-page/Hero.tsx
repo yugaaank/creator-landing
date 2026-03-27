@@ -55,7 +55,7 @@ export default function Hero() {
 									<div className="w-fit rounded-[50px] border border-[#0C0C0C] cursor-pointer">
 										<Link
 											className="small-text font-NeueMontreal text-[#0C0C0C] uppercase group-hover:text-[#FFF8F0] transition-all duration-300 ease-in-out hover:text-white"
-											href="/services/">
+											href="#services">
 											<Rounded
 												className="py-[3px]"
 												backgroundColor="#000">
@@ -68,7 +68,7 @@ export default function Hero() {
 									<div className="w-fit rounded-[50px] border border-[#0C0C0C] cursor-pointer">
 										<Link
 											className="small-text font-NeueMontreal text-[#0C0C0C] uppercase group-hover:text-[#FFF8F0] transition-all duration-300 ease-in-out hover:text-white"
-											href="/services/">
+											href="#services">
 											<Rounded
 												className="py-[3px]"
 												backgroundColor="#000">
@@ -81,7 +81,7 @@ export default function Hero() {
 									<div className="w-fit rounded-[50px] border border-[#0C0C0C] cursor-pointer">
 										<Link
 											className="small-text font-NeueMontreal text-[#0C0C0C] uppercase group-hover:text-[#FFF8F0] transition-all duration-300 ease-in-out hover:text-white"
-											href="/services/">
+											href="#services">
 											<Rounded
 												className="py-[3px]"
 												backgroundColor="#000">

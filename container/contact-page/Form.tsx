@@ -135,14 +135,14 @@ export default function Form() {
 						</div>
 						<Link
 							className="paragraph font-medium font-NeueMontreal text-[#0C0C0C] capitalize flex flex-col hover"
-							href={"/privacy"}>
+							href={"#"}>
 							Privacy Policy
 						</Link>
 					</div>
 					<div className="w-fit flex items-center justify-between bg-[#0C0C0C] cursor-pointer rounded-full group">
 						<RoundButton
 							bgcolor="#0C0C0C"
-							href="/"
+							href="#home"
 							title="send inquiry"
 							className="bg-white text-black"
 							style={{ color: "#fff" }}
