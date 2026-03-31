@@ -3,6 +3,7 @@ import { useState } from "react";
 import { navVariants } from "@/motion";
 import { TextHover } from "@/animation";
 import { navbarItems } from "@/constants";
+import KatalystLogo from "./KatalystLogo";
 import { useMotionValueEvent, useScroll, motion } from "framer-motion";
 import MobileNav from "./MobileNav";
 
@@ -28,8 +29,8 @@ export default function Navbar() {
 				<div className="w-[50%]">
 					<Link
 						href={"#home"}
-						className="uppercase text-[20px] tracking-[0.5em] font-FoundersGrotesk text-[#0C0C0C]">
-						Katalyst Growth
+						className="w-fit flex items-center">
+						<KatalystLogo className="h-[40px] w-auto" />
 					</Link>
 				</div>
 				<div className="flex gap-x-[20px] w-[50%]">

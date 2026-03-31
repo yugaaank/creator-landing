@@ -1,7 +1,7 @@
 "use client";
 import Image from "next/image";
 import { logo } from "@/public";
-import { Marquee } from "@/components";
+import { Marquee, KatalystLogo } from "@/components";
 import { motion } from "framer-motion";
 
 const techStack = [
@@ -36,9 +36,7 @@ export default function GrowthEngine() {
 					<div className="w-full flex flex-col gap-[40px] relative z-10">
 						<div className="flex justify-between items-start sm:flex-col xm:flex-col gap-[20px]">
 							<div className="flex flex-col gap-[10px]">
-								<h1 className="sub-heading font-bold font-FoundersGrotesk text-[#0C0C0C] lowercase leading-none">
-									katalyst
-								</h1>
+								<KatalystLogo className="h-[40px] w-auto" />
 								<h2 className="paragraph font-NeueMontreal font-bold text-[#F2613F] uppercase tracking-[2px]">
 									Selected Growth Stack
 								</h2>

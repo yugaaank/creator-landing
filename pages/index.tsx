@@ -110,13 +110,13 @@ export default function Home() {
 				)}
 
 				<div id="contact">
-					<Herocontact />
-					<Form />
+					{/* <Herocontact /> */}
+					{/* <Form /> */}
 					<Socials />
 					<FAQ />
 				</div>
 
-				<Ready />
+				{/* <Ready /> */}
 			</Curve>
 		</>
 	);

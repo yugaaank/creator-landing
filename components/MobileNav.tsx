@@ -3,6 +3,7 @@ import Link from "next/link";
 import { useState } from "react";
 import { IoMdClose } from "react-icons/io";
 import { footernavbarItems } from "@/constants";
+import KatalystLogo from "./KatalystLogo";
 import { HiOutlineMenuAlt4 } from "react-icons/hi";
 import { AnimatePresence, motion } from "framer-motion";
 
@@ -13,8 +14,8 @@ export default function MobileNav() {
 			<div className="w-full hidden justify-between items-center h-[8vh] padding-x sm:flex xm:flex md:flex">
 				<Link
 					href={"#home"}
-					className="uppercase text-[18px] tracking-[0.4em] font-FoundersGrotesk text-[#0C0C0C]">
-					Katalyst Growth
+					className="w-fit flex items-center">
+					<KatalystLogo className="h-[30px] w-auto" />
 				</Link>
 				<HiOutlineMenuAlt4
 					onClick={() => setToggle(true)}
@@ -32,8 +33,8 @@ export default function MobileNav() {
 						<div className="w-full flex justify-between items-center h-[8vh] border-b border-[#FFF8F055] padding-x">
 							<Link
 								href={"#home"}
-								className="uppercase text-[20px] tracking-[0.5em] font-FoundersGrotesk text-[#FFF8F0]">
-								Katalyst Growth
+								className="w-fit flex items-center">
+								<KatalystLogo className="h-[35px] w-auto" textColor="#FFF8F0" />
 							</Link>
 							<IoMdClose
 								onClick={() => setToggle(false)}
