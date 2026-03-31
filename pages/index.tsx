@@ -64,6 +64,7 @@ export default function Home() {
 					{showProjects && <Clients />}
 				</div>
 
+				<div id="services" />
 				{showProjects && (
 					<div id="services">
 						<Heroservices />
@@ -75,6 +76,7 @@ export default function Home() {
 					</div>
 				)}
 
+				<div id="work" />
 				{showProjects && (
 					<div id="work">
 						<Heropresentation />
@@ -99,6 +101,7 @@ export default function Home() {
 					{showProjects && <Insights />}
 				</div>
 
+				<div id="insights" />
 				{showProjects && (
 					<div id="insights">
 						<Heroinsights />

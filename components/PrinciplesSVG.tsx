@@ -108,7 +108,7 @@ export const EcosystemPillarSVG = () => {
 			</svg>
 
 			<div className="absolute bottom-4 left-6">
-				<span className="text-[10px] font-bold font-NeueMontreal uppercase tracking-[4px] text-[#0C0C0C]/40">ROI Infrastructure</span>
+				<span className="text-[10px] font-bold font-NeueMontreal uppercase tracking-[4px] text-[#0C0C0C]/40">Growth Strategy</span>
 			</div>
 		</div>
 	);

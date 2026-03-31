@@ -2,29 +2,19 @@ import { capaybilities1, capaybilities2, capaybilities3, capaybilities4, client0
 
 // Navbar
 export const navbarItems = [
-   // {
-   //    id: 1,
-   //    title: "Services",
-   //    href: "#services",
-   // },
-   // {
-   //    id: 2,
-   //    title: "Our Work",
-   //    href: "#work",
-   // },
    {
-      id: 3,
+      id: 1,
+      title: "Home",
+      href: "#home",
+   },
+   {
+      id: 2,
       title: "About Us",
       href: "#about",
    },
-   // {
-   //    id: 4,
-   //    title: "Insights",
-   //    href: "#insights",
-   // },
    {
-      id: 5,
-      title: "Contact Us",
+      id: 3,
+      title: "Contact",
       href: "#contact",
    },
 ];
@@ -35,7 +25,7 @@ export const footerItems = [
    {
       id: 1,
       title: "Instagram",
-      href: "https://www.instagram.com/",
+      href: "https://www.instagram.com/kompanykatalyst/",
    },
    {
       id: 2,
@@ -60,29 +50,14 @@ export const footernavbarItems = [
       title: "Home",
       href: "#home",
    },
-   // {
-   //    id: 2,
-   //    title: "Services",
-   //    href: "#services",
-   // },
-   // {
-   //    id: 3,
-   //    title: "Our Work",
-   //    href: "#work",
-   // },
    {
-      id: 4,
+      id: 2,
       title: "About Us",
       href: "#about",
    },
-   // {
-   //    id: 5,
-   //    title: "Insights",
-   //    href: "#insights",
-   // },
    {
-      id: 6,
-      title: "Contact Us",
+      id: 3,
+      title: "Contact",
       href: "#contact",
    },
 ];
@@ -470,7 +445,7 @@ export const serviceClientsItem = [
    {
       id: 1,
       website: "Karman Ventures",
-      href: "https://www.ochi.design",
+      href: "https://kompanykatalyst.com",
       title: "Services:",
       name: "William Barnes",
       src: client01,
@@ -805,7 +780,7 @@ export const expectationsItems = [
    {
       id: 1,
       title1: "01",
-      subTitle1: "Comunication",
+      subTitle1: "Communication",
       btn: "read",
       para1: "The relationship with the clients is our top priority. We put extra effort into keeping mutual respect, honesty, and clarity in the conversation. For each client, we develop a project view site in Notion to track milestones and see the thinking behind steps. You always know what and when we do, as you feel confident in the results we bring.",
    },
@@ -828,7 +803,7 @@ export const expectationsItems = [
       title1: "05",
       subTitle1: "Constantly Improving",
       btn: "read",
-      para1: "We are passionate about creating industry-shifting campaigns. And as the world around us, we constantly evolve and improve. Our growth is fueled by an innovative ecosystem designed for each team member to grow. We provide them with frequent pieces for training both on design craft and personal development. We are constantly looking for new ways to support our creatives and our community as for our clients."
+      para1: "We are passionate about creating industry-shifting marketing campaigns. And as the world around us, we constantly evolve and improve. Our growth is fueled by an innovative digital strategy designed for each team member to grow. We provide them with frequent pieces for training both on marketing trends and personal development. We are constantly looking for new ways to support our clients' online presence and growth."
    },
    {
       id: 5,
@@ -1254,99 +1229,150 @@ export const aboutPartberItems = [
 export const FaqItems = [
    {
       id: 1,
-      question: "How many iterations the project includes?",
-      title: "Description",
-      description: "We’re committed to delighting every one of our clients and will do everything to deliver on the project fully. We iterate as much as needed to ensure the best result.",
+      question: "Why most businesses struggle with online growth",
+      title: "The Problem",
+      description:
+         "90% of companies attempt digital marketing but end up with inconsistent results, low-quality leads, and no clear ROI. Strategies are often fragmented, leaving businesses guessing which channels actually drive growth.",
       links: [
          {
             id: 1,
-            title: 1,
-            description: "Based on our experience and ways of working, no more than three revisions are needed to meet clients’ expectations and business needs."
+            title: "No clear strategy",
+            description: "Marketing efforts are reactive rather than proactive, lacking a cohesive plan to guide long-term growth."
          },
          {
             id: 2,
-            title: 2,
-            description: "If your project is something we are not capable of doing, we will say it right there and won’t commit. Instead, we will refer you to specialists in any field you need and we might know."
+            title: "Poor lead quality",
+            description: "Traffic doesn't translate into sales when targeting is off or the value proposition doesn't resonate."
+         },
+         {
+            id: 3,
+            title: "Static campaigns",
+            description: "Marketing that doesn't evolve stays stuck, missing out on new opportunities and shifting audience behaviors."
          },
       ],
       button: "read"
    },
    {
       id: 2,
-      question: "Do you animate campaigns?",
-      title: "Description",
-      description: "Movement is what attracts the eye. But not every campaign requires animation, although we do agree that animated campaigns give a wow effect. We surely add transitions and animation to your campaign where we think it increases engagement, surprise, or simply delivers the message flawlessly.",
+      question: "How do you approach digital marketing?",
+      title: "Our Approach",
+      description:
+         "Every campaign begins with deep market analysis—data handles the insights, but humans define the brand narrative. We map the customer journey first, then deploy targeted campaigns to drive conversions.",
       links: [
          {
             id: 1,
-            title: 1,
-            description: "By the way, animated campaigns can also be used for marketing purposes to promote your ideas via socials."
+            title: "Market audit",
+            description: "Identify the audience, competitors, and growth opportunities that will give you a competitive edge."
+         },
+         {
+            id: 2,
+            title: "Multi-channel growth",
+            description: "Scale your presence across search, social, and email with high-performing, integrated campaigns."
+         },
+         {
+            id: 3,
+            title: "Conversion optimization",
+            description: "Refine landing pages and funnels to ensure every click has the best possible chance of becoming a customer."
+         },
+         {
+            id: 4,
+            title: "Performance tracking",
+            description: "Monitor real-time data to adjust budgets, creative, and targeting for maximum efficiency."
+         },
+         {
+            id: 5,
+            title: "Result",
+            description: "Consistent lead flow, higher conversion rates, and a scalable marketing engine ready for expansion."
          },
       ],
       button: "read"
    },
    {
       id: 3,
-      question: "Do you join forces with other agencies?",
-      title: "Description",
-      description: "Yes, we do partner with other creative agencies where we lack expertise or experience. We carefully select our partners and frequently collaborate on brand identity, web design, animation design, and other fine initiatives that benefit both us and our clients. All with the purpose to expand our creative POV and supplementing you with top-notch work.",
+      question: "Which channels do you build campaigns for?",
+      title: "Channel mix",
+      description:
+         "We design full-funnel campaigns for paid social, search, email, and content marketing, always tying creative, copy, and growth strategies to measurable KPIs.",
       links: [
          {
             id: 1,
-            title: 1,
-            description: "By the way, animated campaigns can also be used for marketing purposes to promote your ideas via socials."
+            title: "Paid social + search",
+            description: "Meta, TikTok, Google, LinkedIn and programmatic placements optimized from ad creative to landing page."
+         },
+         {
+            id: 2,
+            title: "Owned media",
+            description: "Email, SMS, and content sequences that nurture leads and convert them into customers."
+         },
+         {
+            id: 3,
+            title: "Measurement",
+            description: "We instrument analytics, attribution, and data layers before launching so success is trackable."
          },
       ],
       button: "read"
    },
    {
-      id: 4,
-      question: "I want to become a part of the team! Do you hire?",
-      title: "Description",
-      description: "Yes! We actively search for talent to join us in completing high-stake campaign design projects at KATALYST. As a campaign agency, we always aim to create the best products and services possible. Hence, we are looking for someone who will enjoy helping us fuse design and thinking into something impactful and beautiful.",
-      links: [
-         {
-            id: 1,
-            title: 1,
-            description: "If you feel like you’re on top of your creative game, whether it’s storytelling, graphic design, or animation. Send us the CV and portfolio at Ihor@ochi.design with “CREATE AND THRILL” in the subject. We will get back to you and maybe schedule a call. If there’s a potential fit here, you will meet the team. If that goes well – you’ll become a part of it."
-         },
-         {
-            id: 2,
-            title: 2,
-            description: "If you think you can improve our processes, marketing, PR, and communications, or you excel at managing people, we would love to hear from you. Send your message to hello@ochi.design with “-” and we will get back to you."
-         },
-      ],
-      button: "read"
-   },
+     id: 4,
+     question: "How do you keep campaigns agile?",
+     title: "Optimization",
+     description:
+        "Campaigns evolve with a rapid test-and-learn rhythm. We monitor results daily, refresh creative, and iterate messaging once we see what resonates.",
+     links: [
+        {
+           id: 1,
+           title: "Live dashboards",
+           description: "We build operational dashboards that surface cost, quality, and conversion signals in real time."
+        },
+        {
+           id: 2,
+           title: "Creative sprints",
+           description: "New angles, copy, and formats are developed every sprint and slotted into active funnels."
+        },
+        {
+           id: 3,
+           title: "Cross-channel learning",
+           description: "Insights from one channel inform the others, so successful hooks spread quickly."
+        },
+     ],
+     button: "read"
+  },
    {
       id: 5,
-      question: "Can I hire you for publish speaking, or student workshop?",
-      title: "Description",
-      description: "The short answer is yes.",
+      question: "What makes a partner-ready marketing team?",
+      title: "Team collaboration",
+      description:
+         "We integrate as an extension of your marketing team—sharing briefs, reviewing data, and aligning on storytelling so programs feel cohesive.",
       links: [
          {
             id: 1,
-            title: 1,
-            description: "Through our work, we empower brands to make a difference. But while, the campaigns that raise millions help in the long run by providing resources for organizations to evolve, create new workplaces, and make things better. We also offer our corporate clients personal training. We love visiting traditional university students to share insights and expertise through masterclasses and workshops. This is how we make things better by teaching others how to make better things. And this changes the world here and now."
+            title: "Shared planning",
+            description: "We co-author roadmaps, KPIs, and launch campaigns alongside your team, not in a silo."
          },
          {
             id: 2,
-            title: 2,
-            description: "If you have an event coming or you are a university academic, please reach out to us with the topic, and we will see how we can help."
+            title: "Transparent reporting",
+            description: "Weekly recaps and dashboards demystify decisions and keep leadership in the loop."
          },
       ],
       button: "read"
    },
    {
       id: 6,
-      question: "Would you like to jump on a podcast or YouTube video?",
-      title: "Description",
-      description: "Yes, why not. It’s a great chance to give back to the creative community by sharing and learning. Especially if the audience is relevant to the communication design subject. Or maybe it helps our clients in some way. We can’t know until we see some details, so drop us a line with a brief explanation at kseniia@ochi.design with the “Podcast/YT Proposal”.",
+      question: "Can Katalyst support product launches?",
+      title: "Launch readiness",
+      description:
+         "Yes. From story-driven positioning to high-impact launch funnels, we create the creative, content, and paid programs that make product launches feel major.",
       links: [
          {
             id: 1,
-            title: 1,
-            description: "By the way, animated campaigns can also be used for marketing purposes to promote your ideas via socials."
+            title: "Positioning",
+            description: "We crystallize your narrative and build assets that explain why the product matters."
+         },
+         {
+            id: 2,
+            title: "Launch funnel",
+            description: "Landing pages, nurture sequences, and paid campaigns launch together with coordinated timing."
          },
       ],
       button: "read"

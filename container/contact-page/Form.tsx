@@ -83,26 +83,14 @@ export default function Form() {
 				</motion.div>
 
 				<div className="w-full flex items-center justify-end sm:justify-start pt-[25px]">
-					<div className="flex sm:flex-col gap-[20px]">
-						<div className="flex gap-[10px] items-center">
-							<input type="checkbox" className="w-[20px] h-[20px]" />
-							<p className="paragraph text-[#0C0C0C] font-NeueMontreal font-normal">I agree with the</p>
-							<Link
-								className="paragraph font-medium font-NeueMontreal text-[#0C0C0C] capitalize hover:underline"
-								href="#">
-								Privacy Policy
-							</Link>
-						</div>
-						<div className="w-fit flex items-center justify-between bg-[#0C0C0C] cursor-pointer rounded-full group">
-							<RoundButton
-								bgcolor="#0C0C0C"
-								href="#home"
-								title="send inquiry"
-								className="bg-white text-black"
-								style={{ color: "#fff" }}
-							/>
-						</div>
-					</div>
+					<Link
+						href="#home"
+						className="group flex items-center gap-[10px] rounded-full px-[28px] py-[12px] bg-gradient-to-r from-[#F2613F] to-[#D63F1E] text-white uppercase tracking-[0.3em] font-semibold shadow-[0_15px_40px_rgba(242,97,63,0.45)] transition duration-200 transform hover:-translate-y-0.5 hover:scale-105">
+						<span className="tracking-[0.35em]">Send inquiry</span>
+						<span className="h-[32px] w-[32px] flex items-center justify-center rounded-full bg-white text-[#F2613F] text-[18px] transition duration-200 group-hover:bg-[#0C0C0C] group-hover:text-white">
+							→
+						</span>
+					</Link>
 				</div>
 			</motion.div>
 		</section>

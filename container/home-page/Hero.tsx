@@ -34,7 +34,9 @@ export default function Hero() {
 			className="w-full h-screen sm:mb-[-10px] xm:mb-[-10px] relative"
 			data-scroll
 			data-scroll-speed="-.3">
-			{stickers.map((st) => (
+			{stickers
+				.filter((st) => !st.bottom)
+				.map((st) => (
 				<motion.div
 					key={st.id}
 					initial={{ scale: 0, opacity: 0, rotate: 0 }}
@@ -87,55 +89,39 @@ export default function Hero() {
 										& Growth
 									</h1>
 								</div>
-								Infrastructure
+								Strategy
 							</h1>
 						</div>
 
 					</div>
-					<div className="w-full flex flex-col h-[22vh] border-t border-[#4B2E2B55] py-[20px] sm:mb-[80px] xm:mb-[80px] gap-[30px]">
+					<div className="w-full flex flex-col h-[22vh] border-t border-[#4B2E2B55] bg-[#3A1B0D] p-[20px] sm:mb-[80px] xm:mb-[80px] gap-[25px]">
 						<div className="flex justify-between items-center padding-x gap-[20px] sm:flex-col sm:items-start xm:flex-col xm:items-start">
-							<div className="w-[50%] xm:w-full sm:w-full">
-								<p className="paragraph font-NeueMontreal text-[#0C0C0C]">
+							<div className="w-[50%] sm:w-full">
+								<p className="paragraph font-NeueMontreal font-semibold text-[#FFEDE0]">
 									For Scalable Businesses
 								</p>
+								<p className="paragraph font-NeueMontreal text-[#FFEDE0]">
+									From high-performance ad campaigns to conversion-optimized funnels that drive measurable ROI.
+								</p>
 							</div>
-							<div className="w-[50%] xm:w-full sm:w-full flex justify-between xm:flex-col xm:items-start sm:flex-col sm:items-start gap-[20px]">
-								<div>
-									<p className="paragraph font-NeueMontreal text-[#0C0C0C]">
-										From SEO to high-performance ad campaigns
-									</p>
+							<div className="flex gap-[10px]">
+								<div className="w-10 h-10 bg-[#F2613F] rounded-full flex items-center justify-center text-[#FFF8F0] text-[18px]">
+									✦
 								</div>
-								<div className="flex items-center gap-[5px] group">
-									<div className="rounded-[50px] border border-[#8C5A3C99] group-hover:bg-[#0C0C0C]  py-[3px] px-[12px] cursor-pointer">
-										<Link
-											className="paragraph font-NeueMontreal text-[#0C0C0C] uppercase group-hover:text-[#FFF8F0] transition-all  transform duration-[0.3s] ease-[.215,.61,.355,1]"
-											href="https://calendly.com/kompanykatalyst/discovery-call">
-											Let's Talk
-										</Link>
-									</div>
-									<div className="w-[33px] flex items-center justify-center h-[33px] border border-[#8C5A3C99] rounded-full p-[1px] sm:p-[30px] xm:pb-[30px]  group-hover:bg-[#0C0C0C] transition-all transform duration-[0.3s] ease-[.215,.61,.355,1] cursor-pointer xm:hidden sm:hidden">
-										<p className="font-normal text-[#0C0C0C] group-hover:text-[#FFF8F0]">
-											<ArrowUpRight
-												size={24}
-												strokeWidth={1.25}
-											/>
-										</p>
-									</div>
+								<div className="w-10 h-10 bg-[#FFEDE0] rounded-full flex items-center justify-center text-[#7C3E1A] text-[18px]">
+									✓
 								</div>
 							</div>
 						</div>
-						<div className="w-full flex items-center overflow-hidden justify-center xm:hidden sm:hidden">
-							<motion.p
-								initial={{ y: "-100%", opacity: 0 }}
-								animate={{ y: "100%", opacity: 0.5 }}
-								transition={{
-									duration: 1.8,
-									repeat: Infinity,
-									ease: [0.3, 0.86, 0.36, 0.95],
-								}}
-								className="paragraph opacity-50 font-NeueMontreal text-[#0C0C0C]">
-								scroll down
-							</motion.p>
+						<div className="flex items-center justify-between padding-x">
+							<a
+								href="https://calendly.com/kompanykatalyst/discovery-call"
+								className="flex items-center justify-between gap-[8px] rounded-[50px] px-[30px] py-[12px] text-[14px] font-semibold tracking-[0.3em] uppercase text-[#FFF8F0] bg-[#F2613F] shadow-[0_15px_40px_rgba(242,97,63,0.35)] transition-all duration-300 hover:bg-[#FFF8F0] hover:text-[#F2613F]"
+								style={{ minWidth: "220px" }}>
+								<span>LET'S TALK</span>
+								<span className="h-[32px] w-[32px] rounded-full bg-[#FFF8F0] flex items-center justify-center text-[#F2613F] text-[18px]">→</span>
+							</a>
+							<span className="text-[14px] tracking-[0.4em] text-[#FFEDE0] uppercase">Live now</span>
 						</div>
 					</div>
 				</div>

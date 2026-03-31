@@ -68,7 +68,7 @@ export default function Principles() {
 								</h3>
 							</div>
 							<p className="paragraph font-NeueMontreal text-[#0C0C0C] opacity-70 leading-relaxed max-w-[450px]">
-								Infrastructure built to capture attention and never let go. Through precision 
+								Strategy built to capture attention and never let go. Through precision 
 								technical integration, we focus your audience exactly where ROI is generated.
 							</p>
 							<div className="w-full h-[1px] bg-[#0C0C0C]/10 group-hover:bg-[#F2613F] transition-colors duration-500" />

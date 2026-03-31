@@ -5,22 +5,20 @@ import { Marquee } from "@/components";
 import { motion } from "framer-motion";
 
 const techStack = [
-	{ name: "Zapier", category: "Automation" },
-	{ name: "Make.com", category: "Workflows" },
-	{ name: "Airtable", category: "Database" },
-	{ name: "n8n", category: "Backend" },
-	{ name: "OpenAI", category: "Intelligence" },
-	{ name: "Salesforce", category: "CRM" },
-	{ name: "Segment", category: "Data" },
-	{ name: "Retell AI", category: "Voice" },
+	{ name: "GOOGLE ADS", category: "Search" },
+	{ name: "SEO", category: "Growth" },
+	{ name: "META ADS", category: "Social" },
+	{ name: "INSTAGRAM", category: "Social" },
+	{ name: "LINKEDIN", category: "Social" },
+	{ name: "GOOGLE ANALYTICS", category: "Data" },
 ];
 
-export default function Ecosystem() {
+export default function GrowthEngine() {
 	return (
 		<section className="w-full bg-[#481E14] min-h-screen rounded-t-[20px]">
 			<div className="w-full bg-[#481E14] z-10 relative rounded-t-[20px] padding-y">
 				<Marquee
-					title="the growth ecosystem"
+					title="the growth engine"
 					className="pb-[50px] lg:pb-[40px] md:pb-[30px] sm:pb-[25px] xm:pb-[18px] text-[540px] leading-[330px] lg:text-[380px] lg:leading-[240px] md:text-[300px] md:leading-[160px] sm:text-[230px] sm:leading-[140px] xm:text-[130px] xm:leading-[80px]"
 				/>
 			</div>
@@ -38,25 +36,22 @@ export default function Ecosystem() {
 					<div className="w-full flex flex-col gap-[40px] relative z-10">
 						<div className="flex justify-between items-start sm:flex-col xm:flex-col gap-[20px]">
 							<div className="flex flex-col gap-[10px]">
-								<Image
-									src={logo}
-									alt="ochi-logo"
-									width={60}
-									height={60}
-								/>
+								<h1 className="sub-heading font-bold font-FoundersGrotesk text-[#0C0C0C] lowercase leading-none">
+									katalyst
+								</h1>
 								<h2 className="paragraph font-NeueMontreal font-bold text-[#F2613F] uppercase tracking-[2px]">
-									Selected Tech Stack
+									Selected Growth Stack
 								</h2>
 							</div>
 							<div className="max-w-[400px]">
 								<p className="paragraph font-NeueMontreal font-normal text-[#0C0C0C] opacity-70">
-									We integrate high-performance tools to build the foundational infrastructure required for sustainable scaling.
+									We integrate high-performance marketing tools to build the foundational strategy required for sustainable online growth.
 								</p>
 							</div>
 						</div>
 
 						{/* Tech Grid */}
-						<div className="grid grid-cols-4 md:grid-cols-2 sm:grid-cols-2 xm:grid-cols-1 gap-[30px] mt-[20px]">
+						<div className="grid grid-cols-3 md:grid-cols-2 sm:grid-cols-2 xm:grid-cols-1 gap-[20px] mt-[20px]">
 							{techStack.map((tech, i) => (
 								<motion.div
 									key={tech.name}
@@ -70,20 +65,20 @@ export default function Ecosystem() {
 									}}
 									transition={{ delay: i * 0.05 }}
 									viewport={{ once: true }}
-									className="p-[40px] bg-white rounded-[25px] border border-[#0C0C0C]/5 shadow-sm hover:shadow-[0_20px_50px_rgba(242,97,63,0.3)] transition-all group flex flex-col gap-[20px] cursor-pointer relative overflow-hidden">
+									className="aspect-square p-[40px] bg-white rounded-[25px] border border-[#0C0C0C]/5 shadow-sm hover:shadow-[0_20px_50px_rgba(242,97,63,0.3)] transition-all group flex flex-col justify-between cursor-pointer relative overflow-hidden">
 									
 									{/* Hover Background Glow */}
 									<motion.div 
-										className="absolute inset-0 bg-gradient-to-br from-[#F2613F]/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity"
+										className="absolute inset-0 bg-gradient-to-br from-[#F2613F]/10 to-transparent opacity-0 group-hover:opacity-100 transition-opacity"
 									/>
 
 									<div className="w-[12px] h-[12px] rounded-full bg-[#F2613F] group-hover:scale-[1.5] transition-transform relative z-10" />
 									
 									<div className="relative z-10">
-										<h4 className="sub-heading font-bold font-FoundersGrotesk text-[#0C0C0C] group-hover:text-white uppercase tracking-wider transition-colors">
+										<h4 className="text-[55px] lg:text-[45px] md:text-[40px] sm:text-[35px] leading-[0.9] font-bold font-FoundersGrotesk text-[#0C0C0C] group-hover:text-white uppercase tracking-tighter transition-colors break-words">
 											{tech.name}
 										</h4>
-										<p className="paragraph font-NeueMontreal text-[#0C0C0C]/40 group-hover:text-[#F2613F] uppercase tracking-[2px] transition-colors mt-[5px]">
+										<p className="text-[16px] font-NeueMontreal text-[#0C0C0C]/40 group-hover:text-[#F2613F] uppercase tracking-[2px] transition-colors mt-[15px]">
 											{tech.category}
 										</p>
 									</div>
@@ -91,7 +86,7 @@ export default function Ecosystem() {
 									{/* Decorative Icon or Arrow that appears on hover */}
 									<div className="absolute bottom-6 right-6 opacity-0 group-hover:opacity-100 translate-y-4 group-hover:translate-y-0 transition-all duration-300">
 										<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-											<path d="M7 17L17 7M17 7H7M17 7V17" stroke="#F2613F" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
+											<path d="M7 17L17 7M17 7H7M17 7V17" stroke="#F2613F" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round"/>
 										</svg>
 									</div>
 								</motion.div>
@@ -101,12 +96,12 @@ export default function Ecosystem() {
 						<div className="flex justify-between items-end border-t border-[#0C0C0C]/10 pt-[40px] sm:flex-col xm:flex-col sm:items-start xm:items-start sm:gap-[20px] xm:gap-[20px]">
 							<div>
 								<h1 className="sub-heading font-bold font-FoundersGrotesk text-[#0C0C0C] uppercase leading-none">
-									Unified Growth <br /> Infrastructure
+									Unified Growth <br /> Strategy
 								</h1>
 							</div>
 							<div className="flex flex-col items-end sm:items-start">
 								<span className="text-[14px] font-bold font-NeueMontreal text-[#F2613F] uppercase tracking-[3px]">
-									Ecosystem v1.0
+									Growth Engine v1.0
 								</span>
 								<h1 className="sub-heading font-bold font-FoundersGrotesk text-[#0C0C0C]">
 									2026

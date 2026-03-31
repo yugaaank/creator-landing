@@ -44,21 +44,6 @@ export default function About() {
 									We build and integrate marketing strategies that capture leads, maximize conversions, and continuously improve ROI.
 								</p>
 							</div>
-							<div className="w-[60%] flex justify-end flex-col  sm:w-full xm:w-full">
-								<h1 className="sub-paragraph font-medium font-NeueMontreal text-[#0C0C0C] pb-[20px]">
-									S:
-								</h1>
-								<div className="flex flex-col">
-									{footerItems.map((item) => (
-										<LinkHover
-											key={item.id}
-											className="w-fit sub-paragraph font-medium capitalize before:h-[1px] after:h-[1px] before:bottom-[1px] after:bottom-[1px]"
-											title={item.title}
-											href={"#"}
-										/>
-									))}
-								</div>
-							</div>
 						</div>
 					</div>
 				</div>
@@ -76,34 +61,34 @@ export default function About() {
 					<div className="flex flex-col gap-[25px] mt-[10px]">
 						<div className="flex flex-col gap-[5px]">
 							<h4 className="paragraph font-bold font-NeueMontreal text-[#0C0C0C] uppercase tracking-tight">
-								01. Operational Audit
+								01. Growth Audit
 							</h4>
 							<p className="sub-paragraph font-medium font-NeueMontreal text-[#0C0C0C] opacity-80 max-w-[400px]">
-								Analyze your current workflows, market bottlenecks, and digital presence to identify hidden opportunities.
+								Analyze your current digital strategies, market bottlenecks, and online presence to identify hidden growth opportunities.
 							</p>
 						</div>
 						<div className="flex flex-col gap-[5px]">
 							<h4 className="paragraph font-bold font-NeueMontreal text-[#0C0C0C] uppercase tracking-tight">
-								02. Growth Infrastructure
+								02. Strategic Funnels
 							</h4>
 							<p className="sub-paragraph font-medium font-NeueMontreal text-[#0C0C0C] opacity-80 max-w-[400px]">
-								Build the foundational systems required to capture high-quality leads and maximize customer engagement.
+								Build the foundational marketing systems required to capture high-quality leads and maximize customer conversion.
 							</p>
 						</div>
 						<div className="flex flex-col gap-[5px]">
 							<h4 className="paragraph font-bold font-NeueMontreal text-[#0C0C0C] uppercase tracking-tight">
-								03. Ecosystem Integration
+								03. Performance Scaling
 							</h4>
 							<p className="sub-paragraph font-medium font-NeueMontreal text-[#0C0C0C] opacity-80 max-w-[400px]">
-								Seamlessly connect your CRM, outreach channels, and performance tracking into a unified ecosystem.
+								Seamlessly connect your CRM, ad channels, and performance tracking into a unified growth engine.
 							</p>
 						</div>
 						<div className="flex flex-col gap-[5px]">
 							<h4 className="paragraph font-bold font-NeueMontreal text-[#0C0C0C] uppercase tracking-tight">
-								04. Scalable Impact
+								04. Sustainable Growth
 							</h4>
 							<p className="sub-paragraph font-medium font-NeueMontreal text-[#0C0C0C] opacity-80 max-w-[400px]">
-								Deliver sustainable growth through data-driven marketing strategies that evolve with your business.
+								Deliver long-term results through data-driven marketing strategies that evolve with your business.
 							</p>
 						</div>
 					</div>

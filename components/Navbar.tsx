@@ -1,6 +1,4 @@
 import Link from "next/link";
-import Image from "next/image";
-import { logo } from "@/public";
 import { useState } from "react";
 import { navVariants } from "@/motion";
 import { TextHover } from "@/animation";
@@ -28,13 +26,10 @@ export default function Navbar() {
 				className="w-full h-[8vh] padding-x fixed top-0 left-0 z-50 backdrop-blur-[7px] flex items-center justify-between sm:hidden xm:hidden md:hidden"
 				animate={hidden ? "hidden" : "vissible"}>
 				<div className="w-[50%]">
-					<Link href={"#home"}>
-						<Image
-							src={logo}
-							alt="ochi logo"
-							width={70}
-							height={70}
-						/>
+					<Link
+						href={"#home"}
+						className="uppercase text-[20px] tracking-[0.5em] font-FoundersGrotesk text-[#0C0C0C]">
+						Katalyst Growth
 					</Link>
 				</div>
 				<div className="flex gap-x-[20px] w-[50%]">
