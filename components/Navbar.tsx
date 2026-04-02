@@ -26,20 +26,18 @@ export default function Navbar() {
 				variants={navVariants}
 				className="w-full h-[8vh] padding-x fixed top-0 left-0 z-50 backdrop-blur-[7px] flex items-center justify-between sm:hidden xm:hidden md:hidden"
 				animate={hidden ? "hidden" : "vissible"}>
-				<div className="w-[50%]">
+				<div className="w-[33%]">
 					<Link
 						href={"#home"}
 						className="w-fit flex items-center">
 						<KatalystLogo className="h-[40px] w-auto" />
 					</Link>
 				</div>
-				<div className="flex gap-x-[20px] w-[50%]">
+				<div className="flex gap-x-[20px] w-[33%] justify-center">
 					{navbarItems.map((item) => (
 						<Link
 							key={item.id}
-							className={`w-fit paragraph font-medium font-NeueMontreal text-[#0C0C0C] capitalize flex flex-col hover ${
-								item.id === 5 && "ml-auto"
-							}`}
+							className="w-fit paragraph font-medium font-NeueMontreal text-[#0C0C0C] capitalize flex flex-col hover"
 							href={item.href}>
 							<TextHover
 								titile1={item.title}
@@ -47,6 +45,14 @@ export default function Navbar() {
 							/>
 						</Link>
 					))}
+				</div>
+				<div className="w-[33%] flex justify-end">
+					<a
+						href="https://calendly.com/kompanykatalyst/discovery-call"
+						className="flex items-center justify-between gap-[10px] rounded-[50px] px-[20px] py-[8px] text-[12px] font-semibold tracking-[0.2em] uppercase text-[#FFF8F0] bg-[#F2613F] transition-all duration-300 hover:bg-[#0C0C0C]">
+						<span>LET'S TALK</span>
+						<span className="h-[24px] w-[24px] rounded-full bg-[#FFF8F0] flex items-center justify-center text-[#F2613F] text-[14px]">→</span>
+					</a>
 				</div>
 			</motion.nav>
 			<MobileNav />
