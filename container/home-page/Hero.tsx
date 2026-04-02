@@ -91,6 +91,47 @@ export default function Hero() {
 								</div>
 								Strategy
 							</h1>
+							<div className="mt-[80px] ml-[100px] sm:ml-[20px] xm:ml-[20px] sm:mt-[40px] xm:mt-[40px]">
+								<div className="btn-container">
+									<div className="btn-drawer transition-top">SCALE YOUR BRAND</div>
+									<div className="btn-drawer transition-bottom">BOOK A CALL</div>
+
+									<a
+										href="https://calendly.com/kompanykatalyst/discovery-call"
+										className="btn">
+										<span className="btn-text">LET'S TALK</span>
+									</a>
+
+									<svg
+										className="btn-corner"
+										xmlns="http://www.w3.org/2000/svg"
+										viewBox="-1 1 32 32">
+										<path
+											d="M32,32C14.355,32,0,17.645,0,0h.985c0,17.102,13.913,31.015,31.015,31.015v.985Z"></path>
+									</svg>
+									<svg
+										className="btn-corner"
+										xmlns="http://www.w3.org/2000/svg"
+										viewBox="-1 1 32 32">
+										<path
+											d="M32,32C14.355,32,0,17.645,0,0h.985c0,17.102,13.913,31.015,31.015,31.015v.985Z"></path>
+									</svg>
+									<svg
+										className="btn-corner"
+										xmlns="http://www.w3.org/2000/svg"
+										viewBox="-1 1 32 32">
+										<path
+											d="M32,32C14.355,32,0,17.645,0,0h.985c0,17.102,13.913,31.015,31.015,31.015v.985Z"></path>
+									</svg>
+									<svg
+										className="btn-corner"
+										xmlns="http://www.w3.org/2000/svg"
+										viewBox="-1 1 32 32">
+										<path
+											d="M32,32C14.355,32,0,17.645,0,0h.985c0,17.102,13.913,31.015,31.015,31.015v.985Z"></path>
+									</svg>
+								</div>
+							</div>
 						</div>
 
 					</div>
@@ -113,14 +154,7 @@ export default function Hero() {
 								</div>
 							</div>
 						</div>
-						<div className="flex items-center justify-between padding-x">
-							<a
-								href="https://calendly.com/kompanykatalyst/discovery-call"
-								className="flex items-center justify-between gap-[8px] rounded-[50px] px-[30px] py-[12px] text-[14px] font-semibold tracking-[0.3em] uppercase text-[#FFF8F0] bg-[#F2613F] shadow-[0_15px_40px_rgba(242,97,63,0.35)] transition-all duration-300 hover:bg-[#FFF8F0] hover:text-[#F2613F]"
-								style={{ minWidth: "220px" }}>
-								<span>LET'S TALK</span>
-								<span className="h-[32px] w-[32px] rounded-full bg-[#FFF8F0] flex items-center justify-center text-[#F2613F] text-[18px]">→</span>
-							</a>
+						<div className="flex items-center justify-end padding-x">
 							<span className="text-[14px] tracking-[0.4em] text-[#FFEDE0] uppercase">Live now</span>
 						</div>
 					</div>
