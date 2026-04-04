@@ -39,10 +39,10 @@ import {
 
 export default function Home() {
 	useEffect(() => {
-		(async () => {
-			const LocomotiveScroll = (await import("locomotive-scroll")).default;
-			const locomotiveScroll = new LocomotiveScroll();
-		})();
+		// (async () => {
+		// 	const LocomotiveScroll = (await import("locomotive-scroll")).default;
+		// 	const locomotiveScroll = new LocomotiveScroll();
+		// })();
 	}, []);
 
 	// Set to true to show projects, false to hide

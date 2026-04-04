@@ -1,6 +1,7 @@
 import "@/styles/globals.css";
 import { Footer, Navbar } from "@/components";
 import { AnimatePresence } from "framer-motion";
+import { ReactLenis } from "@studio-freight/react-lenis";
 
 export default function App({
 	Component,
@@ -12,7 +13,7 @@ export default function App({
 	router: any;
 }) {
 	return (
-		<>
+		<ReactLenis root>
 			<Navbar />
 			<AnimatePresence mode="wait">
 				<Component
@@ -25,6 +26,7 @@ export default function App({
 				height="0"
 				width="0"
 				style={{ position: "absolute" }}>
+...
 				<filter id="handDrawnNoise">
 					<feTurbulence
 						result="noise"
@@ -81,6 +83,6 @@ export default function App({
 						in="SourceGraphic"></feDisplacementMap>
 				</filter>
 			</svg>
-		</>
+		</ReactLenis>
 	);
 }

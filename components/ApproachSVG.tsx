@@ -82,6 +82,14 @@ export const GrowthSVG = () => {
 	const pathLength = useTransform(scrollYProgress, [0, 0.6], [0, 1]);
 	const scanY = useTransform(scrollYProgress, [0, 1], [40, 160]);
 
+	// Move useTransform out of the map loop
+	const ringScales = [
+		useTransform(scrollYProgress, [0, 0.2 + (0 * 0.1)], [0.5, 1]),
+		useTransform(scrollYProgress, [0, 0.2 + (1 * 0.1)], [0.5, 1]),
+		useTransform(scrollYProgress, [0, 0.2 + (2 * 0.1)], [0.5, 1]),
+		useTransform(scrollYProgress, [0, 0.2 + (3 * 0.1)], [0.5, 1]),
+	];
+
 	return (
 		<CardWrapper title="02. Growth Infra" scrollYProgress={scrollYProgress}>
 			<svg ref={ref} viewBox="0 0 200 200" className="w-40 h-40">
@@ -107,7 +115,7 @@ export const GrowthSVG = () => {
 						animate={{ rotate: i % 2 === 0 ? 360 : -360 }}
 						transition={{ duration: 10 + i * 2, repeat: Infinity, ease: "linear" }}
 						style={{ 
-							scale: useTransform(scrollYProgress, [0, 0.2 + (i * 0.1)], [0.5, 1]),
+							scale: ringScales[i],
 						}}
 					/>
 				))}
@@ -171,6 +179,14 @@ export const EcosystemSVG = () => {
 	
 	const rotate = useTransform(scrollYProgress, [0, 1], [0, 360]);
 	const orbitRotate = useTransform(scrollYProgress, [0, 1], [360, 0]);
+	const coreHexScale = useTransform(scrollYProgress, [0, 0.5], [0.8, 1]);
+
+	// Move useTransform out of the map loop
+	const nodeRotations = [
+		useTransform(scrollYProgress, [0, 1], [0, 360]),
+		useTransform(scrollYProgress, [0, 1], [120, 120 + 360]),
+		useTransform(scrollYProgress, [0, 1], [240, 240 + 360]),
+	];
 
 	return (
 		<CardWrapper title="03. Ecosystem" scrollYProgress={scrollYProgress}>
@@ -198,7 +214,7 @@ export const EcosystemSVG = () => {
 				<motion.path
 					d="M100 75 L121.65 87.5 L121.65 112.5 L100 125 L78.35 112.5 L78.35 87.5 Z"
 					fill="#0C0C0C"
-					style={{ rotate, scale: useTransform(scrollYProgress, [0, 0.5], [0.8, 1]) }}
+					style={{ rotate, scale: coreHexScale }}
 				/>
 
 				{/* Orbiting Nodes */}
@@ -206,7 +222,7 @@ export const EcosystemSVG = () => {
 					<motion.g
 						key={angle}
 						style={{ 
-							rotate: useTransform(scrollYProgress, [0, 1], [angle, angle + 360]),
+							rotate: nodeRotations[i],
 							originX: "100px",
 							originY: "100px"
 						}}
@@ -252,6 +268,14 @@ export const ImpactSVG = () => {
 	
 	const pathLength = useTransform(scrollYProgress, [0, 0.8], [0, 1]);
 
+	// Move useTransform out of the map loop
+	const pointOpacities = [
+		useTransform(scrollYProgress, [0, 0.2 + (0 * 0.15)], [0, 1]),
+		useTransform(scrollYProgress, [0, 0.2 + (1 * 0.15)], [0, 1]),
+		useTransform(scrollYProgress, [0, 0.2 + (2 * 0.15)], [0, 1]),
+		useTransform(scrollYProgress, [0, 0.2 + (3 * 0.15)], [0, 1]),
+	];
+
 	return (
 		<CardWrapper title="04. Scalable Impact" scrollYProgress={scrollYProgress}>
 			<svg ref={ref} viewBox="0 0 200 200" className="w-40 h-40">
@@ -276,7 +300,7 @@ export const ImpactSVG = () => {
 						cy={160 - (i * 35)} 
 						r="4" 
 						fill="#0C0C0C"
-						style={{ opacity: useTransform(scrollYProgress, [0, 0.2 + (i * 0.15)], [0, 1]) }}
+						style={{ opacity: pointOpacities[i] }}
 					/>
 				))}
 			</svg>

@@ -68,29 +68,29 @@ export default function Socials() {
                 </g>
               </g>
             </svg>
-            LET'S TALK
+            Book an Appointment
           </a>
           <div className="flex items-center gap-2 mb-10">
-            <svg 
-              width="100" 
-              height="50" 
-              viewBox="0 0 100 50" 
-              fill="none" 
+            <svg
+              width="100"
+              height="50"
+              viewBox="0 0 100 50"
+              fill="none"
               xmlns="http://www.w3.org/2000/svg"
               className="rotate-[-20deg]"
             >
-              <path 
-                d="M5 45C20 30 40 10 70 5" 
-                stroke="#0C0C0C" 
-                strokeWidth="3" 
+              <path
+                d="M5 45C20 30 40 10 70 5"
+                stroke="#0C0C0C"
+                strokeWidth="3"
                 strokeLinecap="round"
                 style={{ filter: "url(#handDrawnNoise)" }}
               />
-              <path 
-                d="M65 15L70 5L60 3" 
-                stroke="#0C0C0C" 
-                strokeWidth="3" 
-                strokeLinecap="round" 
+              <path
+                d="M65 15L70 5L60 3"
+                stroke="#0C0C0C"
+                strokeWidth="3"
+                strokeLinecap="round"
                 strokeLinejoin="round"
                 style={{ filter: "url(#handDrawnNoise)" }}
               />

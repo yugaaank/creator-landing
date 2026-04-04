@@ -8,6 +8,16 @@ export const AuditPillarSVG = () => {
 	
 	const scanX = useTransform(scrollYProgress, [0, 1], [-20, 120]);
 	const opacity = useTransform(scrollYProgress, [0, 0.2, 0.8, 1], [0, 1, 1, 0]);
+	const lensX = useTransform(scrollYProgress, [0, 1], [-10, 10]);
+
+	// Move useTransform out of the map loop
+	const dataPointOpacities = [
+		useTransform(scrollYProgress, [0, 0.2 + 0 * 0.1], [0, 1]),
+		useTransform(scrollYProgress, [0, 0.2 + 1 * 0.1], [0, 1]),
+		useTransform(scrollYProgress, [0, 0.2 + 2 * 0.1], [0, 1]),
+		useTransform(scrollYProgress, [0, 0.2 + 3 * 0.1], [0, 1]),
+		useTransform(scrollYProgress, [0, 0.2 + 4 * 0.1], [0, 1]),
+	];
 
 	return (
 		<div ref={ref} className="w-full h-[300px] bg-[#0C0C0C] rounded-[20px] flex items-center justify-center relative overflow-hidden group border border-[#F2613F]/10">
@@ -22,7 +32,7 @@ export const AuditPillarSVG = () => {
 
 			<svg viewBox="0 0 100 100" className="w-48 h-48 z-10">
 				{/* The "Lens" */}
-				<motion.g style={{ x: useTransform(scrollYProgress, [0, 1], [-10, 10]) }}>
+				<motion.g style={{ x: lensX }}>
 					<circle cx="50" cy="50" r="30" stroke="#F2613F" strokeWidth="0.5" fill="none" />
 					<motion.circle 
 						cx="50" cy="50" r="25" 
@@ -49,7 +59,7 @@ export const AuditPillarSVG = () => {
 						cy={30 + (i % 3) * 20}
 						r="2"
 						fill="#F2613F"
-						style={{ opacity: useTransform(scrollYProgress, [0, 0.2 + i * 0.1], [0, 1]) }}
+						style={{ opacity: dataPointOpacities[i] }}
 					/>
 				))}
 			</svg>
@@ -67,6 +77,10 @@ export const EcosystemPillarSVG = () => {
 	
 	const rotate = useTransform(scrollYProgress, [0, 1], [0, 180]);
 	const pathLength = useTransform(scrollYProgress, [0, 0.8], [0, 1]);
+
+	// Move useTransform out of the map loop
+	const particleY = useTransform(scrollYProgress, [0, 1], [-20, 20]);
+	const particleOpacity = useTransform(scrollYProgress, [0, 0.5, 1], [0, 1, 0]);
 
 	return (
 		<div ref={ref} className="w-full h-[300px] bg-[#FFF8F0] rounded-[20px] flex items-center justify-center relative overflow-hidden group border border-[#0C0C0C]/5 shadow-inner">
@@ -94,8 +108,8 @@ export const EcosystemPillarSVG = () => {
 						r="3"
 						fill="#F2613F"
 						style={{ 
-							y: useTransform(scrollYProgress, [0, 1], [-20, 20]),
-							opacity: useTransform(scrollYProgress, [0, 0.5, 1], [0, 1, 0])
+							y: particleY,
+							opacity: particleOpacity
 						}}
 					/>
 				))}
